@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 1150" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}
+      .sub{font-weight:400;font-size:14px;fill:#c7d4e2}
+      .kick{font-weight:600;font-size:12px;fill:#9db2c9;letter-spacing:1px}
+      .teselbl{font-weight:700;font-size:11px;letter-spacing:1.4px;fill:#8a5a12}
+      .tese{font-weight:500;font-size:15px;fill:#2a2f37}
+      .fnum{font-weight:700;font-size:11px;letter-spacing:.8px}
+      .ftit{font-weight:700;font-size:14px;fill:#1f2731}
+      .factor{font-weight:400;font-size:11px;fill:#5a636e}
+      .ffunc{font-weight:600;font-size:11.5px;fill:#0A4595}
+      .cnode-t{font-weight:700;font-size:20px;fill:#ffffff;letter-spacing:.5px}
+      .cnode-s{font-weight:400;font-size:13.5px;fill:#dbe6f5}
+      .lensT{font-weight:700;font-size:12px;letter-spacing:1.2px;fill:#0A4595}
+      .lens{font-weight:400;font-size:12px;fill:#3a4048}
+      .synT{font-weight:700;font-size:13px;letter-spacing:1px;fill:#8a3b1e}
+      .syn{font-weight:500;font-size:14.5px;fill:#2a2f37}
+      .foot{font-weight:400;font-size:11.5px;fill:#8a94a1}
+      .chip{font-weight:700;font-size:11px;fill:#ffffff}
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9aa5b1"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="1150" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="1180" height="94" fill="#0A4595"/>
+  <rect x="0" y="94" width="1180" height="4" fill="#F2A900"/>
+  <text x="40" y="42" class="h1">CAPÍTULO 5 · DA OFERTA AO CONSUMIDOR</text>
+  <text x="40" y="70" class="sub">A construção social de um mercado preventivo e a produção do adolescente como sujeito</text>
+  <text x="1140" y="38" text-anchor="end" class="kick">DIAGNÓSTICO DO RISCO · PrEP 15–19 ANOS</text>
+  <text x="1140" y="56" text-anchor="end" class="kick">R. A. DEVELLIS · UFSC · 2026</text>
+
+  <!-- TESE / ARGUMENTO CENTRAL -->
+  <rect x="40" y="120" width="1100" height="76" rx="10" fill="#ffffff" stroke="#dde3ea" stroke-width="1"/>
+  <rect x="40" y="120" width="6" height="76" rx="3" fill="#F2A900"/>
+  <text x="64" y="144" class="teselbl">ARGUMENTO CENTRAL (5.1)</text>
+  <text x="64" y="168" class="tese">A oferta da PrEP ao adolescente não é aplicação linear de um avanço biomédico, mas resultado da</text>
+  <text x="64" y="187" class="tese">construção social de um mercado preventivo articulado por atores heterogêneos.</text>
+
+  <!-- LABEL DAS FORÇAS -->
+  <text x="40" y="232" class="kick" fill="#8a94a1">AS CINCO FORÇAS QUE CONVERGEM</text>
+
+  <!-- ============ 5 FORCE CARDS ============ -->
+  <!-- card geometry: y=244 h=196 ; widths 210 gap 20 ; x: 25,255,485,715,945 -->
+
+  <!-- 5.2 Capital transnacional -->
+  <g>
+    <rect x="25" y="244" width="210" height="196" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="25" y="244" width="210" height="6" rx="3" fill="#0f766e"/>
+    <text x="41" y="272" class="fnum" fill="#0f766e">5.2 · CAPITAL TRANSNACIONAL</text>
+    <text x="41" y="296" class="ftit">Unitaid &amp;</text>
+    <text x="41" y="314" class="ftit">market shaping</text>
+    <text x="41" y="340" class="factor">Resolução nº 9-2016-e</text>
+    <text x="41" y="356" class="factor">Unitaid / UNICEF / Fiotec</text>
+    <text x="41" y="372" class="factor">USD 38,1 mi · 5 anos</text>
+    <text x="41" y="388" class="factor">(ImPrEP → PrEP1519)</text>
+    <text x="41" y="418" class="ffunc">Financia o ciclo</text>
+    <text x="41" y="433" class="ffunc">demonstrativo.</text>
+  </g>
+
+  <!-- 5.3 Aparato científico -->
+  <g>
+    <rect x="255" y="244" width="210" height="196" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="255" y="244" width="210" height="6" rx="3" fill="#0A4595"/>
+    <text x="271" y="272" class="fnum" fill="#0A4595">5.3 · APARATO CIENTÍFICO</text>
+    <text x="271" y="296" class="ftit">Estudo</text>
+    <text x="271" y="314" class="ftit">PrEP1519</text>
+    <text x="271" y="340" class="factor">UFBA·UFMG·USP·Fiocruz</text>
+    <text x="271" y="356" class="factor">Chatbot Amanda Selfie</text>
+    <text x="271" y="372" class="factor">Educadores de pares</text>
+    <text x="271" y="388" class="factor">Custo-efetividade</text>
+    <text x="271" y="418" class="ffunc">Produz evidência +</text>
+    <text x="271" y="433" class="ffunc">sujeito aderente.</text>
+  </g>
+
+  <!-- 5.4 Chancelaria estatal -->
+  <g>
+    <rect x="485" y="244" width="210" height="196" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="485" y="244" width="210" height="6" rx="3" fill="#0A4595"/>
+    <text x="501" y="272" class="fnum" fill="#0A4595">5.4 · CHANCELARIA ESTATAL</text>
+    <text x="501" y="296" class="ftit">Conitec &amp;</text>
+    <text x="501" y="314" class="ftit">Anvisa</text>
+    <text x="501" y="340" class="factor">Relat. 274/2017 (recusa)</text>
+    <text x="501" y="356" class="factor">Bula: 15 anos / 35 kg</text>
+    <text x="501" y="372" class="factor">Relat. 739/2022 e 939/2024</text>
+    <text x="501" y="388" class="factor">PCDT 2025</text>
+    <text x="501" y="418" class="ffunc">Modula fronteiras</text>
+    <text x="501" y="433" class="ffunc">populacionais.</text>
+  </g>
+
+  <!-- 5.5a Propriedade intelectual -->
+  <g>
+    <rect x="715" y="244" width="210" height="196" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="715" y="244" width="210" height="6" rx="3" fill="#8a3b1e"/>
+    <text x="731" y="272" class="fnum" fill="#8a3b1e">5.5 · PROPRIEDADE INTELECTUAL</text>
+    <text x="731" y="296" class="ftit">Disputa do</text>
+    <text x="731" y="314" class="ftit">Truvada</text>
+    <text x="731" y="340" class="factor">Pedido Gilead PI0406760-6</text>
+    <text x="731" y="356" class="factor">ABIA / GTPI · Blanver</text>
+    <text x="731" y="372" class="factor">INPI indefere (2017)</text>
+    <text x="731" y="388" class="factor">Art. 8º c/c Art. 13 LPI</text>
+    <text x="731" y="418" class="ffunc">Dissolve o bloqueio</text>
+    <text x="731" y="433" class="ffunc">patentário.</text>
+  </g>
+
+  <!-- 5.5b Produção nacional -->
+  <g>
+    <rect x="945" y="244" width="210" height="196" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="945" y="244" width="210" height="6" rx="3" fill="#8a3b1e"/>
+    <text x="961" y="272" class="fnum" fill="#8a3b1e">5.5 · PRODUÇÃO NACIONAL</text>
+    <text x="961" y="296" class="ftit">PDP TDF/FTC</text>
+    <text x="961" y="314" class="ftit">(2018)</text>
+    <text x="961" y="340" class="factor">Termo nº 08/2018</text>
+    <text x="961" y="356" class="factor">Farmanguinhos · Blanver</text>
+    <text x="961" y="372" class="factor">CYG Biotech · Nortec</text>
+    <text x="961" y="388" class="factor">Cadeia produtiva local</text>
+    <text x="961" y="418" class="ffunc">Torna a oferta</text>
+    <text x="961" y="433" class="ffunc">sustentável.</text>
+  </g>
+
+  <!-- CONVERGENCE ARROWS -->
+  <path d="M130,440 C130,480 590,470 590,506" fill="none" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#ar)"/>
+  <path d="M360,440 C360,478 590,472 590,506" fill="none" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#ar)"/>
+  <path d="M590,440 L590,506" fill="none" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#ar)"/>
+  <path d="M820,440 C820,478 590,472 590,506" fill="none" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#ar)"/>
+  <path d="M1050,440 C1050,480 590,470 590,506" fill="none" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- CENTRAL NODE: O ADOLESCENTE -->
+  <rect x="230" y="512" width="720" height="150" rx="14" fill="#0A4595"/>
+  <rect x="230" y="512" width="720" height="150" rx="14" fill="none" stroke="#F2A900" stroke-width="2"/>
+  <text x="590" y="548" text-anchor="middle" class="kick" fill="#9db2c9">5.6 · O PONTO DE CONVERGÊNCIA</text>
+  <text x="590" y="580" text-anchor="middle" class="cnode-t">O ADOLESCENTE COMO SUJEITO DO ARRANJO</text>
+  <text x="590" y="608" text-anchor="middle" class="cnode-s">Categoria operacional: “vulnerabilidade acrescida” (PCDT 2025)</text>
+  <text x="590" y="630" text-anchor="middle" class="cnode-s">Cidadão biológico juvenil · gerente do próprio risco ·</text>
+  <text x="590" y="650" text-anchor="middle" class="cnode-s">prescritível sem mediação parental</text>
+
+  <!-- LENS RAILS beside center -->
+  <rect x="40" y="530" width="176" height="114" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="530" width="6" height="114" rx="3" fill="#0f766e"/>
+  <text x="60" y="554" class="lensT">LENTE 1</text>
+  <text x="60" y="576" class="lens">Sociologia econômica</text>
+  <text x="60" y="592" class="lens">dos mercados:</text>
+  <text x="60" y="612" class="lens">Mazon (2019),</text>
+  <text x="60" y="628" class="lens">Bourdieu, Fligstein.</text>
+
+  <rect x="964" y="530" width="176" height="114" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="964" y="530" width="6" height="114" rx="3" fill="#0A4595"/>
+  <text x="984" y="554" class="lensT">LENTE 2</text>
+  <text x="984" y="576" class="lens">Dispositivo e</text>
+  <text x="984" y="592" class="lens">subjetivação:</text>
+  <text x="984" y="612" class="lens">Foucault · Conrad</text>
+  <text x="984" y="628" class="lens">(medicalização) · Rose.</text>
+
+  <!-- arrow center -> tecnologias -->
+  <path d="M590,662 L590,690" fill="none" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- QUATRO TECNOLOGIAS DE SUBJETIVAÇÃO -->
+  <text x="40" y="712" class="kick" fill="#8a94a1">QUATRO TECNOLOGIAS QUE INSCREVEM O SUJEITO (PCDT 2025)</text>
+  <g>
+    <rect x="40" y="724" width="264" height="72" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <text x="58" y="750" class="ftit">Abordagem sem julgamento</text>
+    <text x="58" y="772" class="factor">Modalidade pedagógica</text>
+    <text x="58" y="788" class="factor">de captação.</text>
+  </g>
+  <g>
+    <rect x="320" y="724" width="264" height="72" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <text x="338" y="750" class="ftit">Sigilo perante os pais</text>
+    <text x="338" y="772" class="factor">Individualiza o sujeito</text>
+    <text x="338" y="788" class="factor">de cuidado.</text>
+  </g>
+  <g>
+    <rect x="600" y="724" width="264" height="72" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <text x="618" y="750" class="ftit">Siclom + contagem</text>
+    <text x="618" y="772" class="factor">Compõe o</text>
+    <text x="618" y="788" class="factor">monitoramento.</text>
+  </g>
+  <g>
+    <rect x="880" y="724" width="260" height="72" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <text x="898" y="750" class="ftit">Oral diária ↔ sob demanda</text>
+    <text x="898" y="772" class="factor">Inscreve a</text>
+    <text x="898" y="788" class="factor">autorregulação.</text>
+  </g>
+
+  <!-- arrow to synthesis -->
+  <path d="M590,796 L590,822" fill="none" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- HOMOLOGIA note -->
+  <rect x="40" y="824" width="1100" height="60" rx="10" fill="#f4f0e6" stroke="#e3d6b8"/>
+  <text x="64" y="848" class="teselbl">HOMOLOGIA FORMAL</text>
+  <text x="64" y="870" class="lens">Mesma mecânica da prevenção medicalizada da infância via psicofármacos (Mazon, Tholl, Martinhago): captura precoce de corpos não doentes —</text>
+  <text x="64" y="886" class="lens">a crítica à validade diagnóstica não se transfere à PrEP; a homologia é sobre a construção do sujeito e do mercado.</text>
+
+  <!-- SÍNTESE 5.7 -->
+  <rect x="40" y="908" width="1100" height="118" rx="12" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="908" width="6" height="118" rx="3" fill="#8a3b1e"/>
+  <text x="64" y="936" class="synT">SÍNTESE (5.7)</text>
+  <text x="64" y="964" class="syn">As condições que tornam possível a expansão são a articulação histórica das cinco forças e a produção concomitante</text>
+  <text x="64" y="987" class="syn">do adolescente como sujeito do arranjo.</text>
+  <text x="64" y="1014" class="syn" font-weight="700" fill="#5a1b2b">Sujeito e mercado são produtos solidários da mesma operação.</text>
+
+  <!-- FOOTER -->
+  <line x1="40" y1="1052" x2="1140" y2="1052" stroke="#dde3ea"/>
+  <text x="40" y="1076" class="foot">Fontes-documento mobilizadas: UNITAID (2016; 2018; 2023) · PrEP1519 (Barros, Brasil, Rossi, 2023; Dourado et al., 2023) · Conitec (BRASIL, 2017; 2022; 2024)</text>
+  <text x="40" y="1094" class="foot">· Anvisa (BRASIL, 2021) · PCDT (BRASIL, 2025) · INPI (2017) · PDP tenofovir/entricitabina (BRASIL, 2018) · Hasenclever et al. (2010).</text>
+  <text x="40" y="1122" class="foot">Representação gráfica do Capítulo 5 (“Da oferta ao consumidor”) · cp05.txt</text>
+</svg>

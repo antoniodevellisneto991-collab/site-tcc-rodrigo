@@ -1,0 +1,148 @@
+﻿DA OFERTA AO CONSUMIDOR
+Os capítulos anteriores estabeleceram quatro deslocamentos articulados. O capítulo 1 reconstituiu o conceito de dispositivo em suas três dimensões: heterogeneidade dos elementos, mobilidade funcional da rede e função estratégica diante de uma urgência histórica. O capítulo 2 aplicou essa chave à epidemia de HIV/aids, descrita como articulação heterogênea de saberes biomédicos, instituições estatais, mídia, ativismo e práticas de governo dos corpos, operada no plano da biopolítica. O capítulo 3 examinou o adolescente como construção historicamente situada, segmento populacional alvo de campanhas, programas e técnicas reguladoras, e categoria operacional do PCDT da PrEP (BRASIL, 2025). O capítulo 4 leu a profilaxia pré-exposição como deslocamento interno do dispositivo da aids, articulando os elementos farmacológicos, clínicos e operacionais do PCDT à medicalização (CONRAD, 2007), à prevenção medicalizada (MAZON, 2019) e à cidadania biológica (ROSE, 2007).
+
+
+Este capítulo examina a implementação da PrEP entre adolescentes de 15 a 19 anos no Brasil. O argumento central é o seguinte: a oferta da profilaxia pré-exposição a esse segmento populacional não constitui aplicação linear de um avanço biomédico nem desdobramento natural do dispositivo reconstituído até aqui, mas resultado da construção social de um mercado preventivo articulado por atores heterogêneos. Capital filantrópico transnacional, consórcios científicos, agências regulatórias nacionais, disputas por propriedade intelectual e produção pública nacional convergem na fabricação das condições materiais, regulatórias e simbólicas que tornam o adolescente sujeito legítimo desse arranjo.
+
+
+A análise mobiliza, além das categorias reconstituídas anteriormente, o aporte da sociologia econômica dos mercados. A formulação central, retomada de Mazon (2019), trata os mercados como construções sociais que dependem de investimentos institucionais e simbólicos para existir, tradição na qual se articulam, entre outros, Bourdieu e Fligstein. O mercado farmacêutico, em particular, é construído pela combinação entre regulação estatal, propriedade intelectual, produção científica de demanda e definição do corpo legítimo para a intervenção médica. Mazon (2019) demonstra, no exame da relação entre indústria farmacêutica e psiquiatria no Brasil, que a expansão do setor opera mediante o deslocamento do foco do tratamento para a prevenção e mediante a captura precoce de corpos jovens, com o DSM operando como dispositivo de produção de categorias operacionais. A simetria estrutural com o caso da PrEP entre adolescentes, antecipada na seção 4.4, é desenvolvida neste capítulo no plano dos arranjos concretos.
+
+
+A análise opera, ainda, em registro metodológico distinto do dos capítulos anteriores. Aos referenciais teóricos articulam-se fontes documentais primárias: a Resolução nº 9-2016-e da Unitaid (UNITAID, 2016) e seus relatórios de gestão e avaliação (UNITAID, 2017; 2023); a literatura produzida pelo consórcio PrEP1519 (BARROS; BRASIL; ROSSI, 2023; DOURADO et al., 2023); os Relatórios de Recomendação da Conitec referentes à PrEP (BRASIL, 2017; 2022; 2024); a decisão do Instituto Nacional da Propriedade Industrial sobre o pedido de patente do Truvada (INPI, 2018) e a reconstituição do caso por Hasenclever et al. (2010); a Parceria para o Desenvolvimento Produtivo de tenofovir/entricitabina firmada em 2018 (BRASIL, 2018). Cada conjunto documental é examinado em sua função específica na construção do arranjo, sem reduzir-se à ilustração das categorias teóricas.
+
+
+As seções seguintes percorrem essa configuração: o capital transnacional, examinado a partir da atuação da Unitaid e de sua estratégia de *market shaping* (5.2); o aparato científico, examinado a partir do estudo PrEP1519 e da função de produzir evidência localmente situada para a expansão entre adolescentes (5.3); a chancelaria estatal, examinada a partir das deliberações da Conitec e da Anvisa, instâncias que modulam as fronteiras populacionais da elegibilidade (5.4); a propriedade intelectual e a produção nacional, examinadas a partir da disputa em torno do Truvada e da Parceria para o Desenvolvimento Produtivo (5.5); o adolescente como sujeito do arranjo, no ponto em que as forças anteriores convergem sobre a categoria reconstituída no capítulo 3 (5.6). A síntese (5.7) recompõe o conjunto.
+
+
+**5.1 Apresentação**
+
+
+Os capítulos anteriores estabeleceram quatro deslocamentos articulados. O capítulo 1 reconstituiu o conceito de dispositivo em suas três dimensões: heterogeneidade dos elementos, mobilidade funcional da rede e função estratégica diante de uma urgência histórica. O capítulo 2 aplicou essa chave à epidemia de HIV/aids, descrita como articulação heterogênea de saberes biomédicos, instituições estatais, mídia, ativismo e práticas de governo dos corpos, operada no plano da biopolítica. O capítulo 3 examinou o adolescente como construção historicamente situada, segmento populacional alvo de campanhas, programas e técnicas reguladoras, e categoria operacional do PCDT da PrEP (BRASIL, 2025). O capítulo 4 leu a profilaxia pré-exposição como deslocamento interno do dispositivo da aids, articulando os elementos farmacológicos, clínicos e operacionais do PCDT à medicalização (CONRAD, 2007), à prevenção medicalizada (MAZON, 2019) e à cidadania biológica (ROSE, 2007).
+
+
+Este capítulo examina a implementação da PrEP entre adolescentes de 15 a 19 anos no Brasil. O argumento central é o seguinte: a oferta da profilaxia pré-exposição a esse segmento populacional não constitui aplicação linear de um avanço biomédico nem desdobramento natural do dispositivo reconstituído até aqui, mas resultado da construção social de um mercado preventivo articulado por atores heterogêneos. Capital filantrópico transnacional, consórcios científicos, agências regulatórias nacionais, disputas por propriedade intelectual e produção pública nacional convergem na fabricação das condições materiais, regulatórias e simbólicas que tornam o adolescente sujeito legítimo desse arranjo.
+
+
+A análise mobiliza, além das categorias reconstituídas anteriormente, o aporte da sociologia econômica dos mercados. A formulação central, retomada de Mazon (2019), trata os mercados como construções sociais que dependem de investimentos institucionais e simbólicos para existir, tradição na qual se articulam, entre outros, Bourdieu e Fligstein. O mercado farmacêutico, em particular, é construído pela combinação entre regulação estatal, propriedade intelectual, produção científica de demanda e definição do corpo legítimo para a intervenção médica. Mazon (2019) demonstra, no exame da relação entre indústria farmacêutica e psiquiatria no Brasil, que a expansão do setor opera mediante o deslocamento do foco do tratamento para a prevenção e mediante a captura precoce de corpos jovens, com o DSM operando como dispositivo de produção de categorias operacionais. A simetria estrutural com o caso da PrEP entre adolescentes, antecipada na seção 4.4, é desenvolvida neste capítulo no plano dos arranjos concretos.
+
+
+A análise opera, ainda, em registro metodológico distinto do dos capítulos anteriores. Aos referenciais teóricos articulam-se fontes documentais primárias: a Resolução nº 9-2016-e da Unitaid (UNITAID, 2016) e seus relatórios de gestão e avaliação (UNITAID, 2017; 2023); a literatura produzida pelo consórcio PrEP1519 (BARROS; BRASIL; ROSSI, 2023; DOURADO et al., 2023); os Relatórios de Recomendação da Conitec referentes à PrEP (BRASIL, 2017; 2022; 2024); a decisão do Instituto Nacional da Propriedade Industrial sobre o pedido de patente do Truvada (INPI, 2018) e a reconstituição do caso por Hasenclever et al. (2010); a Parceria para o Desenvolvimento Produtivo de tenofovir/entricitabina firmada em 2018 (BRASIL, 2018). Cada conjunto documental é examinado em sua função específica na construção do arranjo, sem reduzir-se à ilustração das categorias teóricas.
+
+
+As seções seguintes percorrem essa configuração: o capital transnacional, examinado a partir da atuação da Unitaid e de sua estratégia de *market shaping* (5.2); o aparato científico, examinado a partir do estudo PrEP1519 e da função de produzir evidência localmente situada para a expansão entre adolescentes (5.3); a chancelaria estatal, examinada a partir das deliberações da Conitec e da Anvisa, instâncias que modulam as fronteiras populacionais da elegibilidade (5.4); a propriedade intelectual e a produção nacional, examinadas a partir da disputa em torno do Truvada e da Parceria para o Desenvolvimento Produtivo (5.5); o adolescente como sujeito do arranjo, no ponto em que as forças anteriores convergem sobre a categoria reconstituída no capítulo 3 (5.6). A síntese (5.7) recompõe o conjunto.
+
+
+**5.2 O capital transnacional: Unitaid e *market shaping***
+
+
+A primeira das cinco forças articuladas na expansão da PrEP entre adolescentes no Brasil é o capital transnacional, mediado institucionalmente pela Unitaid. Parceria hospedada pela Organização Mundial da Saúde, a Unitaid foi criada em 2006 por iniciativa conjunta de Jacques Chirac, Luiz Inácio Lula da Silva e Olusegun Obasanjo, com adesão posterior de Chile, Noruega e Reino Unido. Sua estrutura de financiamento articula três fontes: a taxa internacional de solidariedade sobre passagens aéreas, as contribuições de Estados doadores e o aporte da Fundação Bill e Melinda Gates. Até 2016, a França era a principal contribuidora, com USD 1,605 bilhão acumulado; o Brasil ocupava a quinta posição, com USD 90,3 milhões (UNITAID, 2018). O Brasil ocupa, assim, posição dúbia no arranjo: doador histórico e simultaneamente país-alvo do projeto que ancora a expansão examinada neste capítulo.
+
+
+A Unitaid declara sua missão institucional na chave do *market shaping*. A expressão, mantida no original em inglês na documentação oficial, designa a produção das condições materiais, científicas e regulatórias necessárias para a entrada em escala de tecnologias farmacêuticas em sistemas públicos de saúde. Distingue-se dos modelos anteriores de cooperação sanitária internacional centrados em aquisição direta, doação humanitária ou ajuda emergencial. A Unitaid não provê medicamentos; configura condições. Em formulação explícita do relatório anual de 2016-2017, a parceria atua "em situações nas quais as forças de mercado isoladamente são incapazes de prover uma solução" (UNITAID, 2018, p. 4). O que a doutrina institucional nomeia como *market shaping* é precisamente o que a Sociologia Econômica analisa como construção social de um mercado farmacêutico (MAZON, 2019). Esse deslocamento conceitual é decisivo para o argumento do capítulo.
+
+
+A decisão fundadora do arranjo brasileiro é a Resolução nº 9-2016-e do Conselho Executivo da Unitaid, datada de 30 de agosto de 2016 e assinada por Celso Amorim, então presidente do Conselho e ex-ministro brasileiro das Relações Exteriores. A Resolução autoriza o comprometimento de até USD 38,166,170 ao projeto *Enabling Scale-up of Pre-Exposure Prophylaxis and Linkage to Testing among sexually active older adolescents with substantial HIV risk*, com organização-líder UNICEF, países-alvo Brasil, África do Sul e Tailândia, e duração de cinco anos (UNITAID, 2016). A cadeia operacional no Brasil articula Unitaid, UNICEF, Fiotec como entidade executora, o projeto ImPrEP iniciado em 2017 e o sub-projeto PrEP1519, em curso desde 2018.
+
+
+A temporalidade do financiamento é elemento estrutural do *market shaping*, não contingência. Os cinco anos constituem horizonte de demonstração, com transição prevista para custeio nacional. A avaliação final do portfólio de PrEP da Unitaid, publicada em janeiro de 2023, registra essa lógica com clareza: o interesse declarado da parceria está na capacidade dos governos de financiar a PrEP, não no usuário final (UNITAID, 2023). A consequência sociológica é central. O que permanece, ao término do financiamento transitório, é a configuração do mercado e o paradigma da prevenção medicalizada como modalidade legítima de gestão sanitária.
+
+
+A Unitaid opera como ator constitutivo do arranjo, não como causa única. A força do capital transnacional articula-se com as demais por mediação institucional, financiando a produção das condições adicionais. A próxima seção examina o aparato científico que essa mediação financiou e que, simultaneamente, produziu a evidência exigida pela chancelaria estatal a ser analisada em 5.4.
+
+
+
+
+**5.3 O aparato científico: o estudo PrEP1519**
+
+
+O capital transnacional examinado na seção anterior não produz incorporação por si. A passagem do financiamento à decisão regulatória depende de aparato científico capaz de gerar evidência localmente situada, qualificada pelo Estado como suficiente para a tomada de decisão. No caso brasileiro, esse aparato é o estudo PrEP1519.
+
+
+A construção social do estudo é examinada por Barros, Brasil e Rossi (2023) na chave bourdieusiana. As autoras demonstram que a viabilidade do PrEP1519 dependeu de articulação tripla entre campo científico, campo burocrático e campo ativista. O capital científico foi acumulado em pesquisas anteriores, sobretudo no estudo PrEP Brasil em adultos, que sustentou a incorporação de 2017 e legitimou a proposição de avanço para faixas etárias menores. O campo burocrático foi mobilizado pelo então Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis (DCCI) do Ministério da Saúde, que articulou doação de medicamentos e permeabilidade institucional. O campo ativista incorporou organizações de base LGBTQI+ e jovens educadores de pares ao desenho e à execução. O consórcio entre UFBA, UFMG, USP e Fiocruz operou ambulatórios dedicados em Salvador, Belo Horizonte e São Paulo entre 2018 e 2021, financiado pela Unitaid via Fiotec. O estudo não preexiste ao arranjo; sua existência é, ela mesma, produto da articulação que ele depois legitima.
+
+
+O desenho do estudo opera ativamente sobre a produção do público adolescente, não apenas sobre seu recrutamento. O chatbot Amanda Selfie, persona digital trans negra desenvolvida como educadora de pares virtual, articula-se a abordagens em aplicativos de relacionamento, campanhas em redes sociais e intervenções em locais de socialização juvenil. Essas tecnologias operacionalizam a hipótese de que a demanda pela PrEP adolescente precisa ser construída em códigos culturalmente situados, convertendo diretriz epidemiológica abstrata em projeto pessoal de cuidado de si (DOURADO et al., 2023). A análise interseccional de Santos et al. (2023) registra como a aceitação da pílula profilática ressignifica o sentido do risco e do prazer para adolescentes negros e periféricos, produzindo o sujeito aderente que o estudo simultaneamente examina e constitui.
+
+
+A operação central do PrEP1519 é dupla. De um lado, produz a evidência de aderência, segurança e viabilidade exigida pelo Estado para a incorporação ampliada. De outro, produz o adolescente como sujeito aderente, articulado a redes de educadores de pares e ferramentas digitais. Demonstração científica e dispositivo de subjetivação operam como faces da mesma engenharia sociotécnica (MAZON, 2019). O adolescente sob PrEP é variante específica do indivíduo somático caracterizado por Rose (2007), retomado de 4.5: sujeito que monitora marcadores biológicos, modula práticas e gerencia risco em diálogo direto com a racionalidade biomédica.
+
+
+A produção do estudo estende-se à análise econômica. Costa Santos et al. (2025) reportam custo total incremental médio de USD 321 em Salvador e USD 254 em São Paulo por usuário em PrEP, com ganhos de escala identificados para a expansão nacional. A publicação dessa análise pelo próprio consórcio cumpre função no arranjo: fornece à chancelaria estatal o parâmetro de custo-efetividade exigido para a deliberação. A análise econômica não é externa ao estudo; integra o pacote de evidências por ele produzido.
+
+
+O PrEP1519 é o aparato científico do mercado em construção. Não é pesquisa acadêmica autônoma deliberando sobre se a PrEP deve ser ofertada a adolescentes; é engenharia sociotécnica que produz, simultaneamente, a evidência clínica, o sujeito aderente e a análise econômica a partir dos quais a incorporação se tornará possível. A seção seguinte examina como essa evidência é processada pela chancelaria estatal.
+
+
+**5.4 A chancelaria estatal: Conitec, Anvisa e a modulação das fronteiras populacionais**
+
+
+O aparato científico examinado na seção anterior só converte evidência em oferta sistêmica quando atravessa a chancelaria técnica do Estado. No Brasil, essa travessia se faz pela Comissão Nacional de Incorporação de Tecnologias no SUS (Conitec), instituída pela Lei nº 12.401/2011, e pela Agência Nacional de Vigilância Sanitária (Anvisa), que delimita o uso autorizado do medicamento. Três marcos sucessivos da Conitec, intercalados pela decisão regulatória da Anvisa em 2021, operam como modulações progressivas das fronteiras populacionais da PrEP. A leitura segue duas chaves articuladas: a interdependência entre ciência, regulação e mercado, sustentada por Mazon (2019) em sua análise do mercado farmacêutico, e a analítica da governamentalidade (FOUCAULT, 1979), que descreve a gestão calculada da população por dispositivos de segurança e situa a família ora como modelo, ora como instrumento privilegiado do governo dos comportamentos.
+
+
+O Relatório de Recomendação nº 274/2017 incorpora o fumarato de tenofovir desoproxila associado à entricitabina (TDF/FTC) como PrEP no SUS para populações sob maior risco (BRASIL, 2017). Durante a Consulta Pública, sugestões de ampliação para adolescentes são explicitamente rejeitadas: a Conitec sustenta que o simples pertencimento a um grupo não é suficiente para caracterizar exposição frequente e invoca a necessidade de maiores evidências científicas para essas populações (BRASIL, 2017). O fechamento adultocêntrico institui a lacuna que o aparato científico examinado em 5.2 e 5.3 seria mobilizado para preencher.
+
+
+A modulação subsequente é habilitada pela Anvisa. Em 12 de abril de 2021, a agência amplia a indicação do Truvada de uso adulto para uso adulto e pediátrico acima de 15 anos, pesando no mínimo 35 kg, em análise classificada como prioritária nos termos da RDC nº 204/2017 (BRASIL, 2021). O critério ponderal comparece como marcador biotécnico operando dentro do próprio regime farmacológico. Ancorada nessa alteração de bula, a Conitec aprova, pelo Relatório de Recomendação nº 739/2022, a ampliação da PrEP para adolescentes a partir de 15 anos e 35 kg (BRASIL, 2022). O PCDT então vigente estabelece o acesso sigiloso e independente da autorização de pais ou responsáveis, em alinhamento com o Estatuto da Criança e do Adolescente e o Código de Ética Médica. A família, instrumento privilegiado para o governo da população nas campanhas clássicas descritas por Foucault (1979), é deliberadamente curto-circuitada como mediação obrigatória da intervenção sobre o corpo adolescente.
+
+
+O terceiro marco aprofunda a modulação. O Relatório de Recomendação nº 939/2024 e o PCDT publicado em 2025 recomendam a expansão para a Atenção Primária à Saúde, a regulamentação da TelePrEP, o autoteste de HIV para início e seguimento, a PrEP sob demanda e a ampliação dos intervalos de retorno para 120 dias e, em casos de adesão regular, 180 dias (BRASIL, 2024; BRASIL, 2025). O escopo da elegibilidade se desvincula de grupos de risco fixos e passa a operar por avaliação individualizada de práticas, parcerias e contextos. Dispositivo de segurança, no sentido foucaultiano, operando minuciosamente no detalhe da gestão populacional; do ponto de vista de Mazon (2019), capilarização do mercado sem estrangulamento de recursos humanos no SUS.
+
+
+A chancela modula populações e regimes farmacológicos, mas para que a profilaxia se materialize como oferta gratuita em escala nacional é preciso que o medicamento seja produzível e custeável dentro do país, o que exige a desativação do bloqueio patentário e a montagem de uma cadeia produtiva local.
+
+
+5.5 Propriedade intelectual e produção nacional**
+
+
+A chancelaria estatal modulada nos três marcos da Conitec só pôde converter-se em oferta gratuita em escala nacional porque, paralelamente, dois bloqueios materiais foram dissolvidos: o monopólio patentário sobre a combinação TDF/FTC e a dependência exclusiva de importação. A análise dessas duas frentes completa o mapa das forças que tornam possível a expansão examinada nas seções anteriores.
+
+
+A propriedade intelectual no setor farmacêutico brasileiro opera, desde a Lei nº 9.279/1996, como dispositivo de transferência de renda do Sistema Único de Saúde para titulares estrangeiros, sem contrapartida em pesquisa e desenvolvimento no país. Hasenclever et al. (2010) documentam o sobrepreço gerado pelo instituto pipeline e quantificam seu impacto orçamentário sobre o programa nacional de antirretrovirais. A patente lida como mecanismo capitalista por excelência para garantir rendas de monopólio, na chave de Mazon (2019), articula-se à leitura do regime de propriedade intelectual como rede heterogênea que produz, regulamenta e distribui acessos a um regime farmacológico.
+
+
+Nesse arranjo, a Gilead Sciences depositou em 13 de janeiro de 2004 o pedido PI0406760-6 para a composição TDF/FTC. O Grupo de Trabalho sobre Propriedade Intelectual, articulado à Associação Brasileira Interdisciplinar de Aids (ABIA), apresentou subsídios ao exame técnico em 2010 e 2016, sustentando a ausência de novidade e de atividade inventiva da combinação. A Blanver Farmoquímica também apresentou subsídio em janeiro de 2017. O parecer técnico do INPI acolheu as objeções e indeferiu o pedido em 16 de janeiro de 2017, com fundamento no Art. 8º combinado com o Art. 13 da Lei de Propriedade Industrial (BRASIL, 2017a). A coincidência temporal entre o indeferimento e o Relatório nº 274/2017 da Conitec não configura causalidade estrita; a Gilead recorreu administrativamente, e a situação manteve-se juridicamente aberta no ano seguinte (SAEZ, 2018).
+
+
+A esse desbloqueio interno soma-se a posição do Brasil no arranjo global da propriedade intelectual. Classificado como país de renda média-alta, o Brasil é excluído da geografia padrão das licenças voluntárias negociadas pelo Medicines Patent Pool com a Gilead para tenofovir, entricitabina e tenofovir alafenamida (I-MAK, 2018). A consequência é estrutural: a soberania decisória do INPI e o ativismo regulatório da sociedade civil operam como as únicas vias para a entrada de genéricos no mercado interno.
+
+
+A construção da cadeia produtiva nacional completa o arranjo. Em 2018, o Ministério da Saúde formalizou o Termo de Compromisso nº 08/2018, articulando Farmanguinhos como instituição pública executora, a Blanver Farmoquímica como detentora da tecnologia do produto, e a CYG Biotech e a Nortec Química como fornecedoras do insumo farmacêutico ativo (BRASIL, 2018). A produção em território nacional é o que torna materialmente sustentável a expansão pactuada nos Relatórios nº 739/2022 e nº 939/2024 (BRASIL, 2022; BRASIL, 2024) e desloca o regime farmacológico para uma capilarização que prescinde de aquisição direta do produto multinacional. Mazon (2019) descreve esse padrão como condição para a internalização dos mercados farmacêuticos no Brasil.
+
+
+Capital transnacional, aparato científico, chancelaria estatal, propriedade intelectual contestada e produção nacional convergem, nesse ponto, sobre uma figura que precisa ser examinada na sua especificidade: o adolescente como sujeito do arranjo.
+
+
+**5.6 O adolescente como sujeito do arranjo**
+
+
+As cinco forças examinadas em 5.2 a 5.5 não atuam sobre um adolescente que preexista a elas como público-alvo dado. Convergem na produção desse adolescente como sujeito específico do arranjo. A seção desloca o foco da reconstituição das forças para a análise da subjetivação que elas conjuntamente produzem.
+
+
+A categoria operacional inscrita no PCDT vigente é "vulnerabilidade acrescida" (BRASIL, 2025). Articula marcadores etários, ponderais, epidemiológicos e contextuais em catálogo único: prática sexual anal ou vaginal com penetração sem uso ou com uso inconsistente de preservativo, frequência de parcerias eventuais, quantidade e diversidade de parcerias, histórico de IST, busca repetida por profilaxia pós-exposição, parcerias com carga viral detectável, contextos de troca por dinheiro ou bens, sexo químico, compartilhamento de agulhas, parcerias com situação sorológica desconhecida (BRASIL, 2025). O catálogo não descreve realidade prévia; produz o adolescente prescritível, legível pelo aparato burocrático e rastreável no Siclom. Retoma-se aqui o argumento estabelecido em 3.6: o adolescente sexualmente vulnerável é categoria operacional do dispositivo, não descrição naturalista.
+
+
+A operação ganha densidade quando lida em chave de homologia formal com a prevenção medicalizada da infância via psicofármacos, examinada por Mazon (2019). Em ambos os casos, sujeitos não doentes são captados em registro de antecipação, a indústria farmacêutica expande seu mercado para corpos juvenis não infectados, e regimes farmacológicos contínuos articulam-se a aparatos de monitoramento. Tholl (2023) reconstitui a dissolução das fronteiras etárias de elegibilidade farmacológica operada pela passagem do DSM III ao DSM 5, deslocamento análogo à extensão da PrEP da população adulta para o segmento de 15 a 19 anos. Martinhago (2017) demonstra a articulação entre racionalidade de risco e instrumento classificatório que captura o sujeito antes de qualquer evento clínico. A homologia opera no plano da mecânica de construção do sujeito e do mercado, não no da validade da intervenção: a eficácia da PrEP é matéria distinta da forma como seu público é institucionalmente produzido.
+
+
+A articulação teórica desenvolvida em 4.4 e 4.5 retorna aqui sintetizada. A medicalização expande seu domínio do tratamento da doença instalada para a gestão antecipatória do risco (CONRAD, 2007). O adolescente sob PrEP é variante específica do indivíduo somático, que governa a si próprio em diálogo direto com marcadores biológicos e contextuais (ROSE, 2007). O dispositivo de sexualidade opera, no caso, sem mediação do dispositivo de aliança, conforme examinado em 3.6 (FOUCAULT, 1988). A articulação constitui o adolescente como sujeito biopolítico de tipo específico: cidadão biológico juvenil, gerente do próprio risco, prescritível sem autorização parental.
+
+
+Quatro tecnologias inscritas no PCDT especificam essa subjetivação. A abordagem livre de julgamento opera como modalidade pedagógica de captação; o sigilo perante os pais individualiza o sujeito de cuidado; o registro no Siclom e a contagem de comprimidos compõem o monitoramento; a modulação entre PrEP oral diária e sob demanda inscreve a autorregulação (BRASIL, 2025; ROSE, 2007).
+
+
+O adolescente sob PrEP é, em síntese, produto do arranjo, não público-alvo dado. As condições de possibilidade da expansão são condições de produção desse sujeito. A síntese final retoma a articulação completa.
+
+
+**5.7 Síntese**
+
+
+O capítulo reconstruiu a construção social do mercado da PrEP para adolescentes em dupla dimensão. As cinco forças examinadas nas seções 5.2 a 5.5 mapearam as condições materiais e institucionais da expansão. A seção 5.6 examinou o sujeito que, na articulação dessas forças, foi produzido.
+
+
+O capital transnacional, mediado pela Unitaid, operou a doutrina do *market shaping* e financiou o ciclo demonstrativo que ancorou o estudo PrEP1519. O aparato científico, pela articulação tripla entre campos científico, burocrático e ativista, produziu evidência localmente situada e sujeito aderente como faces da mesma engenharia sociotécnica. A chancelaria estatal, na sequência Conitec, Anvisa e PCDT, modulou as fronteiras populacionais até dissolver o pertencimento a grupos fixos em favor da avaliação individualizada por práticas e contextos. A propriedade intelectual e a produção nacional, pela decisão do INPI sobre o pedido depositado pela Gilead e pela PDP TDF/FTC, dissolveram o bloqueio patentário e montaram a cadeia produtiva nacional. A articulação entre as cinco forças constitui o arranjo institucional que torna materialmente possível a expansão.
+
+
+O adolescente sob PrEP, sustentado em 5.6, não é público-alvo dado de antemão; é produto específico desse arranjo. A homologia formal com a prevenção medicalizada da infância via psicofármacos, examinada por Mazon, Tholl e Martinhago, ilumina a mecânica geral sem que sua crítica à validade diagnóstica se transfira à PrEP. As articulações Foucault, Conrad e Rose o constituem como cidadão biológico juvenil, gerente do próprio risco, prescritível sem mediação parental.
+
+
+As condições sociais, históricas e teóricas que tornam possível a expansão do acesso à PrEP entre adolescentes de 15 a 19 anos no Brasil são, no plano aqui examinado, a articulação histórica entre as cinco forças mapeadas e a produção concomitante do adolescente como sujeito do arranjo. Sujeito e mercado são produtos solidários da mesma operação.
