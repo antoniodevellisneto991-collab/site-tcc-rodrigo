@@ -1,0 +1,113 @@
+<svg viewBox="0 0 820 668" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <title>A tríade teórica ancorada no documento (Prior)</title>
+  <desc>Diagrama do quadro teórico do TCC de Rodrigo Devellis (UFSC, 2026): três lentes — Foucault (o eixo: dispositivo, biopolítica/governamentalidade, aliança×sexualidade), Conrad (a operação: medicalização do risco, paciente parcial, individualização) e Rose (o sujeito: política vital, cidadania biológica) — incidem sobre uma base comum: o PCDT lido, na chave de Lindsay Prior, como documento ativo, e não suporte neutro de informação.</desc>
+
+  <rect x="0" y="0" width="820" height="668" fill="#ffffff"/>
+
+  <!-- header -->
+  <text x="40" y="44" font-size="12.5" letter-spacing="2" fill="#6b6b6b" font-family="Arial, Helvetica, sans-serif">TCC · DIAGNÓSTICO DO RISCO · DEVELLIS 2026</text>
+  <text x="40" y="80" font-size="27" font-weight="700" fill="#1a1a1a">O quadro teórico</text>
+  <text x="40" y="104" font-size="13" font-style="italic" fill="#6b6b6b">Três lentes que incidem sobre um mesmo documento — o PCDT, lido como elemento ativo.</text>
+
+  <!-- flow chevrons between columns -->
+  <path d="M279,172 l7,6 -7,6" fill="none" stroke="#b8b6ae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M533,172 l7,6 -7,6" fill="none" stroke="#b8b6ae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- =================== COLUMN 1 · FOUCAULT =================== -->
+  <path d="M40,198 h232 v242 q0,10 -10,10 h-212 q-10,0 -10,-10 z" fill="#fbfaf8" stroke="#e4e1db"/>
+  <rect x="40" y="150" width="232" height="58" rx="10" fill="#3f5166"/>
+  <text x="156" y="177" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff">MICHEL FOUCAULT</text>
+  <text x="156" y="194" text-anchor="middle" font-size="10" letter-spacing="1.5" fill="#c3ccd6" font-family="Arial, Helvetica, sans-serif">O EIXO · 1998–2008</text>
+
+  <text x="56" y="230" font-size="12" font-weight="700" fill="#2f3e4f">Dispositivo</text>
+  <text x="56" y="245" font-size="10.5" fill="#4a4a48">rede heterogênea de discursos, leis,</text>
+  <text x="56" y="259" font-size="10.5" fill="#4a4a48">normas e práticas que produz sujeitos</text>
+
+  <text x="56" y="285" font-size="12" font-weight="700" fill="#2f3e4f">Biopolítica / governamentalidade</text>
+  <text x="56" y="300" font-size="10.5" fill="#4a4a48">a vida das populações como superfície;</text>
+  <text x="56" y="314" font-size="10.5" fill="#4a4a48">a racionalidade que conduz condutas</text>
+
+  <text x="56" y="340" font-size="12" font-weight="700" fill="#2f3e4f">Aliança × sexualidade</text>
+  <text x="56" y="355" font-size="10.5" fill="#4a4a48">dois regimes de poder; lê a dispensa</text>
+  <text x="56" y="369" font-size="10.5" fill="#4a4a48">da autorização parental</text>
+
+  <rect x="50" y="392" width="212" height="40" rx="8" fill="#eef1f4"/>
+  <text x="60" y="408" font-size="9.5" letter-spacing="1.2" font-weight="700" fill="#3f5166" font-family="Arial, Helvetica, sans-serif">NA PrEP</text>
+  <text x="60" y="423" font-size="11" fill="#33424f">o PCDT como dispositivo de governo</text>
+
+  <!-- =================== COLUMN 2 · CONRAD =================== -->
+  <path d="M294,198 h232 v242 q0,10 -10,10 h-212 q-10,0 -10,-10 z" fill="#fbfaf8" stroke="#e4e1db"/>
+  <rect x="294" y="150" width="232" height="58" rx="10" fill="#b5651d"/>
+  <text x="410" y="177" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff">PETER CONRAD</text>
+  <text x="410" y="194" text-anchor="middle" font-size="10" letter-spacing="1.5" fill="#f0d6bf" font-family="Arial, Helvetica, sans-serif">A OPERAÇÃO · 2006–2007</text>
+
+  <text x="310" y="228" font-size="10.5" font-style="italic" fill="#8a4d17">definir é conferir jurisdição</text>
+
+  <text x="310" y="256" font-size="12" font-weight="700" fill="#8a4d17">Medicalização do risco</text>
+  <text x="310" y="271" font-size="10.5" fill="#4a4a48">probabilidade futura tratada como</text>
+  <text x="310" y="285" font-size="10.5" fill="#4a4a48">condição atual</text>
+
+  <text x="310" y="311" font-size="12" font-weight="700" fill="#8a4d17">Paciente parcial</text>
+  <text x="310" y="326" font-size="10.5" fill="#4a4a48">medica um corpo sem doença</text>
+
+  <text x="310" y="352" font-size="12" font-weight="700" fill="#8a4d17">Individualização</text>
+  <text x="310" y="367" font-size="10.5" fill="#4a4a48">fixa no indivíduo um problema</text>
+  <text x="310" y="381" font-size="10.5" fill="#4a4a48">de origem coletiva</text>
+
+  <rect x="304" y="392" width="212" height="40" rx="8" fill="#f7efe6"/>
+  <text x="314" y="408" font-size="9.5" letter-spacing="1.2" font-weight="700" fill="#b5651d" font-family="Arial, Helvetica, sans-serif">NA PrEP</text>
+  <text x="314" y="423" font-size="11" fill="#5a3a1c">corpo sadio medicado pelo risco</text>
+
+  <!-- =================== COLUMN 3 · ROSE =================== -->
+  <path d="M548,198 h232 v242 q0,10 -10,10 h-212 q-10,0 -10,-10 z" fill="#fbfaf8" stroke="#e4e1db"/>
+  <rect x="548" y="150" width="232" height="58" rx="10" fill="#0f6e56"/>
+  <text x="664" y="177" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff">NIKOLAS ROSE</text>
+  <text x="664" y="194" text-anchor="middle" font-size="10" letter-spacing="1.5" fill="#bfe0d5" font-family="Arial, Helvetica, sans-serif">O SUJEITO · 2007</text>
+
+  <text x="564" y="228" font-size="10.5" font-style="italic" fill="#0c5745">“quem o sujeito se torna?”</text>
+
+  <text x="564" y="256" font-size="12" font-weight="700" fill="#0c5745">Política vital</text>
+  <text x="564" y="271" font-size="10.5" fill="#4a4a48">modula as capacidades vitais</text>
+  <text x="564" y="285" font-size="10.5" fill="#4a4a48">no plano molecular</text>
+
+  <text x="564" y="311" font-size="12" font-weight="700" fill="#0c5745">Cidadania biológica</text>
+  <text x="564" y="326" font-size="10.5" fill="#4a4a48">recodifica os direitos e deveres</text>
+  <text x="564" y="340" font-size="10.5" fill="#4a4a48">do vivente</text>
+
+  <text x="564" y="366" font-size="12" font-weight="700" fill="#0c5745">Duplo momento</text>
+  <text x="564" y="381" font-size="10.5" fill="#4a4a48">individualidade somática ×</text>
+  <text x="564" y="395" font-size="10.5" fill="#4a4a48">estatutos compartilhados</text>
+
+  <rect x="558" y="404" width="212" height="36" rx="8" fill="#e7f2ee"/>
+  <text x="568" y="419" font-size="9.5" letter-spacing="1.2" font-weight="700" fill="#0f6e56" font-family="Arial, Helvetica, sans-serif">NA PrEP</text>
+  <text x="568" y="433" font-size="11" fill="#0c4a3b">o sujeito de risco que se governa</text>
+
+  <!-- arrows: the three lenses bear upon the document -->
+  <line x1="156" y1="454" x2="156" y2="486" stroke="#a9a79f" stroke-width="1.5"/>
+  <polygon points="156,492 151,482 161,482" fill="#a9a79f"/>
+  <line x1="410" y1="454" x2="410" y2="486" stroke="#a9a79f" stroke-width="1.5"/>
+  <polygon points="410,492 405,482 415,482" fill="#a9a79f"/>
+  <line x1="664" y1="454" x2="664" y2="486" stroke="#a9a79f" stroke-width="1.5"/>
+  <polygon points="664,492 659,482 669,482" fill="#a9a79f"/>
+  <text x="220" y="480" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8a887f">incidem sobre</text>
+  <text x="600" y="480" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8a887f">o mesmo documento</text>
+
+  <!-- ===== BASE · PRIOR / DOCUMENT ===== -->
+  <rect x="40" y="498" width="740" height="92" rx="12" fill="#f3eede" stroke="#dcd0b8"/>
+  <!-- document icon -->
+  <g>
+    <path d="M60,520 h26 l10,10 v40 h-36 z" fill="#ffffff" stroke="#c7ba9c" stroke-width="1.2"/>
+    <path d="M86,520 v10 h10" fill="none" stroke="#c7ba9c" stroke-width="1.2"/>
+    <line x1="66" y1="540" x2="90" y2="540" stroke="#cfc3a6" stroke-width="1.4"/>
+    <line x1="66" y1="548" x2="90" y2="548" stroke="#cfc3a6" stroke-width="1.4"/>
+    <line x1="66" y1="556" x2="82" y2="556" stroke="#cfc3a6" stroke-width="1.4"/>
+  </g>
+  <text x="446" y="524" text-anchor="middle" font-size="10" letter-spacing="1.5" font-weight="700" fill="#8a7a55" font-family="Arial, Helvetica, sans-serif">LINDSAY PRIOR (2003) · O DOCUMENTO COMO ELEMENTO ATIVO</text>
+  <text x="446" y="550" text-anchor="middle" font-size="14.5" font-weight="700" fill="#3a3428">O PCDT não é suporte neutro — é peça que produz o sujeito sobre o qual incide.</text>
+  <text x="446" y="572" text-anchor="middle" font-size="10.5" font-style="italic" fill="#6a6250">dispositivo documental: mandato jurídico · instâncias administrativas · evidência científica · julgamento técnico</text>
+
+  <!-- footer: citação-síntese do trabalho -->
+  <rect x="40" y="602" width="740" height="52" rx="10" fill="#1a1a1a"/>
+  <text x="410" y="625" font-size="12.5" text-anchor="middle" fill="#f4f2ee">Na chave de Prior, o PCDT é lido como documento ativo —</text>
+  <text x="410" y="643" font-size="12.5" text-anchor="middle" fill="#e6b98f">e sobre ele incidem o eixo de Foucault, a operação de Conrad e o sujeito de Rose.</text>
+</svg>

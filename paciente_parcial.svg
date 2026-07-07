@@ -1,0 +1,71 @@
+<svg viewBox="0 0 780 560" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <title>O paciente parcial</title>
+  <desc>Diagrama conceitual: o paciente parcial situa-se entre o corpo são e o corpo doente; medicaliza-se o risco, não o sintoma.</desc>
+
+  <rect x="0" y="0" width="780" height="560" fill="#ffffff"/>
+
+  <!-- eyebrow + title -->
+  <text x="40" y="46" font-size="13" letter-spacing="2" fill="#6b6b6b" font-family="Arial, Helvetica, sans-serif">CONRAD (A PARTIR DE GREAVES) · MEDICALIZAÇÃO DO RISCO</text>
+  <text x="40" y="80" font-size="30" font-weight="700" fill="#1a1a1a">O paciente parcial</text>
+
+  <!-- spectrum -->
+  <line x1="70" y1="168" x2="710" y2="168" stroke="#cfcfcf" stroke-width="2"/>
+  <!-- são pole -->
+  <circle cx="70" cy="168" r="7" fill="#6b6b6b"/>
+  <text x="70" y="132" font-size="16" font-weight="700" text-anchor="middle" fill="#1a1a1a">SÃO</text>
+  <text x="70" y="200" font-size="12" text-anchor="middle" fill="#6b6b6b">sem sintomas</text>
+  <!-- doente pole -->
+  <circle cx="710" cy="168" r="7" fill="#6b6b6b"/>
+  <text x="710" y="132" font-size="16" font-weight="700" text-anchor="middle" fill="#1a1a1a">DOENTE</text>
+  <text x="710" y="200" font-size="12" text-anchor="middle" fill="#6b6b6b">com sintomas</text>
+
+  <!-- partial patient node in the middle -->
+  <circle cx="390" cy="168" r="13" fill="#b5651d"/>
+  <circle cx="390" cy="168" r="22" fill="none" stroke="#b5651d" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="390" y="118" font-size="16" font-weight="700" text-anchor="middle" fill="#b5651d">PACIENTE PARCIAL</text>
+  <text x="390" y="212" font-size="12.5" text-anchor="middle" fill="#6b6b6b">nem são, nem doente — exposto</text>
+
+  <!-- central definition band -->
+  <rect x="40" y="250" width="700" height="58" rx="10" fill="#f4f2ee" stroke="#e4e1db"/>
+  <text x="390" y="277" font-size="14.5" font-weight="600" text-anchor="middle" fill="#1a1a1a">O que se medicaliza é a própria situação de risco —</text>
+  <text x="390" y="297" font-size="14.5" font-weight="600" text-anchor="middle" fill="#b5651d">não o sintoma, que pode nunca chegar.</text>
+
+  <!-- four trait cards -->
+  <g font-size="12.5">
+    <!-- card 1 -->
+    <rect x="40" y="336" width="165" height="120" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+    <text x="58" y="366" font-size="22" fill="#b5651d" font-weight="700">1</text>
+    <text x="58" y="398" font-size="13.5" font-weight="700" fill="#1a1a1a">Não se sente</text>
+    <text x="58" y="416" font-size="13.5" font-weight="700" fill="#1a1a1a">doente</text>
+    <text x="58" y="440" fill="#6b6b6b">sem vivência de</text>
+    <text x="58" y="456" fill="#6b6b6b">adoecimento</text>
+
+    <!-- card 2 -->
+    <rect x="219" y="336" width="165" height="120" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+    <text x="237" y="366" font-size="22" fill="#b5651d" font-weight="700">2</text>
+    <text x="237" y="398" font-size="13.5" font-weight="700" fill="#1a1a1a">Traços</text>
+    <text x="237" y="416" font-size="13.5" font-weight="700" fill="#1a1a1a">mensuráveis</text>
+    <text x="237" y="440" fill="#6b6b6b">lidos como</text>
+    <text x="237" y="456" fill="#6b6b6b">risco futuro</text>
+
+    <!-- card 3 -->
+    <rect x="398" y="336" width="165" height="120" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+    <text x="416" y="366" font-size="22" fill="#b5651d" font-weight="700">3</text>
+    <text x="416" y="398" font-size="13.5" font-weight="700" fill="#1a1a1a">Vigilância e</text>
+    <text x="416" y="416" font-size="13.5" font-weight="700" fill="#1a1a1a">medicação</text>
+    <text x="416" y="440" fill="#6b6b6b">contínua, exames,</text>
+    <text x="416" y="456" fill="#6b6b6b">acompanhamento</text>
+
+    <!-- card 4 -->
+    <rect x="577" y="336" width="163" height="120" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+    <text x="595" y="366" font-size="22" fill="#b5651d" font-weight="700">4</text>
+    <text x="595" y="398" font-size="13.5" font-weight="700" fill="#1a1a1a">Gestor da</text>
+    <text x="595" y="416" font-size="13.5" font-weight="700" fill="#1a1a1a">probabilidade</text>
+    <text x="595" y="440" fill="#6b6b6b">responsável pelo</text>
+    <text x="595" y="456" fill="#6b6b6b">próprio risco</text>
+  </g>
+
+  <!-- footer: PrEP application -->
+  <rect x="40" y="486" width="700" height="46" rx="10" fill="#1a1a1a"/>
+  <text x="390" y="514" font-size="13.5" text-anchor="middle" fill="#ffffff" font-weight="600">Usuário da PrEP: HIV-negativo — e é essa condição, a de não estar doente, que o torna apto ao tratamento.</text>
+</svg>

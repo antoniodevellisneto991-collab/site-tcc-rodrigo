@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .h1{font-weight:700;font-size:28px;fill:#ffffff;letter-spacing:2px}
+      .sub{font-weight:400;font-size:14px;fill:#c7d4e2}
+      .kick{font-weight:600;font-size:12px;fill:#9db2c9;letter-spacing:1px}
+      .chip{font-weight:700;font-size:12px;letter-spacing:1.4px}
+      .step{font-weight:700;font-size:16px;fill:#1f2731}
+      .body{font-weight:400;font-size:13px;fill:#3a4048}
+      .time{font-weight:700;font-size:12.5px;fill:#0A4595}
+      .phase{font-weight:700;font-size:12px;fill:#8a94a1;letter-spacing:1.6px}
+      .foot{font-weight:400;font-size:12px;fill:#8a94a1}
+      .total{font-weight:700;font-size:14px;fill:#ffffff}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9aa5b1"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="1500" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="1000" height="92" fill="#0A4595"/>
+  <rect x="0" y="92" width="1000" height="4" fill="#F2A900"/>
+  <text x="40" y="42" class="h1">ROTEIRO DA APRESENTAÇÃO</text>
+  <text x="40" y="68" class="sub">Diagnóstico do risco: o paciente parcial e a expansão da PrEP entre adolescentes no Brasil</text>
+  <text x="960" y="38" text-anchor="end" class="kick">FLUXOGRAMA · ~20 MIN</text>
+  <text x="960" y="56" text-anchor="end" class="kick">RODRIGO A. DEVELLIS · UFSC · 2026</text>
+
+  <!-- PHASE RAILS (left) -->
+  <rect x="24" y="150" width="6" height="232" rx="3" fill="#0f766e"/>
+  <rect x="24" y="432" width="6" height="456" rx="3" fill="#0A4595"/>
+  <rect x="24" y="938" width="6" height="140" rx="3" fill="#8a3b1e"/>
+
+  <!-- =============== ENQUADRAMENTO =============== -->
+  <text x="48" y="138" class="phase">ENQUADRAMENTO</text>
+
+  <!-- 0 -->
+  <g>
+    <rect x="48" y="150" width="904" height="56" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="150" width="6" height="56" rx="3" fill="#0f766e"/>
+    <rect x="866" y="164" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="182" text-anchor="middle" class="time">1 min</text>
+    <text x="72" y="176" class="step">0 · Abertura</text>
+    <text x="72" y="196" class="body">Saudar a banca · frase-âncora · anunciar o objeto (PCDT da PrEP 2025)</text>
+  </g>
+  <line x1="500" y1="206" x2="500" y2="226" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 1 -->
+  <g>
+    <rect x="48" y="228" width="904" height="66" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="228" width="6" height="66" rx="3" fill="#0f766e"/>
+    <rect x="866" y="244" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="262" text-anchor="middle" class="time">2 min</text>
+    <text x="72" y="254" class="step">1 · O problema e a pergunta</text>
+    <text x="72" y="274" class="body">Casos concentrados em 15–24 anos · pergunta: como o protocolo torna o</text>
+    <text x="72" y="290" class="body">adolescente inteligível e governável? · deslocamento: condições de possibilidade</text>
+  </g>
+  <line x1="500" y1="294" x2="500" y2="314" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 2 -->
+  <g>
+    <rect x="48" y="316" width="904" height="66" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="316" width="6" height="66" rx="3" fill="#0f766e"/>
+    <rect x="866" y="332" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="350" text-anchor="middle" class="time">1,5 min</text>
+    <text x="72" y="342" class="step">2 · Método</text>
+    <text x="72" y="362" class="body">Teórico-bibliográfico e documental · Prior: documento como objeto ativo ·</text>
+    <text x="72" y="378" class="body">leitura genealógica · limite: fica no plano da página</text>
+  </g>
+  <line x1="500" y1="382" x2="500" y2="402" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- =============== CAPÍTULOS =============== -->
+  <text x="48" y="420" class="phase">DESENVOLVIMENTO · OS CINCO CAPÍTULOS</text>
+
+  <!-- 3 -->
+  <g>
+    <rect x="48" y="432" width="904" height="64" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="432" width="6" height="64" rx="3" fill="#0A4595"/>
+    <rect x="866" y="448" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="466" text-anchor="middle" class="time">2,5 min</text>
+    <text x="72" y="458" class="step">3 · Cap. 1 — Dispositivo e PCDT</text>
+    <text x="72" y="478" class="body">Dispositivo (Foucault) sobre o protocolo · produz o jovem como superfície de</text>
+    <text x="72" y="494" class="body">incidência · sigilo como condição de entrada, autonomia como efeito</text>
+  </g>
+  <line x1="500" y1="496" x2="500" y2="514" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 4 -->
+  <g>
+    <rect x="48" y="516" width="904" height="64" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="516" width="6" height="64" rx="3" fill="#0A4595"/>
+    <rect x="866" y="532" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="550" text-anchor="middle" class="time">2,5 min</text>
+    <text x="72" y="542" class="step">4 · Cap. 2 — Dispositivo da aids</text>
+    <text x="72" y="562" class="body">Genealogia da resposta brasileira · anos 1980 (medo, mídia, especialista) →</text>
+    <text x="72" y="578" class="body">anos 1990 vira governamentalidade · PrEP inscrita nesse dispositivo</text>
+  </g>
+  <line x1="500" y1="580" x2="500" y2="598" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 5 -->
+  <g>
+    <rect x="48" y="600" width="904" height="64" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="600" width="6" height="64" rx="3" fill="#0A4595"/>
+    <rect x="866" y="616" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="634" text-anchor="middle" class="time">2,5 min</text>
+    <text x="72" y="626" class="step">5 · Cap. 3 — Pessoas jovens</text>
+    <text x="72" y="646" class="body">Adolescência como categoria construída (biológico e cultural) · com Bourdieu,</text>
+    <text x="72" y="662" class="body">grupo em parte ficção · o protocolo estabiliza a categoria sobre que incide</text>
+  </g>
+  <line x1="500" y1="664" x2="500" y2="682" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 6 -->
+  <g>
+    <rect x="48" y="684" width="904" height="64" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="684" width="6" height="64" rx="3" fill="#0A4595"/>
+    <rect x="866" y="700" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="718" text-anchor="middle" class="time">2,5 min</text>
+    <text x="72" y="710" class="step">6 · Cap. 4 — O PCDT, o documento</text>
+    <text x="72" y="730" class="body">Leitura detida: sexualidade, vida, população; segurança e elegibilidade ·</text>
+    <text x="72" y="746" class="body">sujeito aderente entra por iniciativa própria no dispositivo que o define</text>
+  </g>
+  <line x1="500" y1="748" x2="500" y2="766" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 7 -->
+  <g>
+    <rect x="48" y="768" width="904" height="64" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="768" width="6" height="64" rx="3" fill="#0A4595"/>
+    <rect x="866" y="784" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="802" text-anchor="middle" class="time">2,5 min</text>
+    <text x="72" y="794" class="step">7 · Cap. 5 — O medicamento</text>
+    <text x="72" y="814" class="body">AZT (Epstein): medicar corpos sãos · medicalização e paciente parcial (Conrad) ·</text>
+    <text x="72" y="830" class="body">biocidadania e política vital (Rose) · soronegativo como valor a manter</text>
+  </g>
+  <line x1="500" y1="832" x2="500" y2="852" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- compress note -->
+  <g>
+    <rect x="300" y="854" width="400" height="34" rx="17" fill="#fdf3e0" stroke="#f2d29a"/>
+    <text x="500" y="875" text-anchor="middle" class="body" fill="#8a5a12">Se o tempo apertar: comprimir os Caps. 3 e 5</text>
+  </g>
+  <line x1="500" y1="888" x2="500" y2="908" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- =============== FECHAMENTO =============== -->
+  <text x="48" y="926" class="phase">FECHAMENTO</text>
+
+  <!-- 8 -->
+  <g>
+    <rect x="48" y="938" width="904" height="66" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="938" width="6" height="66" rx="3" fill="#8a3b1e"/>
+    <rect x="866" y="954" width="70" height="28" rx="14" fill="#e8f0fb"/>
+    <text x="901" y="972" text-anchor="middle" class="time">1,5 min</text>
+    <text x="72" y="964" class="step">8 · Conclusão</text>
+    <text x="72" y="984" class="body">A resposta tem forma de terreno, não de causa · tese final: o PCDT constitui</text>
+    <text x="72" y="1000" class="body">o adolescente que protege · cuidado e controle produzem-se juntos</text>
+  </g>
+  <line x1="500" y1="1004" x2="500" y2="1024" stroke="#9aa5b1" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 9 -->
+  <g>
+    <rect x="48" y="1026" width="904" height="52" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+    <rect x="48" y="1026" width="6" height="52" rx="3" fill="#8a3b1e"/>
+    <rect x="866" y="1039" width="70" height="26" rx="13" fill="#e8f0fb"/>
+    <text x="901" y="1056" text-anchor="middle" class="time">0,5 min</text>
+    <text x="72" y="1050" class="step">9 · Encerramento</text>
+    <text x="72" y="1069" class="body">Agradecer · “Fico à disposição para as arguições.”</text>
+  </g>
+
+  <!-- TOTAL BAR -->
+  <rect x="48" y="1104" width="904" height="46" rx="12" fill="#0A4595"/>
+  <text x="72" y="1132" class="total">SOMA APROXIMADA</text>
+  <text x="928" y="1132" text-anchor="end" class="total">≈ 20 min</text>
+
+  <!-- FIO ARGUMENTATIVO -->
+  <rect x="48" y="1172" width="904" height="248" rx="12" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="48" y="1172" width="6" height="248" rx="3" fill="#F2A900"/>
+  <text x="72" y="1200" class="chip" fill="#8a5a12">FIO ARGUMENTATIVO</text>
+  <text x="72" y="1228" class="body" fill="#2a2f37">A expansão tornou-se possível porque quatro condições já estavam dispostas:</text>
+
+  <circle cx="80" cy="1256" r="3" fill="#0A4595"/>
+  <text x="94" y="1261" class="body">um dispositivo da aids montado ao longo de quatro décadas;</text>
+  <circle cx="80" cy="1282" r="3" fill="#0A4595"/>
+  <text x="94" y="1287" class="body">uma racionalidade antirretroviral que aprendeu a medicar corpos sãos;</text>
+  <circle cx="80" cy="1308" r="3" fill="#0A4595"/>
+  <text x="94" y="1313" class="body">uma categoria de adolescência disponível;</text>
+  <circle cx="80" cy="1334" r="3" fill="#0A4595"/>
+  <text x="94" y="1339" class="body">uma forma documental capaz de condensar mandato, evidência e fluxo.</text>
+
+  <line x1="72" y1="1360" x2="928" y2="1360" stroke="#eceff3" stroke-width="1"/>
+  <text x="72" y="1386" class="body" fill="#5a1b2b" font-weight="600">Tese final: o protocolo não encontra o adolescente que protege — ele o constitui,</text>
+  <text x="72" y="1406" class="body" fill="#5a1b2b" font-weight="600">no gesto mesmo da proteção. Cuidado e controle não se opõem.</text>
+
+  <!-- FOOTER -->
+  <text x="500" y="1450" text-anchor="middle" class="foot">Fonte: roteiro_apresentacao_TCC.md · Itinerário cronometrado (Parte I)</text>
+</svg>

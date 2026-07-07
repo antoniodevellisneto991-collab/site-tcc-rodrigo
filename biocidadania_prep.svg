@@ -1,0 +1,67 @@
+<svg viewBox="0 0 820 690" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <title>Biocidadania — o conceito segundo Nikolas Rose</title>
+  <desc>Diagrama conceitual da biocidadania (biological citizenship) em Nikolas Rose, The Politics of Life Itself (2007), com citações diretas do autor: a definição do conceito, seu duplo momento (individualizante e coletivizante) e o campo da esperança em que opera. No rodapé, a articulação feita pelo TCC de Rodrigo Devellis (UFSC, 2026).</desc>
+
+  <rect x="0" y="0" width="820" height="690" fill="#ffffff"/>
+
+  <!-- eyebrow + title -->
+  <text x="40" y="44" font-size="12.5" letter-spacing="2" fill="#6b6b6b" font-family="Arial, Helvetica, sans-serif">NIKOLAS ROSE · THE POLITICS OF LIFE ITSELF (2007)</text>
+  <text x="40" y="80" font-size="28" font-weight="700" fill="#1a1a1a">Biocidadania</text>
+  <text x="780" y="80" font-size="15" font-style="italic" text-anchor="end" fill="#8a8a86">biological citizenship</text>
+  <line x1="40" y1="94" x2="780" y2="94" stroke="#e4e1db" stroke-width="1"/>
+
+  <!-- definition band (citação) -->
+  <rect x="40" y="108" width="740" height="86" rx="10" fill="#f4f2ee" stroke="#e4e1db"/>
+  <text x="410" y="134" font-size="14" text-anchor="middle" fill="#1a1a1a">A cidadania biológica recodifica os deveres, os direitos e as expectativas dos</text>
+  <text x="410" y="153" font-size="14" text-anchor="middle" fill="#1a1a1a">seres humanos em relação à sua doença — e à própria vida.</text>
+  <text x="410" y="176" font-size="10.5" font-style="italic" text-anchor="middle" fill="#8a8a86">“…recode the duties, rights, and expectations of human beings in relation to their sickness, and also to their life itself.”</text>
+  <text x="764" y="189" font-size="10" text-anchor="end" fill="#b5651d" font-family="Arial, Helvetica, sans-serif">ROSE, 2007 · INTRODUÇÃO</text>
+
+  <!-- anchor: duplo momento -->
+  <text x="410" y="228" font-size="16.5" font-weight="700" text-anchor="middle" fill="#1a1a1a">A cidadania biológica é ao mesmo tempo individualizante e coletivizante.</text>
+  <text x="410" y="248" font-size="11" font-style="italic" text-anchor="middle" fill="#8a8a86">“Biological citizenship is both individualizing and collectivizing.” — Rose, 2007, cap. 5</text>
+
+  <!-- ===== LEFT CARD: momento individualizante ===== -->
+  <rect x="40" y="270" width="360" height="256" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+  <rect x="60" y="292" width="34" height="6" rx="3" fill="#b5651d"/>
+  <text x="60" y="320" font-size="16" font-weight="700" fill="#1a1a1a">Momento individualizante</text>
+  <text x="60" y="338" font-size="10.5" letter-spacing="1.5" fill="#6b6b6b" font-family="Arial, Helvetica, sans-serif">O SUJEITO E SI MESMO</text>
+
+  <text x="60" y="366" font-size="12.5" font-style="italic" fill="#b5651d">“os indivíduos moldam a relação consigo</text>
+  <text x="60" y="382" font-size="12.5" font-style="italic" fill="#b5651d">mesmos a partir de um conhecimento de</text>
+  <text x="60" y="398" font-size="12.5" font-style="italic" fill="#b5651d">sua individualidade somática”</text>
+
+  <line x1="60" y1="418" x2="380" y2="418" stroke="#ece9e3" stroke-width="1"/>
+  <text x="60" y="440" font-size="10.5" letter-spacing="1.5" font-weight="700" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif">O BIOCIDADÃO ATIVO</text>
+  <text x="60" y="464" font-size="12" fill="#3a3a38">é obrigado a informar-se sobre suas</text>
+  <text x="60" y="480" font-size="12" fill="#3a3a38">predisposições e a ajustar dieta, hábitos</text>
+  <text x="60" y="496" font-size="12" fill="#3a3a38">e conduta — a <tspan font-weight="700" fill="#1a1a1a">gerir o próprio risco</tspan>.</text>
+
+  <!-- ===== RIGHT CARD: momento coletivizante ===== -->
+  <rect x="420" y="270" width="360" height="256" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+  <rect x="440" y="292" width="34" height="6" rx="3" fill="#0f6e56"/>
+  <text x="440" y="320" font-size="16" font-weight="700" fill="#1a1a1a">Momento coletivizante</text>
+  <text x="440" y="338" font-size="10.5" letter-spacing="1.5" fill="#6b6b6b" font-family="Arial, Helvetica, sans-serif">SOLIDARIEDADES E DEMANDAS</text>
+
+  <text x="440" y="366" font-size="12.5" font-style="italic" fill="#0f6e56">“formas de coletivização organizadas em</text>
+  <text x="440" y="382" font-size="12.5" font-style="italic" fill="#0f6e56">torno da comunhão de um estatuto somático</text>
+  <text x="440" y="398" font-size="12.5" font-style="italic" fill="#0f6e56">ou genético compartilhado”</text>
+  <text x="440" y="414" font-size="10.5" fill="#6b6b6b">— a biossocialidade de Rabinow</text>
+
+  <line x1="440" y1="424" x2="760" y2="424" stroke="#ece9e3" stroke-width="1"/>
+  <text x="440" y="446" font-size="10.5" letter-spacing="1.5" font-weight="700" fill="#1a1a1a" font-family="Arial, Helvetica, sans-serif">BIOCIDADANIA DIGITAL</text>
+  <text x="440" y="470" font-size="12" fill="#3a3a38">reúnem-se em grupos, listas e sites e</text>
+  <text x="440" y="486" font-size="12" fill="#3a3a38">reivindicam seus <tspan font-weight="700" fill="#1a1a1a">direitos “vitais”</tspan> como</text>
+  <text x="440" y="502" font-size="12" fill="#3a3a38">cidadãos.</text>
+
+  <!-- closing band: esperança -->
+  <rect x="40" y="544" width="740" height="54" rx="10" fill="#fbf3ec" stroke="#e8d6c6"/>
+  <text x="410" y="570" font-size="13.5" font-weight="700" text-anchor="middle" fill="#1a1a1a">Em ambos os momentos, a cidadania biológica opera no campo da esperança.</text>
+  <text x="410" y="588" font-size="10.5" font-style="italic" text-anchor="middle" fill="#9a7d63">“…contemporary biological citizenship operates within the field of hope.” — Rose, 2007, cap. 5</text>
+
+  <!-- footer: ponte com o TCC -->
+  <rect x="40" y="612" width="740" height="60" rx="10" fill="#1a1a1a"/>
+  <text x="410" y="632" font-size="10" letter-spacing="1.5" text-anchor="middle" fill="#8f8f8c" font-family="Arial, Helvetica, sans-serif">ARTICULAÇÃO NO TCC · DEVELLIS, 2026</text>
+  <text x="410" y="651" font-size="11.5" text-anchor="middle" fill="#f4f2ee">a política vital e a cidadania biológica, em Rose, inscrevem essa vida numa economia e, ao</text>
+  <text x="410" y="667" font-size="11.5" text-anchor="middle" fill="#f4f2ee">mesmo tempo, deixam ver a possibilidade de reivindicá-la como direito.</text>
+</svg>

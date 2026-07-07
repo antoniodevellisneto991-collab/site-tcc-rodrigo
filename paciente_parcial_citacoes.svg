@@ -1,0 +1,79 @@
+<svg viewBox="0 0 780 792" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <title>O paciente parcial — com citações</title>
+  <desc>Diagrama do paciente parcial situado entre são e doente, fundamentado em citações de Greaves, Rosenberg e do próprio TCC.</desc>
+
+  <rect x="0" y="0" width="780" height="792" fill="#ffffff"/>
+
+  <text x="40" y="46" font-size="13" letter-spacing="2" fill="#6b6b6b" font-family="Arial, Helvetica, sans-serif">CONRAD (A PARTIR DE GREAVES) · MEDICALIZAÇÃO DO RISCO</text>
+  <text x="40" y="80" font-size="30" font-weight="700" fill="#1a1a1a">O paciente parcial</text>
+
+  <!-- spectrum -->
+  <line x1="70" y1="164" x2="710" y2="164" stroke="#cfcfcf" stroke-width="2"/>
+  <circle cx="70" cy="164" r="7" fill="#6b6b6b"/>
+  <text x="70" y="130" font-size="16" font-weight="700" text-anchor="middle" fill="#1a1a1a">SÃO</text>
+  <text x="70" y="194" font-size="12" text-anchor="middle" fill="#6b6b6b">sem sintomas</text>
+  <circle cx="710" cy="164" r="7" fill="#6b6b6b"/>
+  <text x="710" y="130" font-size="16" font-weight="700" text-anchor="middle" fill="#1a1a1a">DOENTE</text>
+  <text x="710" y="194" font-size="12" text-anchor="middle" fill="#6b6b6b">com sintomas</text>
+  <circle cx="390" cy="164" r="13" fill="#b5651d"/>
+  <circle cx="390" cy="164" r="22" fill="none" stroke="#b5651d" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="390" y="116" font-size="16" font-weight="700" text-anchor="middle" fill="#b5651d">PACIENTE PARCIAL</text>
+  <text x="390" y="206" font-size="12.5" text-anchor="middle" fill="#6b6b6b">nem são, nem doente — exposto</text>
+
+  <!-- definition band -->
+  <rect x="40" y="240" width="700" height="54" rx="10" fill="#f4f2ee" stroke="#e4e1db"/>
+  <text x="390" y="266" font-size="14" font-weight="600" text-anchor="middle" fill="#1a1a1a">O que se medicaliza é a própria situação de risco —</text>
+  <text x="390" y="285" font-size="14" font-weight="600" text-anchor="middle" fill="#b5651d">não o sintoma, que pode nunca chegar.</text>
+
+  <!-- four trait cards -->
+  <g font-size="12.5">
+    <rect x="40" y="316" width="165" height="112" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+    <text x="58" y="344" font-size="20" fill="#b5651d" font-weight="700">1</text>
+    <text x="58" y="374" font-size="13" font-weight="700" fill="#1a1a1a">Não se sente doente</text>
+    <text x="58" y="398" fill="#6b6b6b">sem vivência de</text>
+    <text x="58" y="414" fill="#6b6b6b">adoecimento</text>
+
+    <rect x="219" y="316" width="165" height="112" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+    <text x="237" y="344" font-size="20" fill="#b5651d" font-weight="700">2</text>
+    <text x="237" y="374" font-size="13" font-weight="700" fill="#1a1a1a">Traços mensuráveis</text>
+    <text x="237" y="398" fill="#6b6b6b">lidos como</text>
+    <text x="237" y="414" fill="#6b6b6b">risco futuro</text>
+
+    <rect x="398" y="316" width="165" height="112" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+    <text x="416" y="344" font-size="20" fill="#b5651d" font-weight="700">3</text>
+    <text x="416" y="374" font-size="13" font-weight="700" fill="#1a1a1a">Vigilância contínua</text>
+    <text x="416" y="398" fill="#6b6b6b">medicação diária,</text>
+    <text x="416" y="414" fill="#6b6b6b">exames, seguimento</text>
+
+    <rect x="577" y="316" width="163" height="112" rx="10" fill="#faf9f7" stroke="#e4e1db"/>
+    <text x="595" y="344" font-size="20" fill="#b5651d" font-weight="700">4</text>
+    <text x="595" y="374" font-size="13" font-weight="700" fill="#1a1a1a">Gestor do risco</text>
+    <text x="595" y="398" fill="#6b6b6b">responsável pela</text>
+    <text x="595" y="414" fill="#6b6b6b">própria probabilidade</text>
+  </g>
+
+  <!-- citations panel -->
+  <text x="40" y="466" font-size="12" letter-spacing="2" fill="#6b6b6b" font-family="Arial, Helvetica, sans-serif">FUNDAMENTAÇÃO — CITAÇÕES</text>
+
+  <!-- Q1 -->
+  <rect x="40" y="480" width="4" height="52" fill="#b5651d"/>
+  <text x="58" y="498" font-size="13.5" fill="#1a1a1a">“Pessoas que não se sentem doentes nem incapacitadas, mas foram informadas pela medicina</text>
+  <text x="58" y="516" font-size="13.5" fill="#1a1a1a">de que, por terem certas características, estão sob risco de adquirir uma doença.”</text>
+  <text x="58" y="531" font-size="11.5" font-style="italic" fill="#6b6b6b">— David Greaves (2000, p. 23), apud Conrad (2007, cap. 8)</text>
+
+  <!-- Q2 -->
+  <rect x="40" y="546" width="4" height="34" fill="#b5651d"/>
+  <text x="58" y="564" font-size="13.5" fill="#1a1a1a">“O risco é cada vez mais tratado como se fosse, ele próprio, uma doença.”</text>
+  <text x="58" y="579" font-size="11.5" font-style="italic" fill="#6b6b6b">— Conrad (2007), sobre a protodisease (Rosenberg, 2000)</text>
+
+  <!-- Q3 -->
+  <rect x="40" y="594" width="4" height="34" fill="#b5651d"/>
+  <text x="58" y="612" font-size="13.5" fill="#1a1a1a">“O que se administra, sob medicação continuada, não é um corpo doente, mas um corpo exposto.”</text>
+  <text x="58" y="627" font-size="11.5" font-style="italic" fill="#6b6b6b">— TCC, p. 71</text>
+
+  <!-- footer punchline -->
+  <rect x="40" y="656" width="700" height="96" rx="10" fill="#1a1a1a"/>
+  <text x="390" y="692" font-size="13.5" text-anchor="middle" fill="#ffffff">“O paciente parcial: alguém para quem a saúde, em vez de afastar a medicina,</text>
+  <text x="390" y="712" font-size="13.5" text-anchor="middle" fill="#ffffff">converteu-se precisamente no motivo de nela ingressar.”</text>
+  <text x="390" y="734" font-size="11.5" font-style="italic" text-anchor="middle" fill="#d98a4a">— TCC, p. 77 · o usuário da PrEP é HIV-negativo, e é essa condição que o torna apto ao tratamento</text>
+</svg>
