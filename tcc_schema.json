@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://exemplo.org/tcc/schema.json",
+  "title": "Esquema do TCC por capítulo",
+  "description": "Esquema para compor um JSON estruturado de um trabalho acadêmico, organizado por capítulo, capturando as ideias centrais e os elementos analíticos de cada um.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["metadados", "capitulos"],
+  "properties": {
+    "metadados": {
+      "type": "object",
+      "description": "Dados de identificação do trabalho.",
+      "additionalProperties": false,
+      "required": ["titulo", "autor"],
+      "properties": {
+        "titulo": { "type": "string" },
+        "subtitulo": { "type": "string" },
+        "autor": { "type": "string" },
+        "orientadora": { "type": "string" },
+        "instituicao": { "type": "string" },
+        "curso": { "type": "string" },
+        "grau": {
+          "type": "string",
+          "description": "Grau pretendido.",
+          "enum": ["licenciatura", "bacharelado", "mestrado", "doutorado", "outro"]
+        },
+        "ano": { "type": "integer" },
+        "resumo": { "type": "string" },
+        "abstract": { "type": "string" },
+        "palavras_chave": { "type": "array", "items": { "type": "string" } },
+        "keywords": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "introducao": {
+      "type": "object",
+      "description": "Elementos que abrem o trabalho e fixam o problema.",
+      "additionalProperties": false,
+      "properties": {
+        "ideias_centrais": { "$ref": "#/$defs/ideiasCentrais" },
+        "pergunta_de_pesquisa": { "type": "string" },
+        "objetivo_geral": { "type": "string" },
+        "objetivos_especificos": { "type": "array", "items": { "type": "string" } },
+        "justificativa": { "type": "string" },
+        "metodologia": { "type": "string" },
+        "quadro_teorico_minimo": {
+          "type": "array",
+          "description": "Categorias/autores mobilizados como instrumentos de leitura.",
+          "items": { "$ref": "#/$defs/conceito" }
+        }
+      }
+    },
+    "capitulos": {
+      "type": "array",
+      "description": "Lista de capítulos do trabalho, na ordem em que aparecem.",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/capitulo" }
+    },
+    "conclusao": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ideias_centrais": { "$ref": "#/$defs/ideiasCentrais" },
+        "sintese_do_argumento": { "type": "string" },
+        "limites": { "type": "string" },
+        "agenda_futura": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "referencias": {
+      "type": "array",
+      "description": "Referências citadas, opcional.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["chave"],
+        "properties": {
+          "chave": { "type": "string", "description": "Chave curta usada nas citações, ex.: FOUCAULT, 1999." },
+          "referencia_abnt": { "type": "string" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "ideiasCentrais": {
+      "type": "array",
+      "description": "Ideias centrais, enunciadas como afirmações curtas e autossuficientes.",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "capitulo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["numero", "titulo", "ideias_centrais"],
+      "properties": {
+        "numero": {
+          "type": "string",
+          "description": "Identificador do capítulo, ex.: \"1\", \"2\".",
+          "pattern": "^[0-9]+$"
+        },
+        "titulo": { "type": "string" },
+        "tese_do_capitulo": {
+          "type": "string",
+          "description": "A afirmação principal que o capítulo sustenta, em uma frase."
+        },
+        "ideias_centrais": { "$ref": "#/$defs/ideiasCentrais" },
+        "funcao_no_argumento": {
+          "type": "string",
+          "description": "Papel do capítulo no argumento geral do trabalho."
+        },
+        "articulacao_com_objeto": {
+          "type": "string",
+          "description": "Como o capítulo se articula ao objeto empírico (aqui, o PCDT)."
+        },
+        "conceitos_chave": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/conceito" }
+        },
+        "autores_mobilizados": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/autor" }
+        },
+        "citacoes_chave": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/citacao" }
+        },
+        "secoes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/secao" }
+        },
+        "transicao_para_proximo": {
+          "type": "string",
+          "description": "Como o capítulo encadeia no seguinte."
+        }
+      }
+    },
+    "secao": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["numero", "titulo"],
+      "properties": {
+        "numero": { "type": "string", "description": "Ex.: \"1.2\", \"4.3\"." },
+        "titulo": { "type": "string" },
+        "ideias_centrais": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "conceito": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nome"],
+      "properties": {
+        "nome": { "type": "string" },
+        "autor": { "type": "string" },
+        "definicao": { "type": "string" },
+        "fonte": { "type": "string", "description": "Ex.: FOUCAULT, 1998, p. 244." }
+      }
+    },
+    "autor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nome"],
+      "properties": {
+        "nome": { "type": "string" },
+        "obras": { "type": "array", "items": { "type": "string" } },
+        "papel": {
+          "type": "string",
+          "description": "Para que o autor é mobilizado neste capítulo."
+        }
+      }
+    },
+    "citacao": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fonte"],
+      "properties": {
+        "texto": { "type": "string", "description": "Trecho citado ou paráfrase." },
+        "fonte": { "type": "string", "description": "Ex.: BRASIL, 2025." },
+        "pagina": { "type": "string" },
+        "contexto": { "type": "string", "description": "Para que a citação é usada." }
+      }
+    }
+  }
+}

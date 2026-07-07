@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1000" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}
+      .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}
+      .sub{font-weight:400;font-size:14px;fill:#c7d4e2}
+      .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}
+      .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}
+      .beam{font-weight:700;font-size:14.5px;fill:#ffffff}
+      .ptag{font-weight:700;font-size:10.5px;letter-spacing:.5px}
+      .ptt{font-weight:700;font-size:13.5px;fill:#1f2731}
+      .pln{font-weight:400;font-size:11.5px;fill:#3a4048}
+      .bx{font-weight:700;font-size:13px;fill:#ffffff}
+      .bxs{font-weight:400;font-size:10.5px;fill:#eef2f6}
+      .body{font-weight:400;font-size:13px;fill:#2a2f37}
+      .op{font-weight:700;font-size:20px;fill:#8a94a1}
+      .at{font-weight:700;font-size:13.5px;fill:#1f2731}
+      .white{fill:#ffffff}
+      .foot{font-weight:400;font-size:12px;fill:#8a94a1}
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#aeb8c4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="1000" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CONSIDERAÇÕES FINAIS</text>
+  <text x="40" y="72" class="sub">A resposta como terreno — proteger e produzir num só gesto</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DA CONCLUSÃO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SÍNTESE DO PERCURSO</text>
+
+  <!-- ACHADO CENTRAL -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">O ACHADO CENTRAL</text>
+  <text x="66" y="172" class="q">O PCDT não encontra o adolescente que protege: ele o constitui — sexualmente ativo, autônomo,</text>
+  <text x="66" y="194" class="q">compreendente e acompanhado — no gesto mesmo da proteção.</text>
+
+  <!-- PILLARS -->
+  <text x="40" y="240" class="chip" fill="#0C56A6">A RESPOSTA É UM TERRENO, NÃO UMA CAUSA · quatro condições de possibilidade</text>
+  <rect x="40" y="252" width="880" height="44" rx="8" fill="#0C56A6"/>
+  <text x="480" y="279" text-anchor="middle" class="beam">torna possível → a expansão do acesso à PrEP ao adolescente (PCDT 2025)</text>
+  <line x1="144" y1="296" x2="144" y2="308" stroke="#c2c9d2" stroke-width="2"/>
+  <line x1="368" y1="296" x2="368" y2="308" stroke="#c2c9d2" stroke-width="2"/>
+  <line x1="592" y1="296" x2="592" y2="308" stroke="#c2c9d2" stroke-width="2"/>
+  <line x1="816" y1="296" x2="816" y2="308" stroke="#c2c9d2" stroke-width="2"/>
+
+  <rect x="40" y="308" width="208" height="154" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="316" width="6" height="138" rx="3" fill="#0f766e"/>
+  <text x="60" y="334" class="ptag" fill="#0f766e">CAP. 2</text>
+  <text x="60" y="358" class="ptt">Dispositivo da aids</text>
+  <text x="60" y="382" class="pln">quatro décadas: medo,</text>
+  <text x="60" y="400" class="pln">saber biomédico, ativismo</text>
+  <text x="60" y="418" class="pln">e direito à saúde.</text>
+
+  <rect x="264" y="308" width="208" height="154" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="264" y="316" width="6" height="138" rx="3" fill="#8a2b3f"/>
+  <text x="284" y="334" class="ptag" fill="#8a2b3f">CAP. 5</text>
+  <text x="284" y="358" class="ptt">Racionalidade do fármaco</text>
+  <text x="284" y="382" class="pln">desde o AZT e o tratamento</text>
+  <text x="284" y="400" class="pln">precoce: medicar corpos</text>
+  <text x="284" y="418" class="pln">sem doença.</text>
+
+  <rect x="488" y="308" width="208" height="154" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="488" y="316" width="6" height="138" rx="3" fill="#a9761f"/>
+  <text x="508" y="334" class="ptag" fill="#a9761f">CAP. 3</text>
+  <text x="508" y="358" class="ptt">Adolescência</text>
+  <text x="508" y="382" class="pln">categoria historicamente</text>
+  <text x="508" y="400" class="pln">produzida, operável por</text>
+  <text x="508" y="418" class="pln">marcadores etários/jurídicos.</text>
+
+  <rect x="712" y="308" width="208" height="154" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="712" y="316" width="6" height="138" rx="3" fill="#2867AE"/>
+  <text x="732" y="334" class="ptag" fill="#2867AE">CAP. 4</text>
+  <text x="732" y="358" class="ptt">Forma documental</text>
+  <text x="732" y="382" class="pln">o protocolo condensa</text>
+  <text x="732" y="400" class="pln">mandato, evidência e</text>
+  <text x="732" y="418" class="pln">fluxo administrativo.</text>
+
+  <!-- RECONCILIAÇÃO -->
+  <text x="40" y="490" class="chip" fill="#1f2731">O MESMO OBJETO EM DUAS ESCALAS</text>
+  <rect x="40" y="502" width="180" height="84" rx="10" fill="#0f766e"/>
+  <text x="130" y="536" text-anchor="middle" class="bx">CUIDADO</text>
+  <text x="130" y="558" text-anchor="middle" class="bxs">relevância pública</text>
+  <text x="240" y="552" text-anchor="middle" class="op">+</text>
+  <rect x="260" y="502" width="180" height="84" rx="10" fill="#374151"/>
+  <text x="350" y="536" text-anchor="middle" class="bx">CONTROLE</text>
+  <text x="350" y="558" text-anchor="middle" class="bxs">efeitos de subjetivação</text>
+  <line x1="452" y1="544" x2="474" y2="544" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="486" y="524" class="body">Não são teses rivais: é o mesmo objeto em duas</text>
+  <text x="486" y="546" class="body">escalas — a oposição cuidado / controle perde</text>
+  <text x="486" y="568" class="body">consistência. Proteger e produzir num só gesto.</text>
+
+  <!-- ABERTURA -->
+  <text x="40" y="626" class="chip" fill="#a9761f">ABERTURA · cidadania biológica (Rose)</text>
+  <rect x="40" y="638" width="880" height="74" rx="10" fill="#fdf6ea" stroke="#ecd9b6"/>
+  <rect x="40" y="646" width="6" height="58" rx="3" fill="#a9761f"/>
+  <text x="66" y="670" class="body">A vida é inscrita numa economia — o estatuto de soronegativo torna-se um valor a manter;</text>
+  <text x="66" y="692" class="body">mas o acesso ao fármaco também pode ser reivindicado como direito, contestado e organizado.</text>
+
+  <!-- EM ABERTO -->
+  <text x="40" y="748" class="chip" fill="#1f2731">O QUE FICA EM ABERTO · a análise se deteve no plano da página</text>
+  <rect x="40" y="760" width="428" height="108" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="768" width="6" height="92" rx="3" fill="#0C56A6"/>
+  <text x="60" y="786" class="at">1 · Juventudes no plural</text>
+  <text x="60" y="810" class="body">Quem efetivamente acessa a profilaxia, sob quais</text>
+  <text x="60" y="828" class="body">condições e trajetórias — como a desigualdade que o</text>
+  <text x="60" y="846" class="body">documento converte em variável retorna na prática.</text>
+
+  <rect x="492" y="760" width="428" height="108" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="492" y="768" width="6" height="92" rx="3" fill="#0C56A6"/>
+  <text x="512" y="786" class="at">2 · A rede de evidências</text>
+  <text x="512" y="810" class="body">O cânone de ensaios centrado no masculino, já</text>
+  <text x="512" y="828" class="body">visível na PrEP sob demanda; acompanhar como essa</text>
+  <text x="512" y="846" class="body">herança se reproduz ou se corrige nas revisões.</text>
+
+  <!-- PERGUNTA FINAL -->
+  <rect x="40" y="886" width="880" height="84" rx="10" fill="#0A4595"/>
+  <text x="66" y="912" class="chip" fill="#9db2c9">A PERGUNTA QUE PERMANECE</text>
+  <text x="66" y="938" class="q white" style="fill:#ffffff">Não se o adolescente é livre ou governado, mas por meio de quais procedimentos ele se</text>
+  <text x="66" y="960" class="q white" style="fill:#ffffff">tornou, a um só tempo, uma coisa e outra.</text>
+</svg>

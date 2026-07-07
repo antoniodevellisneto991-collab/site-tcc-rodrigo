@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 910" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}
+      .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}
+      .sub{font-weight:400;font-size:14px;fill:#c7d4e2}
+      .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}
+      .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}
+      .colh{font-weight:700;font-size:14px;fill:#ffffff}
+      .coln{font-weight:700;font-size:12px;fill:#ffffff;opacity:.85}
+      .auth{font-weight:700;font-size:13px;fill:#1f2731}
+      .lbl{font-weight:700;font-size:12px}
+      .idea{font-weight:400;font-size:11.5px;fill:#3a4048}
+      .note{font-weight:400;font-size:11.5px;fill:#6b7480;font-style:italic}
+      .white{fill:#ffffff}
+      .foot{font-weight:400;font-size:12px;fill:#8a94a1}
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#aeb8c4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="910" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 3 · PESSOAS JOVENS</text>
+  <text x="40" y="72" class="sub">A adolescência como categoria historicamente construída</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 3.1 – 3.3</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">A adolescência não é um dado natural, mas categoria historicamente construída; a figura homogênea</text>
+  <text x="66" y="194" class="q">do adolescente elegível desde os 15 anos pressupõe o "grupo constituído" que Bourdieu chama de ficção.</text>
+
+  <!-- COLUMN 1 -->
+  <rect x="40" y="250" width="280" height="466" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M40,260 a10,10 0 0 1 10,-10 h260 a10,10 0 0 1 10,10 v34 h-280 z" fill="#0f766e"/>
+  <text x="58" y="283" class="coln">3.1</text>
+  <text x="98" y="283" class="colh">Biológicos e culturais</text>
+  <text x="58" y="322" class="auth">Hall</text>
+  <text x="58" y="340" class="idea">inscreve a adolescência na</text>
+  <text x="58" y="356" class="idea">biologia: recapitulação e</text>
+  <text x="58" y="372" class="idea">"storm and stress".</text>
+  <text x="58" y="410" class="auth">Boas &amp; Mead</text>
+  <text x="58" y="428" class="idea">crítica cultural — a "crise"</text>
+  <text x="58" y="444" class="idea">não é universal (Samoa).</text>
+  <text x="58" y="482" class="auth">Mazon &amp; Caponi</text>
+  <text x="58" y="500" class="idea">saberes expertos produzem</text>
+  <text x="58" y="516" class="idea">a infância como objeto.</text>
+  <line x1="58" y1="548" x2="300" y2="548" stroke="#eef2f6"/>
+  <text x="58" y="574" class="note">reconhecer e governar são</text>
+  <text x="58" y="590" class="note">movimentos inseparáveis.</text>
+
+  <!-- COLUMN 2 -->
+  <rect x="340" y="250" width="280" height="466" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M340,260 a10,10 0 0 1 10,-10 h260 a10,10 0 0 1 10,10 v34 h-280 z" fill="#a9761f"/>
+  <text x="358" y="283" class="coln">3.2</text>
+  <text x="398" y="283" class="colh">Construção histórica</text>
+  <text x="358" y="322" class="lbl" fill="#a9761f">As idades da vida</text>
+  <text x="358" y="340" class="idea">são elaboração histórica</text>
+  <text x="358" y="356" class="idea">(Le Grand Propriétaire, séc. XIII).</text>
+  <text x="358" y="394" class="lbl" fill="#a9761f">Indistinção</text>
+  <text x="358" y="412" class="idea">puer e adolescens confundidos</text>
+  <text x="358" y="428" class="idea">até o século XVIII (Ariès).</text>
+  <text x="358" y="466" class="lbl" fill="#a9761f">A figura moderna</text>
+  <text x="358" y="484" class="idea">Siegfried (Wagner) e a guerra</text>
+  <text x="358" y="500" class="idea">de 1914 lhe dão densidade.</text>
+  <text x="358" y="538" class="lbl" fill="#a9761f">O deslocamento</text>
+  <text x="358" y="556" class="idea">de "uma época sem adolescência"</text>
+  <text x="358" y="572" class="idea">à "idade favorita".</text>
+
+  <!-- COLUMN 3 -->
+  <rect x="640" y="250" width="280" height="466" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M640,260 a10,10 0 0 1 10,-10 h260 a10,10 0 0 1 10,10 v34 h-280 z" fill="#0C56A6"/>
+  <text x="658" y="283" class="coln">3.3</text>
+  <text x="698" y="283" class="colh">Apenas uma palavra</text>
+  <text x="658" y="322" class="auth">Bourdieu</text>
+  <text x="658" y="340" class="idea">"a juventude é apenas uma</text>
+  <text x="658" y="356" class="idea">palavra"; a idade é dado</text>
+  <text x="658" y="372" class="idea">biológico manipulável.</text>
+  <text x="658" y="410" class="auth">Bourdieu &amp; Passeron</text>
+  <text x="658" y="428" class="idea">o "tempo protegido" depende</text>
+  <text x="658" y="444" class="idea">de classe (Os herdeiros).</text>
+  <text x="658" y="482" class="auth">Stiegler</text>
+  <text x="658" y="500" class="idea">menoridade = aquisição</text>
+  <text x="658" y="516" class="idea">social de responsabilidade.</text>
+  <text x="658" y="554" class="auth">Mazon</text>
+  <text x="658" y="572" class="idea">a classificação (DSM-III/TDAH)</text>
+  <text x="658" y="588" class="idea">torna sujeitos legíveis.</text>
+
+  <!-- CONVERGENCE arrows -->
+  <line x1="180" y1="720" x2="455" y2="752" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="480" y1="720" x2="480" y2="752" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="780" y1="720" x2="505" y2="752" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- CONCLUSION -->
+  <rect x="40" y="758" width="880" height="98" rx="10" fill="#0A4595"/>
+  <text x="66" y="786" class="chip" fill="#9db2c9">CONVERGÊNCIA · a categoria como ficção</text>
+  <text x="66" y="812" class="q white" style="fill:#ffffff">O adolescente não antecede a separação que o nomeia — é engendrado por ela. A figura homogênea do</text>
+  <text x="66" y="834" class="q white" style="fill:#ffffff">protocolo, apta à norma desde os 15 anos, apaga a distância entre juventudes que não se equivalem.</text>
+
+  <text x="40" y="884" class="foot">Fonte: Devellis (2026), Capítulo 3 — elaboração própria.</text>
+</svg>

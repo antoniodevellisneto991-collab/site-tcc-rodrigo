@@ -1,0 +1,207 @@
+{
+  "metadados": {
+    "titulo": "Diagnóstico do risco: o paciente parcial e a expansão do acesso à PrEP no Brasil",
+    "autor": "Rodrigo Antonio Devellis",
+    "orientadora": "Márcia da Silva Mazon",
+    "instituicao": "Universidade Federal de Santa Catarina",
+    "curso": "Ciências Sociais",
+    "grau": "licenciatura",
+    "ano": 2026,
+    "palavras_chave": [
+      "PrEP",
+      "adolescência",
+      "HIV/aids",
+      "PCDT",
+      "medicalização do risco",
+      "dispositivo",
+      "biopolítica",
+      "governamentalidade",
+      "paciente parcial",
+      "cidadania biológica"
+    ]
+  },
+  "introducao": {
+    "ideias_centrais": [
+      "O PCDT de 2025 estende a PrEP a pessoas a partir de 15 anos e dispensa a autorização parental, sob sigilo; o adolescente é incorporado como sujeito elegível.",
+      "O protocolo não apenas identifica um grupo já existente para protegê-lo: ao defini-lo, produz em parte a figura do adolescente sexualmente ativo, autônomo, compreendente e acompanhado.",
+      "A investigação recusa causas, efeitos e méritos da medida e trata a inclusão do adolescente como objeto a descrever, e não a celebrar ou denunciar."
+    ],
+    "pergunta_de_pesquisa": "De que modo o protocolo torna o adolescente inteligível e governável — sexualmente ativo, autônomo, apto a compreender e a aderir ao acompanhamento — ao defini-lo como elegível?",
+    "objetivo_geral": "Analisar, a partir de revisão teórica e bibliográfica, as condições sociais, históricas e teóricas que tornam possível a expansão do acesso à PrEP entre adolescentes de 15 a 19 anos no Brasil, articulando dispositivo, biopolítica, governamentalidade, medicalização e cidadania biológica ao caso codificado no PCDT (BRASIL, 2025).",
+    "objetivos_especificos": [
+      "Examinar a PrEP como tecnologia inscrita no dispositivo da aids, identificando os deslocamentos internos que sua incorporação produz na configuração brasileira da prevenção (Foucault, Conrad, Rose).",
+      "Examinar o adolescente como categoria historicamente construída e como segmento-alvo da expansão, reconstituindo sua sociogênese e sua operacionalização no PCDT (critérios de elegibilidade, dispensa de autorização parental, marcadores etários, comportamentais e epidemiológicos)."
+    ],
+    "justificativa": "A inclusão do adolescente como sujeito elegível marca uma inflexão na política brasileira de prevenção ao HIV; o pouco examinado é o modo como essa entrada na política pública se organiza — por quais critérios, arranjos jurídicos e qual figura do adolescente.",
+    "metodologia": "Pesquisa qualitativa, teórico-bibliográfica e documental. Corpus: o PCDT (BRASIL, 2025) como fonte central e o referencial teórico como categorias de leitura. Análise de inspiração genealógica, com o documento lido como elemento ativo (Prior). Limite assumido: a leitura se detém no plano da página, não nos usos do documento.",
+    "quadro_teorico_minimo": [
+      { "nome": "Dispositivo", "autor": "Foucault", "definicao": "Rede heterogênea de discursos, leis, normas e práticas que responde a uma urgência histórica e produz os sujeitos sobre os quais incide.", "fonte": "FOUCAULT, 1998" },
+      { "nome": "Biopolítica e governamentalidade", "autor": "Foucault", "definicao": "A biopolítica toma a vida das populações como superfície de intervenção; a governamentalidade é a racionalidade e as tecnologias que conduzem condutas.", "fonte": "FOUCAULT, 2008" },
+      { "nome": "Dispositivo da aliança x dispositivo da sexualidade", "autor": "Foucault", "definicao": "A família como permutador entre um regime centrado no parentesco/lei e outro centrado na clínica/exame.", "fonte": "FOUCAULT, 1999" },
+      { "nome": "Medicalização e paciente parcial", "autor": "Conrad", "definicao": "Definir um problema em termos médicos é conferir jurisdição; a medicalização do risco trata como condição atual o que é probabilidade futura, e o paciente parcial medica um corpo sem doença.", "fonte": "CONRAD, 2006, 2007" },
+      { "nome": "Política vital e cidadania biológica", "autor": "Rose", "definicao": "Modulação das capacidades vitais no plano molecular e reorganização de solidariedades e demandas em torno de estatutos biológicos, que também abrem a possibilidade de reivindicar a vida como direito.", "fonte": "ROSE, 2007" },
+      { "nome": "Documento como elemento ativo", "autor": "Prior", "definicao": "O documento tem autoria distribuída (author-function) e participa da constituição daquilo que parece apenas registrar.", "fonte": "PRIOR, 2003" }
+    ]
+  },
+  "capitulos": [
+    {
+      "numero": "1",
+      "titulo": "Dispositivo e PCDT",
+      "tese_do_capitulo": "O PCDT não se limita a reconhecer um grupo vulnerável para protegê-lo; ao defini-lo, estende o dispositivo da sexualidade no gesto mesmo com que protege, produzindo o adolescente como sujeito autônomo, compreendente e acompanhado.",
+      "ideias_centrais": [
+        "Vigiar e punir e A vontade de saber comparecem como forma/procedimento de leitura do dispositivo, não como conteúdo carcerário transposto ao protocolo.",
+        "O dado epidemiológico não encontra o jovem como grupo de risco já dado: constitui-o como superfície de incidência.",
+        "A dispensa da autorização parental desliga o permutador (família/aliança) e religa a sexualidade do adolescente ao dispositivo da sexualidade — à relação clínica.",
+        "Direito (ECA, Código de Ética Médica) e sigilo não são limites a vencer, mas táticas mobilizadas: polivalência tática dos discursos.",
+        "A autonomia é efeito produzido, não pressuposto, e vem amarrada à exigência de compreender a profilaxia e o acompanhamento — isto é, ao ingresso no monitoramento contínuo."
+      ],
+      "funcao_no_argumento": "Instala a analítica do dispositivo e a aplica ao PCDT, fixando a tese matriz (proteger e produzir num só gesto) que os capítulos seguintes desdobram.",
+      "articulacao_com_objeto": "Lê os critérios de elegibilidade e a dispensa de autorização parental do PCDT como deslocamento de um regime de poder (aliança) a outro (sexualidade).",
+      "conceitos_chave": [
+        { "nome": "Dispositivo", "autor": "Foucault", "fonte": "FOUCAULT, 1998, p. 244-246" },
+        { "nome": "Polivalência tática dos discursos", "autor": "Foucault", "fonte": "FOUCAULT, 1999, p. 96-97" },
+        { "nome": "Permutador aliança/sexualidade", "autor": "Foucault", "fonte": "FOUCAULT, 1999, p. 100-106" }
+      ],
+      "autores_mobilizados": [
+        { "nome": "Michel Foucault", "obras": ["Vigiar e punir", "História da sexualidade I", "Microfísica do poder"], "papel": "Fornece a analítica do dispositivo e a distinção aliança/sexualidade." }
+      ],
+      "citacoes_chave": [
+        { "texto": "Os novos casos de aids se concentram, majoritariamente, na população jovem (15 a 24 anos).", "fonte": "BRASIL, 2025", "pagina": "11", "contexto": "Dado epidemiológico que abre a justificativa do protocolo e constitui o jovem como superfície de incidência." },
+        { "texto": "Não sendo necessário o consentimento dos pais e/ou responsáveis.", "fonte": "BRASIL, 2025", "pagina": "21", "contexto": "Dispensa da autorização parental lida como desligamento do permutador." }
+      ],
+      "secoes": [
+        { "numero": "1.1", "titulo": "Sobre a vigilância: suavizada e sofisticada", "ideias_centrais": ["A peça recusada pelo programa penal (a prisão) é a que vence: o dispositivo retém efeitos não previstos.", "O poder é produtivo: constitui a criança como sujeito sexual, não apenas interdita."] },
+        { "numero": "1.2", "titulo": "Sexualidade livre mas produzida", "ideias_centrais": ["Afirmar o sexo pode ser mover-se conforme o traçado do dispositivo; a liberdade vivida não está fora do que a tornou possível."] },
+        { "numero": "1.3", "titulo": "Definição", "ideias_centrais": ["O dispositivo é rede heterogênea, sistema móvel de relações e resposta estratégica a uma urgência; sobredeterminação funcional e preenchimento estratégico."] },
+        { "numero": "1.4", "titulo": "A PrEP para adolescentes: a autonomia como inscrição no dispositivo", "ideias_centrais": ["A criança masturbadora retorna na cláusula do sujeito 'sexualmente ativo' em 'vulnerabilidade acrescida'.", "O sigilo abre o acesso em vez de suprimir; a autonomia é produzida na exigência de compreensão."] },
+        { "numero": "1.5", "titulo": "Síntese", "ideias_centrais": ["Cuidado e controle não se opõem: a analítica não opta entre eles porque a oposição perde consistência."] }
+      ]
+    },
+    {
+      "numero": "2",
+      "titulo": "Dispositivo da aids",
+      "tese_do_capitulo": "A aids não é entidade clínica anterior aos discursos que a nomeiam, mas acontecimento histórico; o discurso preventivo jamais incidiu sobre populações previamente dadas, mas sobre populações que precisou produzir — e o PCDT herda e reorganiza essa lógica.",
+      "ideias_centrais": [
+        "Barata: a cobertura televisiva (o Fantástico) constituiu o horizonte de inteligibilidade da aids no Brasil, com a passagem de 'grupo de risco' a 'comportamento de risco'.",
+        "Herzlich e Pierret: a imprensa 'fez existir a aids'; a noção de 'grupo de risco' desliza de associação probabilística a nexo causal.",
+        "Perlongher: a aids 'chegou nos braços da moda'; o pânico excede a incidência e a prevenção converte-se em repressão (Serra Pelada); há descompasso entre o modelo importado e as homossexualidades populares.",
+        "De la Dehesa: dos anos 1980 (movimento sanitário, ONGs, SUS, direito à saúde) aos anos 1990, a rede converte-se em governamentalidade em rede (Banco Mundial, editais, agentes multiplicadores).",
+        "Pelúcio e Miskolci: a 'SIDAdanização' produz um sujeito responsabilizado e autovigilante; a seletividade do dispositivo gera uma 'ironia mortal'.",
+        "A defasagem entre a população pressuposta e a encontrada retorna, em outra escala, na distância entre o adolescente do PCDT e o dos serviços."
+      ],
+      "funcao_no_argumento": "Situa a PrEP na genealogia da resposta brasileira à aids, mostrando a continuidade da operação que produz a população sobre a qual a prevenção incide.",
+      "articulacao_com_objeto": "Enquadra o PCDT de 2025 como herdeiro reorganizador do dispositivo da aids.",
+      "autores_mobilizados": [
+        { "nome": "Germana Barata", "obras": ["A primeira década da AIDS no Brasil"], "papel": "Mídia como instância de construção da realidade social da aids." },
+        { "nome": "Herzlich e Pierret", "papel": "A imprensa faz existir a aids; deslizamento do 'grupo de risco'." },
+        { "nome": "Néstor Perlongher", "obras": ["O que é AIDS"], "papel": "Pânico, moralização e repressão; descompasso do modelo preventivo." },
+        { "nome": "Rafael de la Dehesa", "papel": "Genealogia institucional da resposta brasileira (governamentalidade em rede)." },
+        { "nome": "Pelúcio e Miskolci", "papel": "SIDAdanização: subjetivação preventiva e responsabilização." }
+      ],
+      "secoes": [
+        { "numero": "2.1", "titulo": "Entre os jornais franceses", "ideias_centrais": ["Nomeação e enumeração; 'grupo de risco' como operador que produz o objeto que supõe encontrar."] },
+        { "numero": "2.2", "titulo": "Na onda da moda", "ideias_centrais": ["Herzlich/Pierret protegem a doença contra a metáfora; Perlongher protege o desejo contra o medo."] },
+        { "numero": "2.3", "titulo": "A sociedade", "ideias_centrais": ["Anos 1980 como composição do dispositivo; anos 1990 como governamentalidade (Segurança, território, população)."] },
+        { "numero": "2.4", "titulo": "SIDAnização", "ideias_centrais": ["O centro operativo é o discurso da prevenção; heteronormatividade como finalidade interiorizada; autovigilância sorológica (Silva e Monteiro)."] }
+      ]
+    },
+    {
+      "numero": "3",
+      "titulo": "Pessoas jovens",
+      "tese_do_capitulo": "A adolescência não é dado natural, mas categoria historicamente construída; a figura homogênea do adolescente elegível desde os quinze anos pressupõe o 'grupo constituído' que Bourdieu identifica como ficção, apagando juventudes que não se equivalem.",
+      "ideias_centrais": [
+        "Bourdieu e Passeron (Os herdeiros): viver os estudos como tempo em suspenso depende de classe; a 'má-fé coletiva' e a conversão de desigualdades em 'dons'.",
+        "Stiegler: a menoridade é aquisição social de responsabilidade (Kant/Esclarecimento); as psicotecnologias capturam a atenção que a escola deveria formar.",
+        "Hall inscreve a adolescência na biologia ('storm and stress'); Boas e Mead a relativizam culturalmente — reconhecer e governar são inseparáveis.",
+        "Ariès: as idades da vida são construção histórica; passa-se de 'uma época sem adolescência' à 'idade favorita'.",
+        "Bourdieu ('A juventude é apenas uma palavra'): a idade é dado biológico socialmente manipulado; há ao menos duas juventudes.",
+        "A classificação (idade, diagnóstico — Mazon sobre DSM-III/TDAH) torna sujeitos legíveis, comparáveis e passíveis de intervenção."
+      ],
+      "funcao_no_argumento": "Desnaturaliza a categoria 'adolescente' que o PCDT toma como dada, preparando a crítica à sua figura homogênea.",
+      "articulacao_com_objeto": "Mostra que o adolescente 'apto à norma desde os quinze' pressupõe uma unidade fictícia que o protocolo não diferencia.",
+      "autores_mobilizados": [
+        { "nome": "Bourdieu e Passeron", "obras": ["Os herdeiros"], "papel": "A condição juvenil como privilégio de classe." },
+        { "nome": "Bernard Stiegler", "obras": ["Taking care of youth and the generations"], "papel": "Menoridade como aquisição social; economia da atenção." },
+        { "nome": "G. Stanley Hall", "obras": ["Adolescence"], "papel": "Inscrição biológica/recapitulacionista da adolescência." },
+        { "nome": "Franz Boas / Margaret Mead", "papel": "Crítica cultural à universalização da crise adolescente." },
+        { "nome": "Philippe Ariès", "papel": "Construção histórica das idades da vida." },
+        { "nome": "Pierre Bourdieu", "papel": "A juventude como 'abuso de linguagem'." }
+      ],
+      "secoes": [
+        { "numero": "3.1", "titulo": "Biológicos e culturais", "ideias_centrais": ["A adolescência como objeto científico e administrável entre biologia, psicologia e pedagogia."] },
+        { "numero": "3.2", "titulo": "Construção histórica", "ideias_centrais": ["De Le Grand Propriétaire a Siegfried e à guerra de 1914: a adolescência como idade privilegiada do século XX."] },
+        { "numero": "3.3", "titulo": "Apenas uma palavra", "ideias_centrais": ["A demarcação etária como parada em jogo de luta; o adolescente é engendrado pela separação que o nomeia."] }
+      ]
+    },
+    {
+      "numero": "4",
+      "titulo": "PCDT, o documento",
+      "tese_do_capitulo": "Lido como dispositivo documental (Prior), o PCDT converte a infecção por HIV em questão de governamentalidade: constitui uma população sexualmente exposta, torna as exposições comparáveis e elegíveis, produz verdade metodicamente e retorna ao indivíduo na figura do sujeito aderente.",
+      "ideias_centrais": [
+        "Author-function distribuída: mandato estatal (Decreto 7.508/2011) repartido entre Dathi, SVSA, Comitê Técnico e Conitec.",
+        "'Vulnerabilidade acrescida' desloca o risco da identidade para práticas e determinantes sociais, sem abandonar a produção de categorias governáveis.",
+        "Segurança, território, população: o protocolo compõe lei (vetos binários), disciplina (posologia, retorno) e segurança (modulação por séries e probabilidades); a PrEP sob demanda (2+1+1) explicita esse cruzamento.",
+        "Nascimento da biopolítica: PICO/PICOS, descritores controlados, GRADE, consenso e consulta pública operam como veridicção — o 'risco' e a 'elegibilidade' constituem-se no percurso do aparato.",
+        "O uso off-label e a extrapolação por analogia mostram que a autoridade vem tanto do que o aparato demonstra quanto do modo regulado com que trata o que não pode demonstrar.",
+        "Sujeito aderente: o social não é apagado, é retraduzido tecnicamente em variável de risco, adesão e autovigilância."
+      ],
+      "funcao_no_argumento": "Núcleo empírico: examina o PCDT em detalhe como dispositivo documental e sustenta a tese de que ele governa por uma verdade produzida metodicamente.",
+      "articulacao_com_objeto": "É a leitura analítica e detida do próprio texto do protocolo (elegibilidade, evidência, acompanhamento).",
+      "conceitos_chave": [
+        { "nome": "Author-function", "autor": "Prior", "fonte": "PRIOR, 2003, p. 11-12" },
+        { "nome": "Veridicção", "autor": "Foucault", "fonte": "FOUCAULT, 2008b" },
+        { "nome": "Normalização securitária x normação disciplinar", "autor": "Foucault", "fonte": "FOUCAULT, 2008a" }
+      ],
+      "citacoes_chave": [
+        { "texto": "O simples pertencimento a um dos segmentos populacionais-chave [...] não é suficiente para caracterizar indivíduos em situação de maior vulnerabilidade ao HIV.", "fonte": "BRASIL, 2025", "pagina": "18", "contexto": "Recusa do automatismo identidade = risco." },
+        { "texto": "Os estudos de PrEP sob demanda não apresentam evidências de proteção para relações sexuais neovaginais receptivas.", "fonte": "BRASIL, 2025", "pagina": "40", "contexto": "Limite da extrapolação por analogia; herança do cânone de ensaios centrado no masculino." }
+      ],
+      "secoes": [
+        { "numero": "4.1", "titulo": "Sexualidade, vida e população", "ideias_centrais": ["A vulnerabilidade acrescida como operador que traduz um campo social e biográfico em campo clinicamente legível."] },
+        { "numero": "4.2", "titulo": "Segurança, circulação e elegibilidade", "ideias_centrais": ["A elegibilidade não é porta que abre/fecha, mas ponto em que práticas, corpos, exames e probabilidades viram decisão de governo."] },
+        { "numero": "4.3", "titulo": "Verdade, evidência e decisão", "ideias_centrais": ["A recomendação baseada em evidência é produto de uma cadeia de operações (seleção, vocabulário, fontes, condensação, hierarquia, arbitragem)."] },
+        { "numero": "4.4", "titulo": "Sujeito aderente e limites do dispositivo", "ideias_centrais": ["O cálculo populacional retorna à escala individual como adesão, acompanhamento e responsabilização; o limite não é não ver o social, mas traduzi-lo em variável governável."] }
+      ]
+    },
+    {
+      "numero": "5",
+      "titulo": "O medicamento",
+      "tese_do_capitulo": "Medicar corpos sem doença não começou com a PrEP: do AZT ao tratamento precoce, a racionalidade antirretroviral já se adiantava à doença manifesta, constituindo o paciente parcial (Conrad) e inscrevendo a vida numa política e numa economia do vital (Rose).",
+      "ideias_centrais": [
+        "Epstein: molecularização (o AZT reutilizado); a temporalidade da ciência choca-se com a da morte; o ativismo terapêutico aprende a ler e disputar os ensaios.",
+        "O ACTG 019 (1990) sustenta o tratamento precoce: ao começar a terapia, uma pessoa saudável converte-se em paciente, provavelmente por toda a vida.",
+        "Marcadores substitutivos (CD4, carga viral) instauram uma racionalidade de acompanhamento — seguir, medir e reajustar um corpo que ainda não adoeceu.",
+        "Conrad: definir é conferir jurisdição; medicalização do risco, protodisease, paciente parcial e individualização dos problemas sociais.",
+        "No adolescente, a autonomia é a de entrar por iniciativa própria no dispositivo; exige-se dele a competência para gerir a própria probabilidade.",
+        "Rose: política vital, molecularização, prudência genética e cidadania biológica — tensão constitutiva entre obrigação e agência."
+      ],
+      "funcao_no_argumento": "Fecha a genealogia mostrando que a lógica de antecipação da PrEP é herdada do próprio fármaco, e articula medicalização (Conrad) e subjetivação/cidadania biológica (Rose).",
+      "articulacao_com_objeto": "Relê os critérios do PCDT para o adolescente à luz da medicalização do risco e do paciente parcial.",
+      "autores_mobilizados": [
+        { "nome": "Steven Epstein", "obras": ["Impure science"], "papel": "Constituição contestada da evidência e do tratamento precoce (AZT)." },
+        { "nome": "Peter Conrad", "papel": "Medicalização, medicalização do risco, paciente parcial, individualização." },
+        { "nome": "Nikolas Rose", "obras": ["The politics of life itself"], "papel": "Política vital, molecularização e cidadania biológica." }
+      ],
+      "secoes": [
+        { "numero": "5.1", "titulo": "AZT", "ideias_centrais": ["Da molecularização da aids à politização do acesso ao molecular; medicar o infectado assintomático em nome de um porvir a impedir."] },
+        { "numero": "5.2", "titulo": "Medicalização", "ideias_centrais": ["O risco recoberto por uma racionalidade clínica que o aborda como se já houvesse doença; o paciente parcial e o horizonte do 'último indivíduo saudável'."] },
+        { "numero": "5.3", "titulo": "Biocidadania", "ideias_centrais": ["Quem o indivíduo se torna ao ser inscrito no regime molecular: sujeito convocado a calcular o próprio risco, entre responsabilização e liberdade."] }
+      ]
+    }
+  ],
+  "conclusao": {
+    "ideias_centrais": [
+      "A resposta à pergunta não tem a forma de uma causa, mas de um terreno: dispositivo da aids, racionalidade antirretroviral, adolescência historicamente produzida e a forma documental do protocolo.",
+      "O PCDT não encontra o adolescente que protege: ele o constitui — sexualmente ativo, autônomo, compreendente e acompanhado — no gesto mesmo da proteção.",
+      "A operação recorrente é proteger e produzir num único gesto; a alternativa entre cuidado e controle se dissolve.",
+      "A vida é inscrita numa economia (Rose): o estatuto de soronegativo torna-se valor a manter, e a população elegível sustenta um circuito de saúde pública, indústria e administração do risco.",
+      "A cidadania biológica lembra que o acesso ao fármaco também pode ser reivindicado como direito, contestado e organizado coletivamente."
+    ],
+    "sintese_do_argumento": "Antes de operar como técnica preventiva, a PrEP pressupõe um sujeito de risco que precisou ser constituído; o trabalho descreve as condições e os efeitos dessa constituição.",
+    "limites": "A análise se detém no plano da página — o protocolo como dispositivo escrito —, valendo para os efeitos de subjetivação inscritos no documento, não para os seus usos nos serviços.",
+    "agenda_futura": [
+      "As juventudes no plural: investigar quem efetivamente acessa a profilaxia, sob quais condições e trajetórias, e como a desigualdade convertida em variável retorna na implementação.",
+      "A rede de evidências: acompanhar como o cânone de ensaios centrado no masculino se reproduz ou se corrige nas próximas revisões do documento."
+    ]
+  }
+}

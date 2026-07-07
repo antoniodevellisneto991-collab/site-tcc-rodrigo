@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1010" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}
+      .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}
+      .sub{font-weight:400;font-size:14px;fill:#c7d4e2}
+      .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}
+      .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}
+      .era{font-weight:700;font-size:12.5px;letter-spacing:.8px}
+      .auth{font-weight:600;font-size:12.5px;fill:#5b6472;font-style:italic}
+      .idea{font-weight:400;font-size:13px;fill:#2a2f37}
+      .node{font-weight:700;font-size:14px;fill:#ffffff}
+      .foot{font-weight:400;font-size:12px;fill:#8a94a1}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="1010" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 2 · DISPOSITIVO DA AIDS</text>
+  <text x="40" y="72" class="sub">Uma genealogia — da mídia e do pânico à governamentalidade e à subjetivação</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 2.1 – 2.4</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">A aids não é entidade clínica anterior aos discursos que a nomeiam, mas acontecimento histórico;</text>
+  <text x="66" y="194" class="q">o discurso preventivo nunca incidiu sobre populações dadas — sempre as produziu. O PCDT herda essa lógica.</text>
+
+  <!-- TIMELINE rail -->
+  <line x1="150" y1="312" x2="150" y2="872" stroke="#c2c9d2" stroke-width="3"/>
+
+  <!-- Stage 1 -->
+  <line x1="166" y1="312" x2="185" y2="312" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="312" r="16" fill="#0f766e"/><text x="150" y="317" text-anchor="middle" class="node">1</text>
+  <rect x="185" y="250" width="735" height="124" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="185" y="258" width="6" height="108" rx="3" fill="#0f766e"/>
+  <text x="205" y="278" class="era" fill="#0f766e">ANOS 1980 · MÍDIA E PÂNICO</text>
+  <text x="205" y="298" class="auth">Barata · Herzlich &amp; Pierret · Perlongher</text>
+  <text x="205" y="322" class="idea">A imprensa "faz existir a aids": nomeação e enumeração; o "grupo de risco" desliza de associação</text>
+  <text x="205" y="342" class="idea">probabilística a nexo causal. No Brasil, "chegou nos braços da moda" — o pânico excede a incidência</text>
+  <text x="205" y="362" class="idea">e a prevenção tende a converter-se em repressão (Serra Pelada, 1985).</text>
+
+  <!-- Stage 2 -->
+  <line x1="166" y1="452" x2="185" y2="452" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="452" r="16" fill="#0C56A6"/><text x="150" y="457" text-anchor="middle" class="node">2</text>
+  <rect x="185" y="390" width="735" height="124" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="185" y="398" width="6" height="108" rx="3" fill="#0C56A6"/>
+  <text x="205" y="418" class="era" fill="#0C56A6">ANOS 1980 · SOCIEDADE CIVIL E DIREITO</text>
+  <text x="205" y="438" class="auth">De la Dehesa</text>
+  <text x="205" y="462" class="idea">Movimento sanitário, GAPA, ABIA e Pela Vidda; Constituição de 1988 e SUS. A resposta brasileira</text>
+  <text x="205" y="482" class="idea">nasce ligada à participação social e ao direito à saúde — uma outra via política para a epidemia,</text>
+  <text x="205" y="502" class="idea">simultânea ao medo, e não posterior a ele.</text>
+
+  <!-- Stage 3 -->
+  <line x1="166" y1="592" x2="185" y2="592" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="592" r="16" fill="#2867AE"/><text x="150" y="597" text-anchor="middle" class="node">3</text>
+  <rect x="185" y="530" width="735" height="124" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="185" y="538" width="6" height="108" rx="3" fill="#2867AE"/>
+  <text x="205" y="558" class="era" fill="#2867AE">ANOS 1990 · GOVERNAMENTALIDADE EM REDE</text>
+  <text x="205" y="578" class="auth">De la Dehesa · Foucault (Segurança, território, população)</text>
+  <text x="205" y="602" class="idea">Programa Nacional DST/AIDS, Banco Mundial (AIDS I e II), editais, metas e agentes multiplicadores;</text>
+  <text x="205" y="622" class="idea">medicamento gratuito como política de Estado (1996). O Estado passa a atuar como nó de coordenação</text>
+  <text x="205" y="642" class="idea">de uma rede — não como soberano que comanda a epidemia de fora.</text>
+
+  <!-- Stage 4 -->
+  <line x1="166" y1="732" x2="185" y2="732" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="732" r="16" fill="#a9761f"/><text x="150" y="737" text-anchor="middle" class="node">4</text>
+  <rect x="185" y="670" width="735" height="124" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="185" y="678" width="6" height="108" rx="3" fill="#a9761f"/>
+  <text x="205" y="698" class="era" fill="#a9761f">ANOS 2000 · SUBJETIVAÇÃO</text>
+  <text x="205" y="718" class="auth">Pelúcio &amp; Miskolci · Rose · Silva &amp; Monteiro</text>
+  <text x="205" y="742" class="idea">"SIDAdanização": individualização, racionalização e responsabilização do sujeito pela própria saúde.</text>
+  <text x="205" y="762" class="idea">A heteronormatividade como norma interiorizada; a seletividade do dispositivo e sua "ironia mortal";</text>
+  <text x="205" y="782" class="idea">a testagem como autovigilância sorológica e gestão do risco.</text>
+
+  <!-- Stage 5 highlight -->
+  <line x1="166" y1="872" x2="185" y2="872" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="872" r="16" fill="#8a2b3f"/><text x="150" y="877" text-anchor="middle" class="node">5</text>
+  <rect x="185" y="810" width="735" height="124" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="185" y="818" width="6" height="108" rx="3" fill="#8a2b3f"/>
+  <text x="205" y="838" class="era" fill="#8a2b3f">2025 · O PCDT HERDA E REORGANIZA</text>
+  <text x="205" y="862" class="idea">O protocolo constitui o adolescente vulnerável antes de torná-lo elegível à PrEP. A defasagem entre a</text>
+  <text x="205" y="882" class="idea">população pressuposta e a encontrada retorna: do modelo importado às homossexualidades populares</text>
+  <text x="205" y="902" class="idea">(Perlongher), e agora do adolescente pressuposto ao que o protocolo encontra nos serviços.</text>
+
+  <text x="40" y="972" class="foot">Fonte: Devellis (2026), Capítulo 2 — elaboração própria.</text>
+</svg>

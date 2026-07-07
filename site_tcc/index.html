@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagnóstico do risco: o paciente parcial e a expansão do acesso à PrEP no Brasil — TCL · UFSC 2026</title>
+<meta name="description" content="Site do Trabalho de Conclusão de Licenciatura de Rodrigo Antonio Devellis (Ciências Sociais, UFSC, 2026): mapas visuais e sínteses da introdução, dos cinco capítulos e da conclusão.">
+<meta property="og:title" content="Diagnóstico do risco: o paciente parcial e a expansão do acesso à PrEP no Brasil">
+<meta property="og:description" content="O paciente parcial e a expansão do acesso à PrEP no Brasil — mapas visuais do TCL, capítulo a capítulo.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 64 64&#x27;&gt;&lt;rect width=&#x27;64&#x27; height=&#x27;64&#x27; rx=&#x27;12&#x27; fill=&#x27;%230A4595&#x27;/&gt;&lt;rect x=&#x27;12&#x27; y=&#x27;44&#x27; width=&#x27;40&#x27; height=&#x27;6&#x27; rx=&#x27;3&#x27; fill=&#x27;%23F2A900&#x27;/&gt;&lt;text x=&#x27;32&#x27; y=&#x27;38&#x27; font-family=&#x27;system-ui&#x27; font-size=&#x27;26&#x27; font-weight=&#x27;700&#x27; fill=&#x27;white&#x27; text-anchor=&#x27;middle&#x27;&gt;Dx&lt;/text&gt;&lt;/svg&gt;">
+<style>
+:root{
+  --azul:#0A4595; --azul2:#0C56A6; --amarelo:#F2A900; --fundo:#eef2f6;
+  --tinta:#1f2731; --tinta2:#2a2f37; --borda:#dde3ea; --vinho:#8a2b3f; --muted:#6b7480;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--fundo);color:var(--tinta2);
+  font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;
+  font-size:16px;line-height:1.55}
+/* ---------- header ---------- */
+header.site{background:var(--azul);color:#fff;border-bottom:4px solid var(--amarelo)}
+.header-in{max-width:1060px;margin:0 auto;padding:28px 24px 22px}
+.kicker{font-size:12px;font-weight:600;letter-spacing:1.6px;color:#9db2c9;text-transform:uppercase}
+h1{margin:.35em 0 .15em;font-size:clamp(21px,3.2vw,30px);line-height:1.25;letter-spacing:.2px}
+.subtitle{margin:0;color:#c7d4e2;font-size:clamp(14px,2vw,16.5px)}
+.byline{margin-top:14px;font-size:13.5px;color:#c7d4e2}
+.byline strong{color:#fff;font-weight:600}
+.byline span{white-space:nowrap}
+.sep{opacity:.55;margin:0 .5em}
+/* ---------- tabs ---------- */
+nav.tabs{position:sticky;top:0;z-index:40;background:var(--azul2);box-shadow:0 2px 8px rgba(15,30,60,.25)}
+.tabs-in{max-width:1060px;margin:0 auto;display:flex;overflow-x:auto;scrollbar-width:thin;padding:0 12px}
+.tab{appearance:none;border:0;background:none;color:#cfdcec;font:inherit;font-size:13.5px;font-weight:600;
+  padding:13px 14px 11px;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent}
+.tab:hover{color:#fff;background:rgba(255,255,255,.06)}
+.tab[aria-selected="true"]{color:#fff;border-bottom-color:var(--amarelo)}
+.tab:focus-visible{outline:2px solid #fff;outline-offset:-2px}
+/* ---------- painel ---------- */
+main{max-width:1060px;margin:0 auto;padding:28px 24px 8px}
+.panel h2{margin:0 0 14px;font-size:clamp(19px,2.6vw,25px);color:var(--tinta)}
+.callout{background:#fbeef1;border:1px solid #e6c4cd;border-left:6px solid var(--vinho);
+  border-radius:10px;padding:14px 18px;margin:0 0 20px}
+.callout-label{display:block;font-size:11.5px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--vinho)}
+.callout p{margin:.45em 0 0;font-size:16.5px;color:#5a1b2b;font-weight:500}
+/* ---------- mapa ---------- */
+.mapa{margin:0 0 22px;background:#fff;border:1px solid var(--borda);border-radius:12px;overflow:hidden}
+.mapa-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  padding:9px 16px;background:#f7f9fb;border-bottom:1px solid var(--borda);
+  font-size:12.5px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
+.btn-zoom{appearance:none;font:inherit;font-size:12.5px;font-weight:700;color:var(--azul2);
+  background:#fff;border:1px solid var(--borda);border-radius:999px;padding:4px 14px;cursor:pointer}
+.btn-zoom:hover{border-color:var(--azul2)}
+.mapa-holder{padding:0}
+.mapa-holder svg{display:block;width:100%;height:auto}
+.mapa figcaption{padding:8px 16px;font-size:12px;color:var(--muted);border-top:1px solid var(--borda)}
+/* ---------- details ---------- */
+details{background:#fff;border:1px solid var(--borda);border-radius:10px;margin:0 0 12px;overflow:hidden}
+details summary{cursor:pointer;list-style:none;padding:13px 18px;font-weight:700;font-size:14.5px;color:var(--tinta);
+  display:flex;align-items:center;gap:10px}
+details summary::before{content:"";width:9px;height:9px;border-right:2px solid var(--azul2);
+  border-bottom:2px solid var(--azul2);transform:rotate(-45deg);transition:transform .18s;flex:0 0 auto;margin-left:2px}
+details[open] summary::before{transform:rotate(45deg)}
+details summary::-webkit-details-marker{display:none}
+details[open] summary{border-bottom:1px solid var(--borda)}
+.dbody{padding:14px 20px 16px}
+.dbody p{margin:.4em 0 .8em}
+.just{text-align:justify}
+ul.ideias{margin:.2em 0 .4em;padding-left:20px}
+ul.ideias li{margin:0 0 .55em}
+ol.secoes{margin:.2em 0 .4em;padding-left:8px;list-style:none}
+ol.secoes>li{margin:0 0 .9em}
+.sec-num{display:inline-block;background:var(--azul2);color:#fff;font-size:12px;font-weight:700;
+  border-radius:6px;padding:1px 8px;margin-right:6px}
+ol.secoes ul.ideias{margin-top:.35em}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.card{background:#fdf6ea;border:1px solid #ecd9b6;border-radius:8px;padding:12px 14px}
+.card h4{margin:0 0 6px;font-size:14.5px;color:var(--tinta)}
+.card p{margin:0 0 6px;font-size:13.5px}
+.obras{font-size:12.5px;color:var(--muted);font-style:italic}
+blockquote{margin:0 0 14px;background:#f7f9fb;border-left:4px solid var(--amarelo);
+  border-radius:0 8px 8px 0;padding:12px 16px;font-size:15px;color:var(--tinta)}
+blockquote cite{display:block;margin-top:6px;font-style:normal;font-size:12.5px;font-weight:700;color:var(--muted)}
+blockquote .ctx{margin:.5em 0 0;font-size:13px;color:var(--muted)}
+.chips{margin-top:10px;display:flex;flex-wrap:wrap;gap:7px}
+.chip{background:#fdf6ea;border:1px solid #ecd9b6;color:#7a5a1c;font-size:12.5px;font-weight:600;
+  border-radius:999px;padding:3px 12px}
+/* ---------- prev/next ---------- */
+.pager{display:flex;justify-content:space-between;gap:12px;margin:26px 0 0}
+.pager button{appearance:none;font:inherit;font-size:13.5px;font-weight:700;color:var(--azul2);
+  background:#fff;border:1px solid var(--borda);border-radius:10px;padding:10px 18px;cursor:pointer;max-width:48%}
+.pager button:hover{border-color:var(--azul2)}
+.pager button[hidden]{visibility:hidden}
+/* ---------- footer ---------- */
+footer.site{margin-top:34px;background:var(--azul);color:#c7d4e2;border-top:4px solid var(--amarelo)}
+.footer-in{max-width:1060px;margin:0 auto;padding:22px 24px;font-size:12.5px;line-height:1.7}
+footer.site strong{color:#fff}
+/* ---------- lightbox ---------- */
+#lightbox{position:fixed;inset:0;z-index:100;background:rgba(10,22,40,.86);display:none}
+#lightbox.on{display:flex;flex-direction:column}
+.lb-bar{display:flex;justify-content:flex-end;align-items:center;gap:10px;padding:10px 16px}
+.lb-bar .lb-title{margin-right:auto;color:#cfdcec;font-size:13px;font-weight:600;letter-spacing:.8px;text-transform:uppercase}
+.lb-bar button{appearance:none;font:inherit;font-weight:800;font-size:14px;color:var(--tinta);
+  background:#fff;border:0;border-radius:8px;padding:6px 14px;cursor:pointer}
+.lb-scroll{flex:1;overflow:auto;padding:0 24px 24px;text-align:center}
+.lb-holder{display:inline-block;text-align:left;background:#eef2f6;border-radius:10px;overflow:hidden}
+.lb-holder svg{display:block;height:auto}
+@media (max-width:640px){
+  .header-in{padding:22px 16px 18px}
+  main{padding:20px 14px 4px}
+  .dbody{padding:12px 14px}
+  .pager button{max-width:100%}
+}
+@media print{
+  nav.tabs,.btn-zoom,.pager,#lightbox{display:none!important}
+  .panel[hidden]{display:block!important}
+  details{page-break-inside:avoid}
+  body{background:#fff}
+}
+</style>
+<noscript><style>.panel[hidden]{display:block!important}nav.tabs,.pager{display:none!important}</style></noscript>
+</head>
+<body>
+<header class="site">
+  <div class="header-in">
+    <div class="kicker">Trabalho de Conclusão de Licenciatura · Ciências Sociais · UFSC · 2026</div>
+    <h1>Diagnóstico do risco</h1>
+    <p class="subtitle">O paciente parcial e a expansão do acesso à PrEP no Brasil</p>
+    <div class="byline">
+      <span><strong>Rodrigo Antonio Devellis</strong></span><span class="sep">·</span>
+      <span>Orientadora: <strong>Márcia da Silva Mazon</strong></span><span class="sep">·</span>
+      <span>Centro de Filosofia e Ciências Humanas</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Capítulos">
+  <div class="tabs-in" role="tablist"><button class="tab" role="tab" id="tab-introducao" aria-controls="panel-introducao" aria-selected="false" tabindex="-1" data-tab="introducao">Introdução</button><button class="tab" role="tab" id="tab-capitulo-1" aria-controls="panel-capitulo-1" aria-selected="false" tabindex="-1" data-tab="capitulo-1">1 · Dispositivo e PCDT</button><button class="tab" role="tab" id="tab-capitulo-2" aria-controls="panel-capitulo-2" aria-selected="false" tabindex="-1" data-tab="capitulo-2">2 · Dispositivo da aids</button><button class="tab" role="tab" id="tab-capitulo-3" aria-controls="panel-capitulo-3" aria-selected="false" tabindex="-1" data-tab="capitulo-3">3 · Pessoas jovens</button><button class="tab" role="tab" id="tab-capitulo-4" aria-controls="panel-capitulo-4" aria-selected="false" tabindex="-1" data-tab="capitulo-4">4 · PCDT, o documento</button><button class="tab" role="tab" id="tab-capitulo-5" aria-controls="panel-capitulo-5" aria-selected="false" tabindex="-1" data-tab="capitulo-5">5 · O medicamento</button><button class="tab" role="tab" id="tab-conclusao" aria-controls="panel-conclusao" aria-selected="false" tabindex="-1" data-tab="conclusao">Conclusão</button></div>
+</nav>
+
+<main>
+<section class="panel" role="tabpanel" id="panel-introducao" aria-labelledby="tab-introducao" hidden><h2>Introdução</h2><div class="callout"><span class="callout-label">Pergunta de pesquisa</span><p>De que modo o protocolo torna o adolescente inteligível e governável — sexualmente ativo, autônomo, apto a compreender e a aderir ao acompanhamento — ao defini-lo como elegível?</p></div><figure class="mapa" data-mapa="introducao"><div class="mapa-bar"><span>Mapa visual — Introdução</span><button type="button" class="btn-zoom" data-zoom="introducao" title="Ampliar o mapa">&#x2922; ampliar</button></div><div class="mapa-holder"><svg id="svg-intro" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1200" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>#svg-intro .h1{font-weight:700;font-size:30px;fill:#ffffff;letter-spacing:2px}#svg-intro .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}#svg-intro .sub{font-weight:400;font-size:14px;fill:#c7d4e2}#svg-intro .chip{font-weight:700;font-size:12px;letter-spacing:1.6px}#svg-intro .lead{font-weight:600;font-size:16px;fill:#1f2731}#svg-intro .body{font-weight:400;font-size:15px;fill:#2a2f37}#svg-intro .bodysm{font-weight:400;font-size:13.5px;fill:#2f353d}#svg-intro .q{font-weight:500;font-size:16.5px;fill:#5a1b2b}#svg-intro .pill{font-weight:700;font-size:14.5px;fill:#1f2731}#svg-intro .item{font-weight:400;font-size:12.5px;fill:#3a4048}#svg-intro .muted{fill:#6b7480}#svg-intro .foot{font-weight:400;font-size:12px;fill:#8a94a1}</style>
+    <marker id="svg-intro-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#aeb8c4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="1200" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="46" class="h1">INTRODUÇÃO</text>
+  <text x="40" y="74" class="sub">Diagnóstico do risco: o paciente parcial e a expansão do acesso à PrEP no Brasil</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DA INTRODUÇÃO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">TCC · CIÊNCIAS SOCIAIS · UFSC · 2026</text>
+
+  <!-- 1. O OBJETO -->
+  <rect x="40" y="120" width="880" height="138" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="128" width="6" height="122" rx="3" fill="#0f766e"/>
+  <text x="66" y="150" class="chip" fill="#0f766e">O OBJETO</text>
+  <text x="66" y="178" class="lead">A inflexão do PCDT 2025</text>
+  <circle cx="72" cy="201" r="3" fill="#0f766e"/><text x="86" y="206" class="body">PrEP estendida a todas as pessoas a partir de 15 anos (peso ≥ 35 kg).</text>
+  <circle cx="72" cy="223" r="3" fill="#0f766e"/><text x="86" y="228" class="body">Início sem anuência de pais ou responsáveis, sob reserva de sigilo.</text>
+  <circle cx="72" cy="245" r="3" fill="#0f766e"/><text x="86" y="250" class="body">O acesso passa a depender da relação entre o adolescente e o serviço de saúde.</text>
+
+  <line x1="480" y1="258" x2="480" y2="273" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-intro-arrow)"/>
+
+  <!-- 2. O PROBLEMA -->
+  <rect x="40" y="274" width="880" height="94" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="282" width="6" height="78" rx="3" fill="#374151"/>
+  <text x="66" y="304" class="chip" fill="#374151">O PROBLEMA</text>
+  <text x="66" y="330" class="body">Ao defini-lo como elegível, o protocolo não apenas reconhece o adolescente:</text>
+  <text x="66" y="352" class="body">em parte o <tspan font-weight="600">produz</tspan> — sexualmente ativo, autônomo, apto a compreender e a aderir.</text>
+
+  <line x1="480" y1="368" x2="480" y2="383" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-intro-arrow)"/>
+
+  <!-- 3. PERGUNTA DE PESQUISA -->
+  <rect x="40" y="384" width="880" height="130" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="392" width="6" height="114" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="414" class="chip" fill="#8a2b3f">PERGUNTA DE PESQUISA</text>
+  <text x="66" y="444" class="q">De que modo o protocolo torna o adolescente inteligível e governável —</text>
+  <text x="66" y="470" class="q">sexualmente ativo, autônomo, apto a compreender e a aderir ao acompanhamento —</text>
+  <text x="66" y="496" class="q">ao defini-lo como elegível?</text>
+
+  <line x1="480" y1="514" x2="480" y2="529" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-intro-arrow)"/>
+
+  <!-- 4. OBJETIVO GERAL -->
+  <rect x="40" y="530" width="880" height="130" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="538" width="6" height="114" rx="3" fill="#0C56A6"/>
+  <text x="66" y="560" class="chip" fill="#0C56A6">OBJETIVO GERAL</text>
+  <text x="66" y="588" class="body">Analisar as condições sociais, históricas e teóricas que tornam possível a</text>
+  <text x="66" y="610" class="body">expansão do acesso à PrEP entre adolescentes de 15 a 19 anos no Brasil,</text>
+  <text x="66" y="632" class="body">articulando dispositivo, biopolítica, governamentalidade, medicalização e</text>
+  <text x="66" y="654" class="body">cidadania biológica ao caso codificado no PCDT (BRASIL, 2025).</text>
+
+  <line x1="480" y1="660" x2="480" y2="675" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-intro-arrow)"/>
+
+  <!-- 5. OBJETIVOS ESPECÍFICOS -->
+  <text x="480" y="694" text-anchor="middle" class="chip" fill="#2867AE">OBJETIVOS ESPECÍFICOS</text>
+  <rect x="40" y="704" width="428" height="150" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <text x="60" y="732" class="pill">1 · A PrEP no dispositivo da aids</text>
+  <text x="60" y="758" class="bodysm">Situar a PrEP no dispositivo da aids e</text>
+  <text x="60" y="778" class="bodysm">identificar os deslocamentos que sua</text>
+  <text x="60" y="798" class="bodysm">incorporação produz na prevenção brasileira.</text>
+  <text x="60" y="826" class="bodysm muted" font-style="italic">Foucault · Conrad · Rose</text>
+
+  <rect x="492" y="704" width="428" height="150" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <text x="512" y="732" class="pill">2 · O adolescente como categoria</text>
+  <text x="512" y="758" class="bodysm">Reconstituir a sociogênese da adolescência</text>
+  <text x="512" y="778" class="bodysm">e sua operacionalização no PCDT:</text>
+  <text x="512" y="798" class="bodysm">elegibilidade, dispensa parental e</text>
+  <text x="512" y="818" class="bodysm">marcadores etários e de risco.</text>
+
+  <line x1="480" y1="854" x2="480" y2="869" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-intro-arrow)"/>
+
+  <!-- 6. METODOLOGIA -->
+  <rect x="40" y="870" width="880" height="92" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="878" width="6" height="76" rx="3" fill="#2f6f6a"/>
+  <text x="66" y="900" class="chip" fill="#2f6f6a">METODOLOGIA</text>
+  <text x="66" y="926" class="body">Qualitativa · teórico-bibliográfica e documental &#160;&#160;·&#160;&#160; fonte central: PCDT (2025).</text>
+  <text x="66" y="948" class="body">Documento como elemento ativo (Prior) · leitura genealógica · limite: o plano da página.</text>
+
+  <!-- 7. QUADRO TEÓRICO MÍNIMO -->
+  <text x="480" y="992" text-anchor="middle" class="chip" fill="#a9761f">QUADRO TEÓRICO MÍNIMO · instrumentos de leitura</text>
+
+  <rect x="40" y="1004" width="208" height="150" rx="8" fill="#fdf6ea" stroke="#ecd9b6"/>
+  <text x="60" y="1032" class="pill">Foucault</text>
+  <line x1="60" y1="1042" x2="228" y2="1042" stroke="#ecd9b6"/>
+  <text x="60" y="1066" class="item">dispositivo</text>
+  <text x="60" y="1086" class="item">biopolítica</text>
+  <text x="60" y="1106" class="item">governamentalidade</text>
+  <text x="60" y="1126" class="item">aliança / sexualidade</text>
+
+  <rect x="264" y="1004" width="208" height="150" rx="8" fill="#fdf6ea" stroke="#ecd9b6"/>
+  <text x="284" y="1032" class="pill">Conrad</text>
+  <line x1="284" y1="1042" x2="452" y2="1042" stroke="#ecd9b6"/>
+  <text x="284" y="1066" class="item">medicalização do risco</text>
+  <text x="284" y="1086" class="item">paciente parcial</text>
+  <text x="284" y="1106" class="item">individualização</text>
+
+  <rect x="488" y="1004" width="208" height="150" rx="8" fill="#fdf6ea" stroke="#ecd9b6"/>
+  <text x="508" y="1032" class="pill">Rose</text>
+  <line x1="508" y1="1042" x2="676" y2="1042" stroke="#ecd9b6"/>
+  <text x="508" y="1066" class="item">política vital</text>
+  <text x="508" y="1086" class="item">cidadania biológica</text>
+  <text x="508" y="1106" class="item">molecularização</text>
+
+  <rect x="712" y="1004" width="208" height="150" rx="8" fill="#fdf6ea" stroke="#ecd9b6"/>
+  <text x="732" y="1032" class="pill">Prior</text>
+  <line x1="732" y1="1042" x2="900" y2="1042" stroke="#ecd9b6"/>
+  <text x="732" y="1066" class="item">documento como</text>
+  <text x="732" y="1086" class="item">elemento ativo</text>
+  <text x="732" y="1106" class="item">(método)</text>
+
+  <text x="40" y="1182" class="foot">Fonte: Devellis (2026), Introdução — elaboração própria.</text>
+</svg></div><figcaption>Clique em “ampliar” para ler o mapa em tela cheia.</figcaption></figure><details><summary>Resumo do trabalho</summary><div class="dbody"><p class="just">Este estudo analisa as diretrizes que estendem a Profilaxia Pré-Exposição ao HIV (PrEP) a adolescentes de 15 a 19 anos no Brasil, tal como codificadas no Protocolo Clínico e Diretrizes Terapêuticas de 2025. Mais do que avaliar o acerto ou o erro da medida, a pesquisa interroga as suas condições de possibilidade: descreve o modo pelo qual o protocolo torna o jovem inteligível e governável, constituindo-o, no gesto mesmo com que o protege, como sujeito sexualmente ativo, autônomo, compreendente e acompanhado. Trata-se de uma leitura de inspiração genealógica, que recusa tanto a celebração quanto a denúncia da política e que, na chave de Lindsay Prior, lê o documento como dispositivo: não um instrumento neutro de prevenção, mas uma peça que produz o sujeito sobre o qual incide. As noções de dispositivo, biopolítica e governamentalidade, em Foucault, situam a profilaxia numa racionalidade que conduz condutas; a medicalização do risco e a figura do paciente parcial, que Conrad recupera de Greaves, descrevem o usuário que, sem se perceber doente, é classificado como exposto e convocado a gerir, sob medicação contínua e vigilância clínica, a própria probabilidade de adoecer; a política vital e a cidadania biológica, em Rose, inscrevem essa vida numa economia e, ao mesmo tempo, deixam ver a possibilidade de reivindicá-la como direito. A própria adolescência sobre a qual o protocolo incide comparece, então, não como dado natural, mas como categoria historicamente construída. Conclui-se que cuidado e controle não se opõem: produzem-se juntos, e a PrEP, antes de operar como técnica preventiva, supõe um sujeito de risco que precisou ser constituído; são as condições e os efeitos dessa constituição que o trabalho se propõe a descrever.</p><div class="chips"><span class="chip">PrEP</span><span class="chip">adolescência</span><span class="chip">HIV/aids</span><span class="chip">PCDT</span><span class="chip">medicalização do risco</span><span class="chip">dispositivo</span><span class="chip">biopolítica</span><span class="chip">governamentalidade</span><span class="chip">paciente parcial</span><span class="chip">cidadania biológica</span></div></div></details><details open><summary>Ideias centrais</summary><div class="dbody"><ul class="ideias"><li>O PCDT de 2025 estende a PrEP a pessoas a partir de 15 anos e dispensa a autorização parental, sob sigilo; o adolescente é incorporado como sujeito elegível.</li><li>O protocolo não apenas identifica um grupo já existente para protegê-lo: ao defini-lo, produz em parte a figura do adolescente sexualmente ativo, autônomo, compreendente e acompanhado.</li><li>A investigação recusa causas, efeitos e méritos da medida e trata a inclusão do adolescente como objeto a descrever, e não a celebrar ou denunciar.</li></ul></div></details><details><summary>Objetivos</summary><div class="dbody"><p><strong>Objetivo geral.</strong> Analisar, a partir de revisão teórica e bibliográfica, as condições sociais, históricas e teóricas que tornam possível a expansão do acesso à PrEP entre adolescentes de 15 a 19 anos no Brasil, articulando dispositivo, biopolítica, governamentalidade, medicalização e cidadania biológica ao caso codificado no PCDT (BRASIL, 2025).</p><p><strong>Objetivos específicos.</strong></p><ul class="ideias"><li>Examinar a PrEP como tecnologia inscrita no dispositivo da aids, identificando os deslocamentos internos que sua incorporação produz na configuração brasileira da prevenção (Foucault, Conrad, Rose).</li><li>Examinar o adolescente como categoria historicamente construída e como segmento-alvo da expansão, reconstituindo sua sociogênese e sua operacionalização no PCDT (critérios de elegibilidade, dispensa de autorização parental, marcadores etários, comportamentais e epidemiológicos).</li></ul></div></details><details><summary>Justificativa e metodologia</summary><div class="dbody"><p><strong>Justificativa.</strong> A inclusão do adolescente como sujeito elegível marca uma inflexão na política brasileira de prevenção ao HIV; o pouco examinado é o modo como essa entrada na política pública se organiza — por quais critérios, arranjos jurídicos e qual figura do adolescente.</p><p><strong>Metodologia.</strong> Pesquisa qualitativa, teórico-bibliográfica e documental. Corpus: o PCDT (BRASIL, 2025) como fonte central e o referencial teórico como categorias de leitura. Análise de inspiração genealógica, com o documento lido como elemento ativo (Prior). Limite assumido: a leitura se detém no plano da página, não nos usos do documento.</p></div></details><details><summary>Quadro teórico mínimo</summary><div class="dbody"><div class="cards"><div class="card"><h4>Dispositivo</h4><p>Rede heterogênea de discursos, leis, normas e práticas que responde a uma urgência histórica e produz os sujeitos sobre os quais incide.</p><div class="obras">Foucault · FOUCAULT, 1998</div></div><div class="card"><h4>Biopolítica e governamentalidade</h4><p>A biopolítica toma a vida das populações como superfície de intervenção; a governamentalidade é a racionalidade e as tecnologias que conduzem condutas.</p><div class="obras">Foucault · FOUCAULT, 2008</div></div><div class="card"><h4>Dispositivo da aliança x dispositivo da sexualidade</h4><p>A família como permutador entre um regime centrado no parentesco/lei e outro centrado na clínica/exame.</p><div class="obras">Foucault · FOUCAULT, 1999</div></div><div class="card"><h4>Medicalização e paciente parcial</h4><p>Definir um problema em termos médicos é conferir jurisdição; a medicalização do risco trata como condição atual o que é probabilidade futura, e o paciente parcial medica um corpo sem doença.</p><div class="obras">Conrad · CONRAD, 2006, 2007</div></div><div class="card"><h4>Política vital e cidadania biológica</h4><p>Modulação das capacidades vitais no plano molecular e reorganização de solidariedades e demandas em torno de estatutos biológicos, que também abrem a possibilidade de reivindicar a vida como direito.</p><div class="obras">Rose · ROSE, 2007</div></div><div class="card"><h4>Documento como elemento ativo</h4><p>O documento tem autoria distribuída (author-function) e participa da constituição daquilo que parece apenas registrar.</p><div class="obras">Prior · PRIOR, 2003</div></div></div></div></details></section><section class="panel" role="tabpanel" id="panel-capitulo-1" aria-labelledby="tab-capitulo-1" hidden><h2>Capítulo 1 — Dispositivo e PCDT</h2><div class="callout"><span class="callout-label">Tese do capítulo</span><p>O PCDT não se limita a reconhecer um grupo vulnerável para protegê-lo; ao defini-lo, estende o dispositivo da sexualidade no gesto mesmo com que protege, produzindo o adolescente como sujeito autônomo, compreendente e acompanhado.</p></div><figure class="mapa" data-mapa="1"><div class="mapa-bar"><span>Mapa visual — Capítulo 1</span><button type="button" class="btn-zoom" data-zoom="1" title="Ampliar o mapa">&#x2922; ampliar</button></div><div class="mapa-holder"><svg id="svg-c1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1180" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>#svg-c1 .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}#svg-c1 .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}#svg-c1 .sub{font-weight:400;font-size:14px;fill:#c7d4e2}#svg-c1 .chip{font-weight:700;font-size:12px;letter-spacing:1.4px}#svg-c1 .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}#svg-c1 .lead{font-weight:400;font-size:14.5px;fill:#2a2f37;font-style:italic}#svg-c1 .body{font-weight:400;font-size:15px;fill:#2a2f37}#svg-c1 .cap{font-weight:400;font-size:13px;fill:#5b6472}#svg-c1 .steplbl{font-weight:700;font-size:10.5px;fill:#8a94a1;letter-spacing:.5px}#svg-c1 .stepttl{font-weight:700;font-size:14px;fill:#1f2731}#svg-c1 .stepd{font-weight:400;font-size:11px;fill:#4a515b}#svg-c1 .coltt{font-weight:700;font-size:14px;fill:#1f2731}#svg-c1 .colit{font-weight:400;font-size:12px;fill:#3a4048}#svg-c1 .optt{font-weight:700;font-size:14px}#svg-c1 .opbd{font-weight:400;font-size:12.5px;fill:#2f353d}#svg-c1 .hgt{font-weight:700;font-size:13px}#svg-c1 .hgs{font-weight:400;font-size:11.5px;fill:#4a515b}#svg-c1 .white{fill:#ffffff}#svg-c1 .foot{font-weight:400;font-size:12px;fill:#8a94a1}</style>
+    <marker id="svg-c1-ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#aeb8c4"/>
+    </marker>
+    <marker id="svg-c1-arw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a2b3f"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="1180" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 1 · DISPOSITIVO E PCDT</text>
+  <text x="40" y="72" class="sub">Foucault posto a operar sobre o protocolo — proteger e produzir num só gesto</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 1.1 – 1.5</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">O protocolo não se limita a reconhecer um grupo vulnerável para protegê-lo; ao defini-lo,</text>
+  <text x="66" y="194" class="q">estende o dispositivo da sexualidade no gesto mesmo com que protege — cuidado e produção, juntos.</text>
+
+  <!-- MÉTODO -->
+  <text x="40" y="240" class="chip" fill="#0C56A6">O MÉTODO · mostrar antes de nomear</text>
+  <!-- steps -->
+  <g>
+    <rect x="40" y="250" width="156" height="120" rx="9" fill="#ffffff" stroke="#dde3ea"/>
+    <text x="56" y="274" class="steplbl">1.1</text>
+    <text x="56" y="298" class="stepttl">Vigiar e punir</text>
+    <text x="56" y="320" class="stepd">a peça recusada</text>
+    <text x="56" y="336" class="stepd">(a prisão) vence;</text>
+    <text x="56" y="352" class="stepd">o poder é produtivo</text>
+
+    <rect x="221" y="250" width="156" height="120" rx="9" fill="#ffffff" stroke="#dde3ea"/>
+    <text x="237" y="274" class="steplbl">1.1 – 1.2</text>
+    <text x="237" y="298" class="stepttl">A vontade de saber</text>
+    <text x="237" y="320" class="stepd">o sujeito sexual é</text>
+    <text x="237" y="336" class="stepd">constituído, não</text>
+    <text x="237" y="352" class="stepd">achado</text>
+
+    <rect x="402" y="250" width="156" height="120" rx="9" fill="#eaf0f7" stroke="#b9cbe0"/>
+    <text x="418" y="274" class="steplbl" fill="#0C56A6">1.3</text>
+    <text x="418" y="298" class="stepttl" fill="#0C56A6">Definição</text>
+    <text x="418" y="320" class="stepd">só aqui o conceito</text>
+    <text x="418" y="336" class="stepd">recebe, enfim,</text>
+    <text x="418" y="352" class="stepd">um nome</text>
+
+    <rect x="583" y="250" width="156" height="120" rx="9" fill="#ffffff" stroke="#dde3ea"/>
+    <text x="599" y="274" class="steplbl">1.4</text>
+    <text x="599" y="298" class="stepttl">PrEP · PCDT</text>
+    <text x="599" y="320" class="stepd">o conceito posto</text>
+    <text x="599" y="336" class="stepd">a operar sobre</text>
+    <text x="599" y="352" class="stepd">o protocolo</text>
+
+    <rect x="764" y="250" width="156" height="120" rx="9" fill="#ffffff" stroke="#dde3ea"/>
+    <text x="780" y="274" class="steplbl">1.5</text>
+    <text x="780" y="298" class="stepttl">Síntese</text>
+    <text x="780" y="320" class="stepd">cuidado e controle</text>
+    <text x="780" y="336" class="stepd">não se opõem</text>
+  </g>
+  <line x1="199" y1="310" x2="218" y2="310" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c1-ar)"/>
+  <line x1="380" y1="310" x2="399" y2="310" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c1-ar)"/>
+  <line x1="561" y1="310" x2="580" y2="310" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c1-ar)"/>
+  <line x1="742" y1="310" x2="761" y2="310" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c1-ar)"/>
+  <text x="40" y="390" class="cap">O operador do dispositivo já atua nos dois exercícios foucaultianos antes de ser nomeado; nomeá-lo não é aplicar</text>
+  <text x="40" y="408" class="cap">uma chave externa ao PCDT, mas tornar visível aquilo que o documento já punha em obra.</text>
+
+  <!-- CONCEITO -->
+  <text x="40" y="438" class="chip" fill="#0C56A6">O CONCEITO · dispositivo (FOUCAULT, 1998)</text>
+  <rect x="40" y="450" width="880" height="176" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="458" width="6" height="160" rx="3" fill="#0C56A6"/>
+  <text x="58" y="478" class="lead">Nem a lei, nem a instituição, nem o saber tomados à parte: a trama que os articula.</text>
+
+  <circle cx="66" cy="502" r="9" fill="#0C56A6"/><text x="66" y="506" text-anchor="middle" class="white" font-size="11" font-weight="700">1</text>
+  <text x="84" y="507" class="coltt">Conjunto heterogêneo</text>
+  <text x="58" y="530" class="colit">discursos, leis, saberes e</text>
+  <text x="58" y="548" class="colit">práticas — o dito e o não</text>
+  <text x="58" y="566" class="colit">dito; a rede, não a soma.</text>
+
+  <circle cx="354" cy="502" r="9" fill="#0C56A6"/><text x="354" y="506" text-anchor="middle" class="white" font-size="11" font-weight="700">2</text>
+  <text x="372" y="507" class="coltt">Sistema móvel de relações</text>
+  <text x="346" y="530" class="colit">um mesmo elemento muda</text>
+  <text x="346" y="548" class="colit">de função conforme a</text>
+  <text x="346" y="566" class="colit">estratégia em que entra.</text>
+
+  <circle cx="642" cy="502" r="9" fill="#0C56A6"/><text x="642" y="506" text-anchor="middle" class="white" font-size="11" font-weight="700">3</text>
+  <text x="660" y="507" class="coltt">Resposta a uma urgência</text>
+  <text x="634" y="530" class="colit">função estratégica dominante;</text>
+  <text x="634" y="548" class="colit">sobredeterminação funcional</text>
+  <text x="634" y="566" class="colit">e preenchimento estratégico.</text>
+  <text x="58" y="602" class="cap">Um protocolo clínico é, à letra, esse conjunto heterogêneo — uma rede, não uma peça — e resposta estratégica a uma urgência epidemiológica.</text>
+
+  <!-- OPERAÇÃO SOBRE O PCDT -->
+  <text x="40" y="656" class="chip" fill="#374151">A OPERAÇÃO SOBRE O PCDT · a autonomia como inscrição no dispositivo (1.4)</text>
+
+  <rect x="40" y="668" width="428" height="104" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="676" width="6" height="88" rx="3" fill="#0f766e"/>
+  <text x="60" y="694" class="optt" fill="#0f766e">Dado epidemiológico</text>
+  <text x="60" y="720" class="opbd">Não encontra o jovem como grupo de risco:</text>
+  <text x="60" y="740" class="opbd">constitui-o como superfície de incidência.</text>
+
+  <rect x="492" y="668" width="428" height="104" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="492" y="676" width="6" height="88" rx="3" fill="#0f766e"/>
+  <text x="512" y="694" class="optt" fill="#0f766e">Dispensa da autorização parental</text>
+  <text x="512" y="720" class="opbd">Desliga o permutador (família / aliança) e</text>
+  <text x="512" y="740" class="opbd">religa a sexualidade à relação clínica.</text>
+
+  <rect x="40" y="784" width="428" height="104" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="792" width="6" height="88" rx="3" fill="#0f766e"/>
+  <text x="60" y="810" class="optt" fill="#0f766e">Direito e sigilo</text>
+  <text x="60" y="836" class="opbd">ECA e Código de Ética não como limites, mas</text>
+  <text x="60" y="856" class="opbd">como táticas (polivalência); o sigilo abre o acesso.</text>
+
+  <rect x="492" y="784" width="428" height="104" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="492" y="792" width="6" height="88" rx="3" fill="#0f766e"/>
+  <text x="512" y="810" class="optt" fill="#0f766e">Autonomia</text>
+  <text x="512" y="836" class="opbd">Efeito produzido, não pressuposto: sua condição</text>
+  <text x="512" y="856" class="opbd">é ingressar no monitoramento que não cessa.</text>
+
+  <!-- HINGE aliança -> sexualidade -->
+  <rect x="40" y="906" width="360" height="64" rx="10" fill="#f2f6f5" stroke="#cfe0dc"/>
+  <text x="60" y="932" class="hgt" fill="#0f766e">DISPOSITIVO DA ALIANÇA</text>
+  <text x="60" y="954" class="hgs">família · pátrio poder · guarda</text>
+
+  <rect x="560" y="906" width="360" height="64" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <text x="580" y="932" class="hgt" fill="#8a2b3f">DISPOSITIVO DA SEXUALIDADE</text>
+  <text x="580" y="954" class="hgs">relação clínica · protocolo · acompanhamento</text>
+
+  <line x1="404" y1="938" x2="556" y2="938" stroke="#8a2b3f" stroke-width="2.5" marker-end="url(#svg-c1-arw)"/>
+  <text x="480" y="928" text-anchor="middle" class="steplbl" fill="#8a2b3f">permutador desligado</text>
+
+  <text x="40" y="992" class="cap">Em cada passagem, o protocolo estende o dispositivo da sexualidade no próprio movimento com que protege.</text>
+
+  <!-- SÍNTESE -->
+  <rect x="40" y="1010" width="880" height="92" rx="10" fill="#0A4595"/>
+  <text x="66" y="1038" class="chip" fill="#9db2c9">SÍNTESE · 1.5</text>
+  <text x="66" y="1064" class="body white">Não se pergunta se o adolescente é livre ou governado, mas por meio de quais</text>
+  <text x="66" y="1086" class="body white">procedimentos ele se tornou, a um só tempo, uma coisa e outra.</text>
+
+  <text x="40" y="1132" class="foot">Fonte: Devellis (2026), Capítulo 1 — elaboração própria.</text>
+</svg></div><figcaption>Clique em “ampliar” para ler o mapa em tela cheia.</figcaption></figure><details open><summary>Ideias centrais</summary><div class="dbody"><ul class="ideias"><li>Vigiar e punir e A vontade de saber comparecem como forma/procedimento de leitura do dispositivo, não como conteúdo carcerário transposto ao protocolo.</li><li>O dado epidemiológico não encontra o jovem como grupo de risco já dado: constitui-o como superfície de incidência.</li><li>A dispensa da autorização parental desliga o permutador (família/aliança) e religa a sexualidade do adolescente ao dispositivo da sexualidade — à relação clínica.</li><li>Direito (ECA, Código de Ética Médica) e sigilo não são limites a vencer, mas táticas mobilizadas: polivalência tática dos discursos.</li><li>A autonomia é efeito produzido, não pressuposto, e vem amarrada à exigência de compreender a profilaxia e o acompanhamento — isto é, ao ingresso no monitoramento contínuo.</li></ul></div></details><details><summary>Seções do capítulo</summary><div class="dbody"><ol class="secoes"><li><span class="sec-num">1.1</span> <strong>Sobre a vigilância: suavizada e sofisticada</strong><ul class="ideias"><li>A peça recusada pelo programa penal (a prisão) é a que vence: o dispositivo retém efeitos não previstos.</li><li>O poder é produtivo: constitui a criança como sujeito sexual, não apenas interdita.</li></ul></li><li><span class="sec-num">1.2</span> <strong>Sexualidade livre mas produzida</strong><ul class="ideias"><li>Afirmar o sexo pode ser mover-se conforme o traçado do dispositivo; a liberdade vivida não está fora do que a tornou possível.</li></ul></li><li><span class="sec-num">1.3</span> <strong>Definição</strong><ul class="ideias"><li>O dispositivo é rede heterogênea, sistema móvel de relações e resposta estratégica a uma urgência; sobredeterminação funcional e preenchimento estratégico.</li></ul></li><li><span class="sec-num">1.4</span> <strong>A PrEP para adolescentes: a autonomia como inscrição no dispositivo</strong><ul class="ideias"><li>A criança masturbadora retorna na cláusula do sujeito &#x27;sexualmente ativo&#x27; em &#x27;vulnerabilidade acrescida&#x27;.</li><li>O sigilo abre o acesso em vez de suprimir; a autonomia é produzida na exigência de compreensão.</li></ul></li><li><span class="sec-num">1.5</span> <strong>Síntese</strong><ul class="ideias"><li>Cuidado e controle não se opõem: a analítica não opta entre eles porque a oposição perde consistência.</li></ul></li></ol></div></details><details><summary>Autores mobilizados</summary><div class="dbody"><div class="cards"><div class="card"><h4>Michel Foucault</h4><p>Fornece a analítica do dispositivo e a distinção aliança/sexualidade.</p><div class="obras">Vigiar e punir · História da sexualidade I · Microfísica do poder</div></div></div></div></details><details><summary>Conceitos-chave</summary><div class="dbody"><div class="cards"><div class="card"><h4>Dispositivo</h4><div class="obras">Foucault · FOUCAULT, 1998, p. 244-246</div></div><div class="card"><h4>Polivalência tática dos discursos</h4><div class="obras">Foucault · FOUCAULT, 1999, p. 96-97</div></div><div class="card"><h4>Permutador aliança/sexualidade</h4><div class="obras">Foucault · FOUCAULT, 1999, p. 100-106</div></div></div></div></details><details><summary>Citações-chave do PCDT</summary><div class="dbody"><blockquote>“Os novos casos de aids se concentram, majoritariamente, na população jovem (15 a 24 anos).”<cite>BRASIL, 2025, p. 11</cite><p class="ctx">Dado epidemiológico que abre a justificativa do protocolo e constitui o jovem como superfície de incidência.</p></blockquote><blockquote>“Não sendo necessário o consentimento dos pais e/ou responsáveis.”<cite>BRASIL, 2025, p. 21</cite><p class="ctx">Dispensa da autorização parental lida como desligamento do permutador.</p></blockquote></div></details><details><summary>No argumento do trabalho</summary><div class="dbody"><p><strong>Função no argumento.</strong> Instala a analítica do dispositivo e a aplica ao PCDT, fixando a tese matriz (proteger e produzir num só gesto) que os capítulos seguintes desdobram.</p><p><strong>Articulação com o objeto.</strong> Lê os critérios de elegibilidade e a dispensa de autorização parental do PCDT como deslocamento de um regime de poder (aliança) a outro (sexualidade).</p></div></details></section><section class="panel" role="tabpanel" id="panel-capitulo-2" aria-labelledby="tab-capitulo-2" hidden><h2>Capítulo 2 — Dispositivo da aids</h2><div class="callout"><span class="callout-label">Tese do capítulo</span><p>A aids não é entidade clínica anterior aos discursos que a nomeiam, mas acontecimento histórico; o discurso preventivo jamais incidiu sobre populações previamente dadas, mas sobre populações que precisou produzir — e o PCDT herda e reorganiza essa lógica.</p></div><figure class="mapa" data-mapa="2"><div class="mapa-bar"><span>Mapa visual — Capítulo 2</span><button type="button" class="btn-zoom" data-zoom="2" title="Ampliar o mapa">&#x2922; ampliar</button></div><div class="mapa-holder"><svg id="svg-c2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1010" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>#svg-c2 .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}#svg-c2 .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}#svg-c2 .sub{font-weight:400;font-size:14px;fill:#c7d4e2}#svg-c2 .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}#svg-c2 .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}#svg-c2 .era{font-weight:700;font-size:12.5px;letter-spacing:.8px}#svg-c2 .auth{font-weight:600;font-size:12.5px;fill:#5b6472;font-style:italic}#svg-c2 .idea{font-weight:400;font-size:13px;fill:#2a2f37}#svg-c2 .node{font-weight:700;font-size:14px;fill:#ffffff}#svg-c2 .foot{font-weight:400;font-size:12px;fill:#8a94a1}</style>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="1010" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 2 · DISPOSITIVO DA AIDS</text>
+  <text x="40" y="72" class="sub">Uma genealogia — da mídia e do pânico à governamentalidade e à subjetivação</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 2.1 – 2.4</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">A aids não é entidade clínica anterior aos discursos que a nomeiam, mas acontecimento histórico;</text>
+  <text x="66" y="194" class="q">o discurso preventivo nunca incidiu sobre populações dadas — sempre as produziu. O PCDT herda essa lógica.</text>
+
+  <!-- TIMELINE rail -->
+  <line x1="150" y1="312" x2="150" y2="872" stroke="#c2c9d2" stroke-width="3"/>
+
+  <!-- Stage 1 -->
+  <line x1="166" y1="312" x2="185" y2="312" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="312" r="16" fill="#0f766e"/><text x="150" y="317" text-anchor="middle" class="node">1</text>
+  <rect x="185" y="250" width="735" height="124" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="185" y="258" width="6" height="108" rx="3" fill="#0f766e"/>
+  <text x="205" y="278" class="era" fill="#0f766e">ANOS 1980 · MÍDIA E PÂNICO</text>
+  <text x="205" y="298" class="auth">Barata · Herzlich &amp; Pierret · Perlongher</text>
+  <text x="205" y="322" class="idea">A imprensa "faz existir a aids": nomeação e enumeração; o "grupo de risco" desliza de associação</text>
+  <text x="205" y="342" class="idea">probabilística a nexo causal. No Brasil, "chegou nos braços da moda" — o pânico excede a incidência</text>
+  <text x="205" y="362" class="idea">e a prevenção tende a converter-se em repressão (Serra Pelada, 1985).</text>
+
+  <!-- Stage 2 -->
+  <line x1="166" y1="452" x2="185" y2="452" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="452" r="16" fill="#0C56A6"/><text x="150" y="457" text-anchor="middle" class="node">2</text>
+  <rect x="185" y="390" width="735" height="124" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="185" y="398" width="6" height="108" rx="3" fill="#0C56A6"/>
+  <text x="205" y="418" class="era" fill="#0C56A6">ANOS 1980 · SOCIEDADE CIVIL E DIREITO</text>
+  <text x="205" y="438" class="auth">De la Dehesa</text>
+  <text x="205" y="462" class="idea">Movimento sanitário, GAPA, ABIA e Pela Vidda; Constituição de 1988 e SUS. A resposta brasileira</text>
+  <text x="205" y="482" class="idea">nasce ligada à participação social e ao direito à saúde — uma outra via política para a epidemia,</text>
+  <text x="205" y="502" class="idea">simultânea ao medo, e não posterior a ele.</text>
+
+  <!-- Stage 3 -->
+  <line x1="166" y1="592" x2="185" y2="592" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="592" r="16" fill="#2867AE"/><text x="150" y="597" text-anchor="middle" class="node">3</text>
+  <rect x="185" y="530" width="735" height="124" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="185" y="538" width="6" height="108" rx="3" fill="#2867AE"/>
+  <text x="205" y="558" class="era" fill="#2867AE">ANOS 1990 · GOVERNAMENTALIDADE EM REDE</text>
+  <text x="205" y="578" class="auth">De la Dehesa · Foucault (Segurança, território, população)</text>
+  <text x="205" y="602" class="idea">Programa Nacional DST/AIDS, Banco Mundial (AIDS I e II), editais, metas e agentes multiplicadores;</text>
+  <text x="205" y="622" class="idea">medicamento gratuito como política de Estado (1996). O Estado passa a atuar como nó de coordenação</text>
+  <text x="205" y="642" class="idea">de uma rede — não como soberano que comanda a epidemia de fora.</text>
+
+  <!-- Stage 4 -->
+  <line x1="166" y1="732" x2="185" y2="732" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="732" r="16" fill="#a9761f"/><text x="150" y="737" text-anchor="middle" class="node">4</text>
+  <rect x="185" y="670" width="735" height="124" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="185" y="678" width="6" height="108" rx="3" fill="#a9761f"/>
+  <text x="205" y="698" class="era" fill="#a9761f">ANOS 2000 · SUBJETIVAÇÃO</text>
+  <text x="205" y="718" class="auth">Pelúcio &amp; Miskolci · Rose · Silva &amp; Monteiro</text>
+  <text x="205" y="742" class="idea">"SIDAdanização": individualização, racionalização e responsabilização do sujeito pela própria saúde.</text>
+  <text x="205" y="762" class="idea">A heteronormatividade como norma interiorizada; a seletividade do dispositivo e sua "ironia mortal";</text>
+  <text x="205" y="782" class="idea">a testagem como autovigilância sorológica e gestão do risco.</text>
+
+  <!-- Stage 5 highlight -->
+  <line x1="166" y1="872" x2="185" y2="872" stroke="#c2c9d2" stroke-width="2"/>
+  <circle cx="150" cy="872" r="16" fill="#8a2b3f"/><text x="150" y="877" text-anchor="middle" class="node">5</text>
+  <rect x="185" y="810" width="735" height="124" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="185" y="818" width="6" height="108" rx="3" fill="#8a2b3f"/>
+  <text x="205" y="838" class="era" fill="#8a2b3f">2025 · O PCDT HERDA E REORGANIZA</text>
+  <text x="205" y="862" class="idea">O protocolo constitui o adolescente vulnerável antes de torná-lo elegível à PrEP. A defasagem entre a</text>
+  <text x="205" y="882" class="idea">população pressuposta e a encontrada retorna: do modelo importado às homossexualidades populares</text>
+  <text x="205" y="902" class="idea">(Perlongher), e agora do adolescente pressuposto ao que o protocolo encontra nos serviços.</text>
+
+  <text x="40" y="972" class="foot">Fonte: Devellis (2026), Capítulo 2 — elaboração própria.</text>
+</svg></div><figcaption>Clique em “ampliar” para ler o mapa em tela cheia.</figcaption></figure><details open><summary>Ideias centrais</summary><div class="dbody"><ul class="ideias"><li>Barata: a cobertura televisiva (o Fantástico) constituiu o horizonte de inteligibilidade da aids no Brasil, com a passagem de &#x27;grupo de risco&#x27; a &#x27;comportamento de risco&#x27;.</li><li>Herzlich e Pierret: a imprensa &#x27;fez existir a aids&#x27;; a noção de &#x27;grupo de risco&#x27; desliza de associação probabilística a nexo causal.</li><li>Perlongher: a aids &#x27;chegou nos braços da moda&#x27;; o pânico excede a incidência e a prevenção converte-se em repressão (Serra Pelada); há descompasso entre o modelo importado e as homossexualidades populares.</li><li>De la Dehesa: dos anos 1980 (movimento sanitário, ONGs, SUS, direito à saúde) aos anos 1990, a rede converte-se em governamentalidade em rede (Banco Mundial, editais, agentes multiplicadores).</li><li>Pelúcio e Miskolci: a &#x27;SIDAdanização&#x27; produz um sujeito responsabilizado e autovigilante; a seletividade do dispositivo gera uma &#x27;ironia mortal&#x27;.</li><li>A defasagem entre a população pressuposta e a encontrada retorna, em outra escala, na distância entre o adolescente do PCDT e o dos serviços.</li></ul></div></details><details><summary>Seções do capítulo</summary><div class="dbody"><ol class="secoes"><li><span class="sec-num">2.1</span> <strong>Entre os jornais franceses</strong><ul class="ideias"><li>Nomeação e enumeração; &#x27;grupo de risco&#x27; como operador que produz o objeto que supõe encontrar.</li></ul></li><li><span class="sec-num">2.2</span> <strong>Na onda da moda</strong><ul class="ideias"><li>Herzlich/Pierret protegem a doença contra a metáfora; Perlongher protege o desejo contra o medo.</li></ul></li><li><span class="sec-num">2.3</span> <strong>A sociedade</strong><ul class="ideias"><li>Anos 1980 como composição do dispositivo; anos 1990 como governamentalidade (Segurança, território, população).</li></ul></li><li><span class="sec-num">2.4</span> <strong>SIDAnização</strong><ul class="ideias"><li>O centro operativo é o discurso da prevenção; heteronormatividade como finalidade interiorizada; autovigilância sorológica (Silva e Monteiro).</li></ul></li></ol></div></details><details><summary>Autores mobilizados</summary><div class="dbody"><div class="cards"><div class="card"><h4>Germana Barata</h4><p>Mídia como instância de construção da realidade social da aids.</p><div class="obras">A primeira década da AIDS no Brasil</div></div><div class="card"><h4>Herzlich e Pierret</h4><p>A imprensa faz existir a aids; deslizamento do &#x27;grupo de risco&#x27;.</p></div><div class="card"><h4>Néstor Perlongher</h4><p>Pânico, moralização e repressão; descompasso do modelo preventivo.</p><div class="obras">O que é AIDS</div></div><div class="card"><h4>Rafael de la Dehesa</h4><p>Genealogia institucional da resposta brasileira (governamentalidade em rede).</p></div><div class="card"><h4>Pelúcio e Miskolci</h4><p>SIDAdanização: subjetivação preventiva e responsabilização.</p></div></div></div></details><details><summary>No argumento do trabalho</summary><div class="dbody"><p><strong>Função no argumento.</strong> Situa a PrEP na genealogia da resposta brasileira à aids, mostrando a continuidade da operação que produz a população sobre a qual a prevenção incide.</p><p><strong>Articulação com o objeto.</strong> Enquadra o PCDT de 2025 como herdeiro reorganizador do dispositivo da aids.</p></div></details></section><section class="panel" role="tabpanel" id="panel-capitulo-3" aria-labelledby="tab-capitulo-3" hidden><h2>Capítulo 3 — Pessoas jovens</h2><div class="callout"><span class="callout-label">Tese do capítulo</span><p>A adolescência não é dado natural, mas categoria historicamente construída; a figura homogênea do adolescente elegível desde os quinze anos pressupõe o &#x27;grupo constituído&#x27; que Bourdieu identifica como ficção, apagando juventudes que não se equivalem.</p></div><figure class="mapa" data-mapa="3"><div class="mapa-bar"><span>Mapa visual — Capítulo 3</span><button type="button" class="btn-zoom" data-zoom="3" title="Ampliar o mapa">&#x2922; ampliar</button></div><div class="mapa-holder"><svg id="svg-c3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 910" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>#svg-c3 .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}#svg-c3 .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}#svg-c3 .sub{font-weight:400;font-size:14px;fill:#c7d4e2}#svg-c3 .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}#svg-c3 .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}#svg-c3 .colh{font-weight:700;font-size:14px;fill:#ffffff}#svg-c3 .coln{font-weight:700;font-size:12px;fill:#ffffff;opacity:.85}#svg-c3 .auth{font-weight:700;font-size:13px;fill:#1f2731}#svg-c3 .lbl{font-weight:700;font-size:12px}#svg-c3 .idea{font-weight:400;font-size:11.5px;fill:#3a4048}#svg-c3 .note{font-weight:400;font-size:11.5px;fill:#6b7480;font-style:italic}#svg-c3 .white{fill:#ffffff}#svg-c3 .foot{font-weight:400;font-size:12px;fill:#8a94a1}</style>
+    <marker id="svg-c3-ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#aeb8c4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="910" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 3 · PESSOAS JOVENS</text>
+  <text x="40" y="72" class="sub">A adolescência como categoria historicamente construída</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 3.1 – 3.3</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">A adolescência não é um dado natural, mas categoria historicamente construída; a figura homogênea</text>
+  <text x="66" y="194" class="q">do adolescente elegível desde os 15 anos pressupõe o "grupo constituído" que Bourdieu chama de ficção.</text>
+
+  <!-- COLUMN 1 -->
+  <rect x="40" y="250" width="280" height="466" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M40,260 a10,10 0 0 1 10,-10 h260 a10,10 0 0 1 10,10 v34 h-280 z" fill="#0f766e"/>
+  <text x="58" y="283" class="coln">3.1</text>
+  <text x="98" y="283" class="colh">Biológicos e culturais</text>
+  <text x="58" y="322" class="auth">Hall</text>
+  <text x="58" y="340" class="idea">inscreve a adolescência na</text>
+  <text x="58" y="356" class="idea">biologia: recapitulação e</text>
+  <text x="58" y="372" class="idea">"storm and stress".</text>
+  <text x="58" y="410" class="auth">Boas &amp; Mead</text>
+  <text x="58" y="428" class="idea">crítica cultural — a "crise"</text>
+  <text x="58" y="444" class="idea">não é universal (Samoa).</text>
+  <text x="58" y="482" class="auth">Mazon &amp; Caponi</text>
+  <text x="58" y="500" class="idea">saberes expertos produzem</text>
+  <text x="58" y="516" class="idea">a infância como objeto.</text>
+  <line x1="58" y1="548" x2="300" y2="548" stroke="#eef2f6"/>
+  <text x="58" y="574" class="note">reconhecer e governar são</text>
+  <text x="58" y="590" class="note">movimentos inseparáveis.</text>
+
+  <!-- COLUMN 2 -->
+  <rect x="340" y="250" width="280" height="466" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M340,260 a10,10 0 0 1 10,-10 h260 a10,10 0 0 1 10,10 v34 h-280 z" fill="#a9761f"/>
+  <text x="358" y="283" class="coln">3.2</text>
+  <text x="398" y="283" class="colh">Construção histórica</text>
+  <text x="358" y="322" class="lbl" fill="#a9761f">As idades da vida</text>
+  <text x="358" y="340" class="idea">são elaboração histórica</text>
+  <text x="358" y="356" class="idea">(Le Grand Propriétaire, séc. XIII).</text>
+  <text x="358" y="394" class="lbl" fill="#a9761f">Indistinção</text>
+  <text x="358" y="412" class="idea">puer e adolescens confundidos</text>
+  <text x="358" y="428" class="idea">até o século XVIII (Ariès).</text>
+  <text x="358" y="466" class="lbl" fill="#a9761f">A figura moderna</text>
+  <text x="358" y="484" class="idea">Siegfried (Wagner) e a guerra</text>
+  <text x="358" y="500" class="idea">de 1914 lhe dão densidade.</text>
+  <text x="358" y="538" class="lbl" fill="#a9761f">O deslocamento</text>
+  <text x="358" y="556" class="idea">de "uma época sem adolescência"</text>
+  <text x="358" y="572" class="idea">à "idade favorita".</text>
+
+  <!-- COLUMN 3 -->
+  <rect x="640" y="250" width="280" height="466" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M640,260 a10,10 0 0 1 10,-10 h260 a10,10 0 0 1 10,10 v34 h-280 z" fill="#0C56A6"/>
+  <text x="658" y="283" class="coln">3.3</text>
+  <text x="698" y="283" class="colh">Apenas uma palavra</text>
+  <text x="658" y="322" class="auth">Bourdieu</text>
+  <text x="658" y="340" class="idea">"a juventude é apenas uma</text>
+  <text x="658" y="356" class="idea">palavra"; a idade é dado</text>
+  <text x="658" y="372" class="idea">biológico manipulável.</text>
+  <text x="658" y="410" class="auth">Bourdieu &amp; Passeron</text>
+  <text x="658" y="428" class="idea">o "tempo protegido" depende</text>
+  <text x="658" y="444" class="idea">de classe (Os herdeiros).</text>
+  <text x="658" y="482" class="auth">Stiegler</text>
+  <text x="658" y="500" class="idea">menoridade = aquisição</text>
+  <text x="658" y="516" class="idea">social de responsabilidade.</text>
+  <text x="658" y="554" class="auth">Mazon</text>
+  <text x="658" y="572" class="idea">a classificação (DSM-III/TDAH)</text>
+  <text x="658" y="588" class="idea">torna sujeitos legíveis.</text>
+
+  <!-- CONVERGENCE arrows -->
+  <line x1="180" y1="720" x2="455" y2="752" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c3-ar)"/>
+  <line x1="480" y1="720" x2="480" y2="752" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c3-ar)"/>
+  <line x1="780" y1="720" x2="505" y2="752" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c3-ar)"/>
+
+  <!-- CONCLUSION -->
+  <rect x="40" y="758" width="880" height="98" rx="10" fill="#0A4595"/>
+  <text x="66" y="786" class="chip" fill="#9db2c9">CONVERGÊNCIA · a categoria como ficção</text>
+  <text x="66" y="812" class="q white" style="fill:#ffffff">O adolescente não antecede a separação que o nomeia — é engendrado por ela. A figura homogênea do</text>
+  <text x="66" y="834" class="q white" style="fill:#ffffff">protocolo, apta à norma desde os 15 anos, apaga a distância entre juventudes que não se equivalem.</text>
+
+  <text x="40" y="884" class="foot">Fonte: Devellis (2026), Capítulo 3 — elaboração própria.</text>
+</svg></div><figcaption>Clique em “ampliar” para ler o mapa em tela cheia.</figcaption></figure><details open><summary>Ideias centrais</summary><div class="dbody"><ul class="ideias"><li>Bourdieu e Passeron (Os herdeiros): viver os estudos como tempo em suspenso depende de classe; a &#x27;má-fé coletiva&#x27; e a conversão de desigualdades em &#x27;dons&#x27;.</li><li>Stiegler: a menoridade é aquisição social de responsabilidade (Kant/Esclarecimento); as psicotecnologias capturam a atenção que a escola deveria formar.</li><li>Hall inscreve a adolescência na biologia (&#x27;storm and stress&#x27;); Boas e Mead a relativizam culturalmente — reconhecer e governar são inseparáveis.</li><li>Ariès: as idades da vida são construção histórica; passa-se de &#x27;uma época sem adolescência&#x27; à &#x27;idade favorita&#x27;.</li><li>Bourdieu (&#x27;A juventude é apenas uma palavra&#x27;): a idade é dado biológico socialmente manipulado; há ao menos duas juventudes.</li><li>A classificação (idade, diagnóstico — Mazon sobre DSM-III/TDAH) torna sujeitos legíveis, comparáveis e passíveis de intervenção.</li></ul></div></details><details><summary>Seções do capítulo</summary><div class="dbody"><ol class="secoes"><li><span class="sec-num">3.1</span> <strong>Biológicos e culturais</strong><ul class="ideias"><li>A adolescência como objeto científico e administrável entre biologia, psicologia e pedagogia.</li></ul></li><li><span class="sec-num">3.2</span> <strong>Construção histórica</strong><ul class="ideias"><li>De Le Grand Propriétaire a Siegfried e à guerra de 1914: a adolescência como idade privilegiada do século XX.</li></ul></li><li><span class="sec-num">3.3</span> <strong>Apenas uma palavra</strong><ul class="ideias"><li>A demarcação etária como parada em jogo de luta; o adolescente é engendrado pela separação que o nomeia.</li></ul></li></ol></div></details><details><summary>Autores mobilizados</summary><div class="dbody"><div class="cards"><div class="card"><h4>Bourdieu e Passeron</h4><p>A condição juvenil como privilégio de classe.</p><div class="obras">Os herdeiros</div></div><div class="card"><h4>Bernard Stiegler</h4><p>Menoridade como aquisição social; economia da atenção.</p><div class="obras">Taking care of youth and the generations</div></div><div class="card"><h4>G. Stanley Hall</h4><p>Inscrição biológica/recapitulacionista da adolescência.</p><div class="obras">Adolescence</div></div><div class="card"><h4>Franz Boas / Margaret Mead</h4><p>Crítica cultural à universalização da crise adolescente.</p></div><div class="card"><h4>Philippe Ariès</h4><p>Construção histórica das idades da vida.</p></div><div class="card"><h4>Pierre Bourdieu</h4><p>A juventude como &#x27;abuso de linguagem&#x27;.</p></div></div></div></details><details><summary>No argumento do trabalho</summary><div class="dbody"><p><strong>Função no argumento.</strong> Desnaturaliza a categoria &#x27;adolescente&#x27; que o PCDT toma como dada, preparando a crítica à sua figura homogênea.</p><p><strong>Articulação com o objeto.</strong> Mostra que o adolescente &#x27;apto à norma desde os quinze&#x27; pressupõe uma unidade fictícia que o protocolo não diferencia.</p></div></details></section><section class="panel" role="tabpanel" id="panel-capitulo-4" aria-labelledby="tab-capitulo-4" hidden><h2>Capítulo 4 — PCDT, o documento</h2><div class="callout"><span class="callout-label">Tese do capítulo</span><p>Lido como dispositivo documental (Prior), o PCDT converte a infecção por HIV em questão de governamentalidade: constitui uma população sexualmente exposta, torna as exposições comparáveis e elegíveis, produz verdade metodicamente e retorna ao indivíduo na figura do sujeito aderente.</p></div><figure class="mapa" data-mapa="4"><div class="mapa-bar"><span>Mapa visual — Capítulo 4</span><button type="button" class="btn-zoom" data-zoom="4" title="Ampliar o mapa">&#x2922; ampliar</button></div><div class="mapa-holder"><svg id="svg-c4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1000" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>#svg-c4 .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}#svg-c4 .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}#svg-c4 .sub{font-weight:400;font-size:14px;fill:#c7d4e2}#svg-c4 .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}#svg-c4 .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}#svg-c4 .bt{font-weight:700;font-size:15px;fill:#1f2731}#svg-c4 .bn{font-weight:800;font-size:15px;fill:#0C56A6}#svg-c4 .src{font-weight:600;font-size:11.5px;fill:#a9761f;font-style:italic}#svg-c4 .body{font-weight:400;font-size:13.5px;fill:#2a2f37}#svg-c4 .pill{font-weight:600;font-size:10.5px;fill:#0f766e}#svg-c4 .pillb{font-weight:600;font-size:10.5px;fill:#0C56A6}#svg-c4 .white{fill:#ffffff}#svg-c4 .foot{font-weight:400;font-size:12px;fill:#8a94a1}</style>
+    <marker id="svg-c4-ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#aeb8c4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="1000" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 4 · PCDT, O DOCUMENTO</text>
+  <text x="40" y="72" class="sub">O protocolo como dispositivo documental (Prior) — governar por uma verdade produzida</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 4.1 – 4.4</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">Lido como dispositivo documental, o PCDT converte a infecção por HIV em questão de governamentalidade:</text>
+  <text x="66" y="194" class="q">constitui uma população, torna exposições elegíveis, produz verdade metodicamente e retorna ao indivíduo.</text>
+
+  <!-- AUTHOR-FUNCTION STRIP -->
+  <rect x="40" y="250" width="880" height="90" rx="10" fill="#f4f7fa" stroke="#dde3ea"/>
+  <text x="60" y="274" class="chip" fill="#0f766e">AUTORIA DISTRIBUÍDA · author-function</text>
+  <rect x="60" y="290" width="150" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/>
+  <text x="135" y="311" text-anchor="middle" class="pill">Decreto 7.508/2011</text>
+  <line x1="214" y1="307" x2="236" y2="307" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c4-ar)"/>
+  <rect x="240" y="290" width="111" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/><text x="295" y="311" text-anchor="middle" class="pill">Dathi</text>
+  <rect x="363" y="290" width="111" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/><text x="418" y="311" text-anchor="middle" class="pill">SVSA</text>
+  <rect x="486" y="290" width="111" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/><text x="541" y="311" text-anchor="middle" class="pill">Comitê Técnico</text>
+  <rect x="609" y="290" width="111" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/><text x="664" y="311" text-anchor="middle" class="pill">Conitec</text>
+  <line x1="724" y1="307" x2="746" y2="307" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c4-ar)"/>
+  <rect x="750" y="290" width="146" height="34" rx="6" fill="#eefaf7" stroke="#cfe0dc"/><text x="823" y="311" text-anchor="middle" class="pill">consulta pública</text>
+
+  <!-- BAND 4.1 -->
+  <rect x="40" y="356" width="880" height="100" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="364" width="6" height="84" rx="3" fill="#0C56A6"/>
+  <text x="66" y="388"><tspan class="bn">4.1</tspan><tspan class="bt">  ·  Sexualidade, vida e população</tspan></text>
+  <text x="900" y="386" text-anchor="end" class="src">A vontade de saber</text>
+  <text x="66" y="416" class="body">A "vulnerabilidade acrescida" desloca o risco da identidade para práticas e determinantes sociais.</text>
+  <text x="66" y="438" class="body">Constitui uma população sexualmente exposta — apreendida, porém, caso a caso, no encontro clínico.</text>
+
+  <!-- BAND 4.2 -->
+  <rect x="40" y="470" width="880" height="100" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="478" width="6" height="84" rx="3" fill="#0C56A6"/>
+  <text x="66" y="502"><tspan class="bn">4.2</tspan><tspan class="bt">  ·  Segurança, circulação e elegibilidade</tspan></text>
+  <text x="900" y="500" text-anchor="end" class="src">Segurança, território, população (1978)</text>
+  <text x="66" y="530" class="body">Compõe lei (vetos), disciplina (posologia, retorno) e segurança (séries e probabilidades).</text>
+  <text x="66" y="552" class="body">A elegibilidade é onde práticas, corpos e exames viram decisão de governo. PrEP sob demanda: 2 + 1 + 1.</text>
+
+  <!-- BAND 4.3 -->
+  <rect x="40" y="584" width="880" height="150" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="592" width="6" height="134" rx="3" fill="#0C56A6"/>
+  <text x="66" y="616"><tspan class="bn">4.3</tspan><tspan class="bt">  ·  Verdade, evidência e decisão</tspan></text>
+  <text x="900" y="614" text-anchor="end" class="src">Nascimento da biopolítica (1979)</text>
+  <text x="66" y="642" class="body">A recomendação "baseada em evidência" é produto de uma cadeia de veridicção, não reflexo do real:</text>
+  <!-- evidence chain -->
+  <rect x="60" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="123" y="675" text-anchor="middle" class="pillb">PICO/PICOS</text>
+  <line x1="188" y1="671" x2="200" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c4-ar)"/>
+  <rect x="202" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="265" y="675" text-anchor="middle" class="pillb">DeCS · MeSH</text>
+  <line x1="330" y1="671" x2="342" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c4-ar)"/>
+  <rect x="344" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="407" y="675" text-anchor="middle" class="pillb">rev. sistemática</text>
+  <line x1="472" y1="671" x2="484" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c4-ar)"/>
+  <rect x="486" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="549" y="675" text-anchor="middle" class="pillb">GRADE</text>
+  <line x1="614" y1="671" x2="626" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c4-ar)"/>
+  <rect x="628" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="691" y="675" text-anchor="middle" class="pillb">consenso</text>
+  <line x1="756" y1="671" x2="768" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-c4-ar)"/>
+  <rect x="770" y="656" width="126" height="30" rx="6" fill="#e9f3ff" stroke="#c3d2e6"/><text x="833" y="675" text-anchor="middle" class="pillb">consulta pública</text>
+  <text x="66" y="714" class="body">Autoridade também no que não se demonstra: uso off-label e extrapolação por analogia (Truvada/Anvisa 2021; SUS 2022).</text>
+
+  <!-- BAND 4.4 -->
+  <rect x="40" y="748" width="880" height="100" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="756" width="6" height="84" rx="3" fill="#0C56A6"/>
+  <text x="66" y="780"><tspan class="bn">4.4</tspan><tspan class="bt">  ·  Sujeito aderente e limites</tspan></text>
+  <text x="900" y="778" text-anchor="end" class="src">biopoder · Prior</text>
+  <text x="66" y="808" class="body">O cálculo populacional retorna ao indivíduo: adesão, seguimento quadrimestral, autovigilância.</text>
+  <text x="66" y="830" class="body">O social não é apagado — é retraduzido tecnicamente em variável de risco governável.</text>
+
+  <!-- LIMITE -->
+  <rect x="40" y="862" width="880" height="84" rx="10" fill="#0A4595"/>
+  <text x="66" y="888" class="chip" fill="#9db2c9">LIMITE ASSUMIDO</text>
+  <text x="66" y="916" class="body white" style="fill:#ffffff">A análise se detém no plano da página: descreve os efeitos de subjetivação inscritos no documento,</text>
+  <text x="66" y="936" class="body white" style="fill:#ffffff">não os seus usos nos serviços, nas dispensações e nos encontros clínicos.</text>
+
+  <text x="40" y="978" class="foot">Fonte: Devellis (2026), Capítulo 4 — elaboração própria.</text>
+</svg></div><figcaption>Clique em “ampliar” para ler o mapa em tela cheia.</figcaption></figure><details open><summary>Ideias centrais</summary><div class="dbody"><ul class="ideias"><li>Author-function distribuída: mandato estatal (Decreto 7.508/2011) repartido entre Dathi, SVSA, Comitê Técnico e Conitec.</li><li>&#x27;Vulnerabilidade acrescida&#x27; desloca o risco da identidade para práticas e determinantes sociais, sem abandonar a produção de categorias governáveis.</li><li>Segurança, território, população: o protocolo compõe lei (vetos binários), disciplina (posologia, retorno) e segurança (modulação por séries e probabilidades); a PrEP sob demanda (2+1+1) explicita esse cruzamento.</li><li>Nascimento da biopolítica: PICO/PICOS, descritores controlados, GRADE, consenso e consulta pública operam como veridicção — o &#x27;risco&#x27; e a &#x27;elegibilidade&#x27; constituem-se no percurso do aparato.</li><li>O uso off-label e a extrapolação por analogia mostram que a autoridade vem tanto do que o aparato demonstra quanto do modo regulado com que trata o que não pode demonstrar.</li><li>Sujeito aderente: o social não é apagado, é retraduzido tecnicamente em variável de risco, adesão e autovigilância.</li></ul></div></details><details><summary>Seções do capítulo</summary><div class="dbody"><ol class="secoes"><li><span class="sec-num">4.1</span> <strong>Sexualidade, vida e população</strong><ul class="ideias"><li>A vulnerabilidade acrescida como operador que traduz um campo social e biográfico em campo clinicamente legível.</li></ul></li><li><span class="sec-num">4.2</span> <strong>Segurança, circulação e elegibilidade</strong><ul class="ideias"><li>A elegibilidade não é porta que abre/fecha, mas ponto em que práticas, corpos, exames e probabilidades viram decisão de governo.</li></ul></li><li><span class="sec-num">4.3</span> <strong>Verdade, evidência e decisão</strong><ul class="ideias"><li>A recomendação baseada em evidência é produto de uma cadeia de operações (seleção, vocabulário, fontes, condensação, hierarquia, arbitragem).</li></ul></li><li><span class="sec-num">4.4</span> <strong>Sujeito aderente e limites do dispositivo</strong><ul class="ideias"><li>O cálculo populacional retorna à escala individual como adesão, acompanhamento e responsabilização; o limite não é não ver o social, mas traduzi-lo em variável governável.</li></ul></li></ol></div></details><details><summary>Conceitos-chave</summary><div class="dbody"><div class="cards"><div class="card"><h4>Author-function</h4><div class="obras">Prior · PRIOR, 2003, p. 11-12</div></div><div class="card"><h4>Veridicção</h4><div class="obras">Foucault · FOUCAULT, 2008b</div></div><div class="card"><h4>Normalização securitária x normação disciplinar</h4><div class="obras">Foucault · FOUCAULT, 2008a</div></div></div></div></details><details><summary>Citações-chave do PCDT</summary><div class="dbody"><blockquote>“O simples pertencimento a um dos segmentos populacionais-chave [...] não é suficiente para caracterizar indivíduos em situação de maior vulnerabilidade ao HIV.”<cite>BRASIL, 2025, p. 18</cite><p class="ctx">Recusa do automatismo identidade = risco.</p></blockquote><blockquote>“Os estudos de PrEP sob demanda não apresentam evidências de proteção para relações sexuais neovaginais receptivas.”<cite>BRASIL, 2025, p. 40</cite><p class="ctx">Limite da extrapolação por analogia; herança do cânone de ensaios centrado no masculino.</p></blockquote></div></details><details><summary>No argumento do trabalho</summary><div class="dbody"><p><strong>Função no argumento.</strong> Núcleo empírico: examina o PCDT em detalhe como dispositivo documental e sustenta a tese de que ele governa por uma verdade produzida metodicamente.</p><p><strong>Articulação com o objeto.</strong> É a leitura analítica e detida do próprio texto do protocolo (elegibilidade, evidência, acompanhamento).</p></div></details></section><section class="panel" role="tabpanel" id="panel-capitulo-5" aria-labelledby="tab-capitulo-5" hidden><h2>Capítulo 5 — O medicamento</h2><div class="callout"><span class="callout-label">Tese do capítulo</span><p>Medicar corpos sem doença não começou com a PrEP: do AZT ao tratamento precoce, a racionalidade antirretroviral já se adiantava à doença manifesta, constituindo o paciente parcial (Conrad) e inscrevendo a vida numa política e numa economia do vital (Rose).</p></div><figure class="mapa" data-mapa="5"><div class="mapa-bar"><span>Mapa visual — Capítulo 5</span><button type="button" class="btn-zoom" data-zoom="5" title="Ampliar o mapa">&#x2922; ampliar</button></div><div class="mapa-holder"><svg id="svg-c5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 820" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>#svg-c5 .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}#svg-c5 .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}#svg-c5 .sub{font-weight:400;font-size:14px;fill:#c7d4e2}#svg-c5 .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}#svg-c5 .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}#svg-c5 .stlbl{font-weight:700;font-size:10.5px;letter-spacing:.5px}#svg-c5 .stt{font-weight:700;font-size:15px}#svg-c5 .sts{font-weight:400;font-size:11.5px;fill:#4a515b}#svg-c5 .cap{font-weight:400;font-size:13px;fill:#5b6472}#svg-c5 .lh{font-weight:700;font-size:14px;fill:#ffffff}#svg-c5 .item{font-weight:400;font-size:12.5px;fill:#2f353d}#svg-c5 .white{fill:#ffffff}#svg-c5 .foot{font-weight:400;font-size:12px;fill:#8a94a1}</style>
+    <marker id="svg-c5-ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a2b3f"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="820" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 5 · O MEDICAMENTO</text>
+  <text x="40" y="72" class="sub">Do AZT à PrEP — medicar o corpo sem doença</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 5.1 – 5.3</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">Medicar corpos sem doença não começou com a PrEP: do AZT ao tratamento precoce, a racionalidade</text>
+  <text x="66" y="194" class="q">antirretroviral já se adiantava à doença — constituindo o paciente parcial e inscrevendo a vida no vital.</text>
+
+  <!-- AXIS -->
+  <text x="40" y="240" class="chip" fill="#8a2b3f">A ANTECIPAÇÃO SE APROFUNDA · a lógica temporal (5.1 · Epstein)</text>
+
+  <rect x="40" y="252" width="270" height="120" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="260" width="6" height="104" rx="3" fill="#374151"/>
+  <text x="62" y="282" class="stlbl" fill="#8a94a1">ANTES</text>
+  <text x="62" y="308" class="stt" fill="#374151">Corpo em falência</text>
+  <text x="62" y="332" class="sts">a terapêutica responde a</text>
+  <text x="62" y="350" class="sts">uma doença já instalada.</text>
+
+  <rect x="345" y="252" width="270" height="120" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="345" y="260" width="6" height="104" rx="3" fill="#a9761f"/>
+  <text x="367" y="282" class="stlbl" fill="#a9761f">TRATAMENTO PRECOCE · 1990</text>
+  <text x="367" y="308" class="stt" fill="#a9761f">Corpo assintomático</text>
+  <text x="367" y="332" class="sts">o saudável vira paciente</text>
+  <text x="367" y="350" class="sts">(ACTG 019); CD4, carga viral.</text>
+
+  <rect x="650" y="252" width="270" height="120" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="650" y="260" width="6" height="104" rx="3" fill="#8a2b3f"/>
+  <text x="672" y="282" class="stlbl" fill="#8a2b3f">PrEP</text>
+  <text x="672" y="308" class="stt" fill="#8a2b3f">Corpo exposto</text>
+  <text x="672" y="332" class="sts">intervém antes mesmo</text>
+  <text x="672" y="350" class="sts">da infecção.</text>
+
+  <line x1="312" y1="312" x2="343" y2="312" stroke="#8a2b3f" stroke-width="2.5" marker-end="url(#svg-c5-ar)"/>
+  <line x1="617" y1="312" x2="648" y2="312" stroke="#8a2b3f" stroke-width="2.5" marker-end="url(#svg-c5-ar)"/>
+
+  <text x="40" y="398" class="cap">De tratar a doença instalada a adiar um adoecimento que talvez nunca venha — e, com a PrEP, antes da infecção.</text>
+  <text x="40" y="418" class="cap">Epstein: molecularização do vírus, ativismo que lê e disputa os ensaios, e a aids como "doença crônica gerenciável" (1989).</text>
+
+  <!-- LENSES -->
+  <text x="40" y="460" class="chip" fill="#1f2731">DUAS LENTES SOBRE O SUJEITO</text>
+
+  <rect x="40" y="472" width="428" height="192" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M40,482 a10,10 0 0 1 10,-10 h408 a10,10 0 0 1 10,10 v30 h-428 z" fill="#0f766e"/>
+  <text x="60" y="503" class="lh">MEDICALIZAÇÃO · Conrad (5.2)</text>
+  <circle cx="66" cy="534" r="3" fill="#0f766e"/><text x="80" y="539" class="item">definir é conferir jurisdição.</text>
+  <circle cx="66" cy="560" r="3" fill="#0f766e"/><text x="80" y="565" class="item">risco medicalizado: probabilidade tratada como doença.</text>
+  <circle cx="66" cy="586" r="3" fill="#0f766e"/><text x="80" y="591" class="item">protodisease · paciente parcial: corpo sem doença.</text>
+  <circle cx="66" cy="612" r="3" fill="#0f766e"/><text x="80" y="617" class="item">individualização: fixa no indivíduo o que é social.</text>
+  <circle cx="66" cy="638" r="3" fill="#0f766e"/><text x="80" y="643" class="item">no adolescente: gerir a própria probabilidade.</text>
+
+  <rect x="492" y="472" width="428" height="192" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M492,482 a10,10 0 0 1 10,-10 h408 a10,10 0 0 1 10,10 v30 h-428 z" fill="#0C56A6"/>
+  <text x="512" y="503" class="lh">BIOCIDADANIA · Rose (5.3)</text>
+  <circle cx="518" cy="534" r="3" fill="#0C56A6"/><text x="532" y="539" class="item">política vital: modular capacidades vitais.</text>
+  <circle cx="518" cy="560" r="3" fill="#0C56A6"/><text x="532" y="565" class="item">molecularização: a vida inserida numa economia.</text>
+  <circle cx="518" cy="586" r="3" fill="#0C56A6"/><text x="532" y="591" class="item">prudência genética: o presente à luz do futuro.</text>
+  <circle cx="518" cy="612" r="3" fill="#0C56A6"/><text x="532" y="617" class="item">cidadania biológica: obrigação ↔ agência.</text>
+  <circle cx="518" cy="638" r="3" fill="#0C56A6"/><text x="532" y="643" class="item">a vida também reivindicável como direito.</text>
+
+  <!-- SÍNTESE -->
+  <rect x="40" y="680" width="880" height="84" rx="10" fill="#0A4595"/>
+  <text x="66" y="706" class="chip" fill="#9db2c9">SÍNTESE · 5.2 – 5.3</text>
+  <text x="66" y="734" class="q white" style="fill:#ffffff">Antes de operar como técnica preventiva, a PrEP pressupõe um sujeito de risco que precisou ser constituído —</text>
+  <text x="66" y="756" class="q white" style="fill:#ffffff">e, no adolescente, essa constituição se dá junto com a própria trajetória.</text>
+
+  <text x="40" y="798" class="foot">Fonte: Devellis (2026), Capítulo 5 — elaboração própria.</text>
+</svg></div><figcaption>Clique em “ampliar” para ler o mapa em tela cheia.</figcaption></figure><details open><summary>Ideias centrais</summary><div class="dbody"><ul class="ideias"><li>Epstein: molecularização (o AZT reutilizado); a temporalidade da ciência choca-se com a da morte; o ativismo terapêutico aprende a ler e disputar os ensaios.</li><li>O ACTG 019 (1990) sustenta o tratamento precoce: ao começar a terapia, uma pessoa saudável converte-se em paciente, provavelmente por toda a vida.</li><li>Marcadores substitutivos (CD4, carga viral) instauram uma racionalidade de acompanhamento — seguir, medir e reajustar um corpo que ainda não adoeceu.</li><li>Conrad: definir é conferir jurisdição; medicalização do risco, protodisease, paciente parcial e individualização dos problemas sociais.</li><li>No adolescente, a autonomia é a de entrar por iniciativa própria no dispositivo; exige-se dele a competência para gerir a própria probabilidade.</li><li>Rose: política vital, molecularização, prudência genética e cidadania biológica — tensão constitutiva entre obrigação e agência.</li></ul></div></details><details><summary>Seções do capítulo</summary><div class="dbody"><ol class="secoes"><li><span class="sec-num">5.1</span> <strong>AZT</strong><ul class="ideias"><li>Da molecularização da aids à politização do acesso ao molecular; medicar o infectado assintomático em nome de um porvir a impedir.</li></ul></li><li><span class="sec-num">5.2</span> <strong>Medicalização</strong><ul class="ideias"><li>O risco recoberto por uma racionalidade clínica que o aborda como se já houvesse doença; o paciente parcial e o horizonte do &#x27;último indivíduo saudável&#x27;.</li></ul></li><li><span class="sec-num">5.3</span> <strong>Biocidadania</strong><ul class="ideias"><li>Quem o indivíduo se torna ao ser inscrito no regime molecular: sujeito convocado a calcular o próprio risco, entre responsabilização e liberdade.</li></ul></li></ol></div></details><details><summary>Autores mobilizados</summary><div class="dbody"><div class="cards"><div class="card"><h4>Steven Epstein</h4><p>Constituição contestada da evidência e do tratamento precoce (AZT).</p><div class="obras">Impure science</div></div><div class="card"><h4>Peter Conrad</h4><p>Medicalização, medicalização do risco, paciente parcial, individualização.</p></div><div class="card"><h4>Nikolas Rose</h4><p>Política vital, molecularização e cidadania biológica.</p><div class="obras">The politics of life itself</div></div></div></div></details><details><summary>No argumento do trabalho</summary><div class="dbody"><p><strong>Função no argumento.</strong> Fecha a genealogia mostrando que a lógica de antecipação da PrEP é herdada do próprio fármaco, e articula medicalização (Conrad) e subjetivação/cidadania biológica (Rose).</p><p><strong>Articulação com o objeto.</strong> Relê os critérios do PCDT para o adolescente à luz da medicalização do risco e do paciente parcial.</p></div></details></section><section class="panel" role="tabpanel" id="panel-conclusao" aria-labelledby="tab-conclusao" hidden><h2>Conclusão</h2><div class="callout"><span class="callout-label">Síntese do argumento</span><p>Antes de operar como técnica preventiva, a PrEP pressupõe um sujeito de risco que precisou ser constituído; o trabalho descreve as condições e os efeitos dessa constituição.</p></div><figure class="mapa" data-mapa="conclusao"><div class="mapa-bar"><span>Mapa visual — Conclusão</span><button type="button" class="btn-zoom" data-zoom="conclusao" title="Ampliar o mapa">&#x2922; ampliar</button></div><div class="mapa-holder"><svg id="svg-conc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1000" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>#svg-conc .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}#svg-conc .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}#svg-conc .sub{font-weight:400;font-size:14px;fill:#c7d4e2}#svg-conc .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}#svg-conc .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}#svg-conc .beam{font-weight:700;font-size:14.5px;fill:#ffffff}#svg-conc .ptag{font-weight:700;font-size:10.5px;letter-spacing:.5px}#svg-conc .ptt{font-weight:700;font-size:13.5px;fill:#1f2731}#svg-conc .pln{font-weight:400;font-size:11.5px;fill:#3a4048}#svg-conc .bx{font-weight:700;font-size:13px;fill:#ffffff}#svg-conc .bxs{font-weight:400;font-size:10.5px;fill:#eef2f6}#svg-conc .body{font-weight:400;font-size:13px;fill:#2a2f37}#svg-conc .op{font-weight:700;font-size:20px;fill:#8a94a1}#svg-conc .at{font-weight:700;font-size:13.5px;fill:#1f2731}#svg-conc .white{fill:#ffffff}#svg-conc .foot{font-weight:400;font-size:12px;fill:#8a94a1}</style>
+    <marker id="svg-conc-ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#aeb8c4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="1000" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CONSIDERAÇÕES FINAIS</text>
+  <text x="40" y="72" class="sub">A resposta como terreno — proteger e produzir num só gesto</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DA CONCLUSÃO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SÍNTESE DO PERCURSO</text>
+
+  <!-- ACHADO CENTRAL -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">O ACHADO CENTRAL</text>
+  <text x="66" y="172" class="q">O PCDT não encontra o adolescente que protege: ele o constitui — sexualmente ativo, autônomo,</text>
+  <text x="66" y="194" class="q">compreendente e acompanhado — no gesto mesmo da proteção.</text>
+
+  <!-- PILLARS -->
+  <text x="40" y="240" class="chip" fill="#0C56A6">A RESPOSTA É UM TERRENO, NÃO UMA CAUSA · quatro condições de possibilidade</text>
+  <rect x="40" y="252" width="880" height="44" rx="8" fill="#0C56A6"/>
+  <text x="480" y="279" text-anchor="middle" class="beam">torna possível → a expansão do acesso à PrEP ao adolescente (PCDT 2025)</text>
+  <line x1="144" y1="296" x2="144" y2="308" stroke="#c2c9d2" stroke-width="2"/>
+  <line x1="368" y1="296" x2="368" y2="308" stroke="#c2c9d2" stroke-width="2"/>
+  <line x1="592" y1="296" x2="592" y2="308" stroke="#c2c9d2" stroke-width="2"/>
+  <line x1="816" y1="296" x2="816" y2="308" stroke="#c2c9d2" stroke-width="2"/>
+
+  <rect x="40" y="308" width="208" height="154" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="316" width="6" height="138" rx="3" fill="#0f766e"/>
+  <text x="60" y="334" class="ptag" fill="#0f766e">CAP. 2</text>
+  <text x="60" y="358" class="ptt">Dispositivo da aids</text>
+  <text x="60" y="382" class="pln">quatro décadas: medo,</text>
+  <text x="60" y="400" class="pln">saber biomédico, ativismo</text>
+  <text x="60" y="418" class="pln">e direito à saúde.</text>
+
+  <rect x="264" y="308" width="208" height="154" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="264" y="316" width="6" height="138" rx="3" fill="#8a2b3f"/>
+  <text x="284" y="334" class="ptag" fill="#8a2b3f">CAP. 5</text>
+  <text x="284" y="358" class="ptt">Racionalidade do fármaco</text>
+  <text x="284" y="382" class="pln">desde o AZT e o tratamento</text>
+  <text x="284" y="400" class="pln">precoce: medicar corpos</text>
+  <text x="284" y="418" class="pln">sem doença.</text>
+
+  <rect x="488" y="308" width="208" height="154" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="488" y="316" width="6" height="138" rx="3" fill="#a9761f"/>
+  <text x="508" y="334" class="ptag" fill="#a9761f">CAP. 3</text>
+  <text x="508" y="358" class="ptt">Adolescência</text>
+  <text x="508" y="382" class="pln">categoria historicamente</text>
+  <text x="508" y="400" class="pln">produzida, operável por</text>
+  <text x="508" y="418" class="pln">marcadores etários/jurídicos.</text>
+
+  <rect x="712" y="308" width="208" height="154" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="712" y="316" width="6" height="138" rx="3" fill="#2867AE"/>
+  <text x="732" y="334" class="ptag" fill="#2867AE">CAP. 4</text>
+  <text x="732" y="358" class="ptt">Forma documental</text>
+  <text x="732" y="382" class="pln">o protocolo condensa</text>
+  <text x="732" y="400" class="pln">mandato, evidência e</text>
+  <text x="732" y="418" class="pln">fluxo administrativo.</text>
+
+  <!-- RECONCILIAÇÃO -->
+  <text x="40" y="490" class="chip" fill="#1f2731">O MESMO OBJETO EM DUAS ESCALAS</text>
+  <rect x="40" y="502" width="180" height="84" rx="10" fill="#0f766e"/>
+  <text x="130" y="536" text-anchor="middle" class="bx">CUIDADO</text>
+  <text x="130" y="558" text-anchor="middle" class="bxs">relevância pública</text>
+  <text x="240" y="552" text-anchor="middle" class="op">+</text>
+  <rect x="260" y="502" width="180" height="84" rx="10" fill="#374151"/>
+  <text x="350" y="536" text-anchor="middle" class="bx">CONTROLE</text>
+  <text x="350" y="558" text-anchor="middle" class="bxs">efeitos de subjetivação</text>
+  <line x1="452" y1="544" x2="474" y2="544" stroke="#aeb8c4" stroke-width="2" marker-end="url(#svg-conc-ar)"/>
+  <text x="486" y="524" class="body">Não são teses rivais: é o mesmo objeto em duas</text>
+  <text x="486" y="546" class="body">escalas — a oposição cuidado / controle perde</text>
+  <text x="486" y="568" class="body">consistência. Proteger e produzir num só gesto.</text>
+
+  <!-- ABERTURA -->
+  <text x="40" y="626" class="chip" fill="#a9761f">ABERTURA · cidadania biológica (Rose)</text>
+  <rect x="40" y="638" width="880" height="74" rx="10" fill="#fdf6ea" stroke="#ecd9b6"/>
+  <rect x="40" y="646" width="6" height="58" rx="3" fill="#a9761f"/>
+  <text x="66" y="670" class="body">A vida é inscrita numa economia — o estatuto de soronegativo torna-se um valor a manter;</text>
+  <text x="66" y="692" class="body">mas o acesso ao fármaco também pode ser reivindicado como direito, contestado e organizado.</text>
+
+  <!-- EM ABERTO -->
+  <text x="40" y="748" class="chip" fill="#1f2731">O QUE FICA EM ABERTO · a análise se deteve no plano da página</text>
+  <rect x="40" y="760" width="428" height="108" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="768" width="6" height="92" rx="3" fill="#0C56A6"/>
+  <text x="60" y="786" class="at">1 · Juventudes no plural</text>
+  <text x="60" y="810" class="body">Quem efetivamente acessa a profilaxia, sob quais</text>
+  <text x="60" y="828" class="body">condições e trajetórias — como a desigualdade que o</text>
+  <text x="60" y="846" class="body">documento converte em variável retorna na prática.</text>
+
+  <rect x="492" y="760" width="428" height="108" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="492" y="768" width="6" height="92" rx="3" fill="#0C56A6"/>
+  <text x="512" y="786" class="at">2 · A rede de evidências</text>
+  <text x="512" y="810" class="body">O cânone de ensaios centrado no masculino, já</text>
+  <text x="512" y="828" class="body">visível na PrEP sob demanda; acompanhar como essa</text>
+  <text x="512" y="846" class="body">herança se reproduz ou se corrige nas revisões.</text>
+
+  <!-- PERGUNTA FINAL -->
+  <rect x="40" y="886" width="880" height="84" rx="10" fill="#0A4595"/>
+  <text x="66" y="912" class="chip" fill="#9db2c9">A PERGUNTA QUE PERMANECE</text>
+  <text x="66" y="938" class="q white" style="fill:#ffffff">Não se o adolescente é livre ou governado, mas por meio de quais procedimentos ele se</text>
+  <text x="66" y="960" class="q white" style="fill:#ffffff">tornou, a um só tempo, uma coisa e outra.</text>
+</svg></div><figcaption>Clique em “ampliar” para ler o mapa em tela cheia.</figcaption></figure><details open><summary>Ideias centrais</summary><div class="dbody"><ul class="ideias"><li>A resposta à pergunta não tem a forma de uma causa, mas de um terreno: dispositivo da aids, racionalidade antirretroviral, adolescência historicamente produzida e a forma documental do protocolo.</li><li>O PCDT não encontra o adolescente que protege: ele o constitui — sexualmente ativo, autônomo, compreendente e acompanhado — no gesto mesmo da proteção.</li><li>A operação recorrente é proteger e produzir num único gesto; a alternativa entre cuidado e controle se dissolve.</li><li>A vida é inscrita numa economia (Rose): o estatuto de soronegativo torna-se valor a manter, e a população elegível sustenta um circuito de saúde pública, indústria e administração do risco.</li><li>A cidadania biológica lembra que o acesso ao fármaco também pode ser reivindicado como direito, contestado e organizado coletivamente.</li></ul></div></details><details><summary>Limites da análise</summary><div class="dbody"><p>A análise se detém no plano da página — o protocolo como dispositivo escrito —, valendo para os efeitos de subjetivação inscritos no documento, não para os seus usos nos serviços.</p></div></details><details><summary>Agenda futura</summary><div class="dbody"><ul class="ideias"><li>As juventudes no plural: investigar quem efetivamente acessa a profilaxia, sob quais condições e trajetórias, e como a desigualdade convertida em variável retorna na implementação.</li><li>A rede de evidências: acompanhar como o cânone de ensaios centrado no masculino se reproduz ou se corrige nas próximas revisões do documento.</li></ul></div></details></section>
+  <div class="pager">
+    <button type="button" id="prev">&#8592; <span></span></button>
+    <button type="button" id="next"><span></span> &#8594;</button>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="footer-in">
+    <strong>DEVELLIS, Rodrigo Antonio.</strong> Diagnóstico do risco: o paciente parcial e a expansão do acesso à PrEP no Brasil.
+    Trabalho de Conclusão de Curso (Licenciatura em Ciências Sociais) — Centro de Filosofia e Ciências Humanas,
+    Universidade Federal de Santa Catarina, Florianópolis, 2026. Orientadora: Márcia da Silva Mazon.<br>
+    Mapas visuais e sínteses por capítulo: elaboração própria a partir do texto integral do trabalho.
+  </div>
+</footer>
+
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Mapa ampliado">
+  <div class="lb-bar">
+    <span class="lb-title"></span>
+    <button type="button" id="lb-menos" aria-label="Reduzir">&#8722;</button>
+    <button type="button" id="lb-mais" aria-label="Ampliar">+</button>
+    <button type="button" id="lb-fechar">Fechar &#10005;</button>
+  </div>
+  <div class="lb-scroll"><div class="lb-holder"></div></div>
+</div>
+
+<script>
+(function(){
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  var ids = tabs.map(function(t){ return t.dataset.tab; });
+  var labels = {};
+  tabs.forEach(function(t){ labels[t.dataset.tab] = t.textContent; });
+  var prev = document.getElementById('prev'), next = document.getElementById('next');
+
+  function activate(id, push){
+    if (ids.indexOf(id) < 0) id = ids[0];
+    tabs.forEach(function(t){
+      var on = t.dataset.tab === id;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+    });
+    ids.forEach(function(pid){
+      document.getElementById('panel-' + pid).hidden = (pid !== id);
+    });
+    var i = ids.indexOf(id);
+    prev.hidden = (i === 0);
+    next.hidden = (i === ids.length - 1);
+    if (i > 0) prev.querySelector('span').textContent = labels[ids[i-1]];
+    if (i < ids.length - 1) next.querySelector('span').textContent = labels[ids[i+1]];
+    if (push !== false && history.replaceState) history.replaceState(null, '', '#' + id);
+    window.scrollTo({top:0, behavior:'auto'});
+  }
+
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(){ activate(t.dataset.tab); });
+  });
+  document.querySelector('[role="tablist"]').addEventListener('keydown', function(ev){
+    var i = ids.indexOf(document.querySelector('.tab[aria-selected="true"]').dataset.tab);
+    var go = null;
+    if (ev.key === 'ArrowRight') go = Math.min(i + 1, ids.length - 1);
+    if (ev.key === 'ArrowLeft')  go = Math.max(i - 1, 0);
+    if (ev.key === 'Home') go = 0;
+    if (ev.key === 'End')  go = ids.length - 1;
+    if (go !== null){ ev.preventDefault(); activate(ids[go]); tabs[go].focus(); }
+  });
+  prev.addEventListener('click', function(){
+    var i = ids.indexOf(location.hash.replace('#','')) ;
+    if (i < 0) i = 0;
+    activate(ids[Math.max(i-1, 0)]);
+  });
+  next.addEventListener('click', function(){
+    var i = ids.indexOf(location.hash.replace('#',''));
+    if (i < 0) i = 0;
+    activate(ids[Math.min(i+1, ids.length-1)]);
+  });
+  window.addEventListener('hashchange', function(){
+    activate(location.hash.replace('#','') || ids[0], false);
+  });
+  activate(location.hash.replace('#','') || ids[0], false);
+
+  /* ---------- lightbox: move o svg (sem duplicar ids) ---------- */
+  var lb = document.getElementById('lightbox');
+  var holder = lb.querySelector('.lb-holder');
+  var title = lb.querySelector('.lb-title');
+  var origem = null, largura = 1200;
+
+  function abrir(fig){
+    var svg = fig.querySelector('svg');
+    if (!svg) return;
+    origem = svg.parentNode;
+    largura = Math.min(1400, Math.max(900, window.innerWidth - 80));
+    holder.appendChild(svg);
+    holder.querySelector('svg').style.width = largura + 'px';
+    title.textContent = fig.querySelector('.mapa-bar span').textContent;
+    lb.classList.add('on');
+    document.body.style.overflow = 'hidden';
+  }
+  function fechar(){
+    var svg = holder.querySelector('svg');
+    if (svg && origem){ svg.style.width = ''; origem.appendChild(svg); }
+    lb.classList.remove('on');
+    document.body.style.overflow = '';
+    origem = null;
+  }
+  function escala(f){
+    var svg = holder.querySelector('svg');
+    if (!svg) return;
+    largura = Math.min(2600, Math.max(500, largura * f));
+    svg.style.width = largura + 'px';
+  }
+  document.querySelectorAll('.btn-zoom').forEach(function(b){
+    b.addEventListener('click', function(){ abrir(b.closest('.mapa')); });
+  });
+  document.getElementById('lb-fechar').addEventListener('click', fechar);
+  document.getElementById('lb-mais').addEventListener('click', function(){ escala(1.25); });
+  document.getElementById('lb-menos').addEventListener('click', function(){ escala(0.8); });
+  lb.addEventListener('click', function(ev){ if (ev.target === lb || ev.target.classList.contains('lb-scroll')) fechar(); });
+  document.addEventListener('keydown', function(ev){ if (ev.key === 'Escape' && lb.classList.contains('on')) fechar(); });
+})();
+</script>
+</body>
+</html>

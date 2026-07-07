@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 820" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}
+      .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}
+      .sub{font-weight:400;font-size:14px;fill:#c7d4e2}
+      .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}
+      .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}
+      .stlbl{font-weight:700;font-size:10.5px;letter-spacing:.5px}
+      .stt{font-weight:700;font-size:15px}
+      .sts{font-weight:400;font-size:11.5px;fill:#4a515b}
+      .cap{font-weight:400;font-size:13px;fill:#5b6472}
+      .lh{font-weight:700;font-size:14px;fill:#ffffff}
+      .item{font-weight:400;font-size:12.5px;fill:#2f353d}
+      .white{fill:#ffffff}
+      .foot{font-weight:400;font-size:12px;fill:#8a94a1}
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a2b3f"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="820" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 5 · O MEDICAMENTO</text>
+  <text x="40" y="72" class="sub">Do AZT à PrEP — medicar o corpo sem doença</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 5.1 – 5.3</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">Medicar corpos sem doença não começou com a PrEP: do AZT ao tratamento precoce, a racionalidade</text>
+  <text x="66" y="194" class="q">antirretroviral já se adiantava à doença — constituindo o paciente parcial e inscrevendo a vida no vital.</text>
+
+  <!-- AXIS -->
+  <text x="40" y="240" class="chip" fill="#8a2b3f">A ANTECIPAÇÃO SE APROFUNDA · a lógica temporal (5.1 · Epstein)</text>
+
+  <rect x="40" y="252" width="270" height="120" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="260" width="6" height="104" rx="3" fill="#374151"/>
+  <text x="62" y="282" class="stlbl" fill="#8a94a1">ANTES</text>
+  <text x="62" y="308" class="stt" fill="#374151">Corpo em falência</text>
+  <text x="62" y="332" class="sts">a terapêutica responde a</text>
+  <text x="62" y="350" class="sts">uma doença já instalada.</text>
+
+  <rect x="345" y="252" width="270" height="120" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="345" y="260" width="6" height="104" rx="3" fill="#a9761f"/>
+  <text x="367" y="282" class="stlbl" fill="#a9761f">TRATAMENTO PRECOCE · 1990</text>
+  <text x="367" y="308" class="stt" fill="#a9761f">Corpo assintomático</text>
+  <text x="367" y="332" class="sts">o saudável vira paciente</text>
+  <text x="367" y="350" class="sts">(ACTG 019); CD4, carga viral.</text>
+
+  <rect x="650" y="252" width="270" height="120" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="650" y="260" width="6" height="104" rx="3" fill="#8a2b3f"/>
+  <text x="672" y="282" class="stlbl" fill="#8a2b3f">PrEP</text>
+  <text x="672" y="308" class="stt" fill="#8a2b3f">Corpo exposto</text>
+  <text x="672" y="332" class="sts">intervém antes mesmo</text>
+  <text x="672" y="350" class="sts">da infecção.</text>
+
+  <line x1="312" y1="312" x2="343" y2="312" stroke="#8a2b3f" stroke-width="2.5" marker-end="url(#ar)"/>
+  <line x1="617" y1="312" x2="648" y2="312" stroke="#8a2b3f" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <text x="40" y="398" class="cap">De tratar a doença instalada a adiar um adoecimento que talvez nunca venha — e, com a PrEP, antes da infecção.</text>
+  <text x="40" y="418" class="cap">Epstein: molecularização do vírus, ativismo que lê e disputa os ensaios, e a aids como "doença crônica gerenciável" (1989).</text>
+
+  <!-- LENSES -->
+  <text x="40" y="460" class="chip" fill="#1f2731">DUAS LENTES SOBRE O SUJEITO</text>
+
+  <rect x="40" y="472" width="428" height="192" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M40,482 a10,10 0 0 1 10,-10 h408 a10,10 0 0 1 10,10 v30 h-428 z" fill="#0f766e"/>
+  <text x="60" y="503" class="lh">MEDICALIZAÇÃO · Conrad (5.2)</text>
+  <circle cx="66" cy="534" r="3" fill="#0f766e"/><text x="80" y="539" class="item">definir é conferir jurisdição.</text>
+  <circle cx="66" cy="560" r="3" fill="#0f766e"/><text x="80" y="565" class="item">risco medicalizado: probabilidade tratada como doença.</text>
+  <circle cx="66" cy="586" r="3" fill="#0f766e"/><text x="80" y="591" class="item">protodisease · paciente parcial: corpo sem doença.</text>
+  <circle cx="66" cy="612" r="3" fill="#0f766e"/><text x="80" y="617" class="item">individualização: fixa no indivíduo o que é social.</text>
+  <circle cx="66" cy="638" r="3" fill="#0f766e"/><text x="80" y="643" class="item">no adolescente: gerir a própria probabilidade.</text>
+
+  <rect x="492" y="472" width="428" height="192" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <path d="M492,482 a10,10 0 0 1 10,-10 h408 a10,10 0 0 1 10,10 v30 h-428 z" fill="#0C56A6"/>
+  <text x="512" y="503" class="lh">BIOCIDADANIA · Rose (5.3)</text>
+  <circle cx="518" cy="534" r="3" fill="#0C56A6"/><text x="532" y="539" class="item">política vital: modular capacidades vitais.</text>
+  <circle cx="518" cy="560" r="3" fill="#0C56A6"/><text x="532" y="565" class="item">molecularização: a vida inserida numa economia.</text>
+  <circle cx="518" cy="586" r="3" fill="#0C56A6"/><text x="532" y="591" class="item">prudência genética: o presente à luz do futuro.</text>
+  <circle cx="518" cy="612" r="3" fill="#0C56A6"/><text x="532" y="617" class="item">cidadania biológica: obrigação ↔ agência.</text>
+  <circle cx="518" cy="638" r="3" fill="#0C56A6"/><text x="532" y="643" class="item">a vida também reivindicável como direito.</text>
+
+  <!-- SÍNTESE -->
+  <rect x="40" y="680" width="880" height="84" rx="10" fill="#0A4595"/>
+  <text x="66" y="706" class="chip" fill="#9db2c9">SÍNTESE · 5.2 – 5.3</text>
+  <text x="66" y="734" class="q white" style="fill:#ffffff">Antes de operar como técnica preventiva, a PrEP pressupõe um sujeito de risco que precisou ser constituído —</text>
+  <text x="66" y="756" class="q white" style="fill:#ffffff">e, no adolescente, essa constituição se dá junto com a própria trajetória.</text>
+
+  <text x="40" y="798" class="foot">Fonte: Devellis (2026), Capítulo 5 — elaboração própria.</text>
+</svg>

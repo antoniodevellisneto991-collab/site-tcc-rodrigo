@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1000" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .h1{font-weight:700;font-size:27px;fill:#ffffff;letter-spacing:1.5px}
+      .kick{font-weight:600;font-size:13px;fill:#9db2c9;letter-spacing:1px}
+      .sub{font-weight:400;font-size:14px;fill:#c7d4e2}
+      .chip{font-weight:700;font-size:12px;letter-spacing:1.2px}
+      .q{font-weight:500;font-size:15.5px;fill:#5a1b2b}
+      .bt{font-weight:700;font-size:15px;fill:#1f2731}
+      .bn{font-weight:800;font-size:15px;fill:#0C56A6}
+      .src{font-weight:600;font-size:11.5px;fill:#a9761f;font-style:italic}
+      .body{font-weight:400;font-size:13.5px;fill:#2a2f37}
+      .pill{font-weight:600;font-size:10.5px;fill:#0f766e}
+      .pillb{font-weight:600;font-size:10.5px;fill:#0C56A6}
+      .white{fill:#ffffff}
+      .foot{font-weight:400;font-size:12px;fill:#8a94a1}
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#aeb8c4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="960" height="1000" fill="#eef2f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="960" height="96" fill="#0A4595"/>
+  <rect x="0" y="96" width="960" height="4" fill="#F2A900"/>
+  <text x="40" y="44" class="h1">CAPÍTULO 4 · PCDT, O DOCUMENTO</text>
+  <text x="40" y="72" class="sub">O protocolo como dispositivo documental (Prior) — governar por uma verdade produzida</text>
+  <text x="920" y="40" text-anchor="end" class="kick">MAPA DO CAPÍTULO</text>
+  <text x="920" y="60" text-anchor="end" class="kick">SEÇÕES 4.1 – 4.4</text>
+
+  <!-- TESE -->
+  <rect x="40" y="118" width="880" height="96" rx="10" fill="#fbeef1" stroke="#e6c4cd"/>
+  <rect x="40" y="126" width="6" height="80" rx="3" fill="#8a2b3f"/>
+  <text x="66" y="146" class="chip" fill="#8a2b3f">TESE DO CAPÍTULO</text>
+  <text x="66" y="172" class="q">Lido como dispositivo documental, o PCDT converte a infecção por HIV em questão de governamentalidade:</text>
+  <text x="66" y="194" class="q">constitui uma população, torna exposições elegíveis, produz verdade metodicamente e retorna ao indivíduo.</text>
+
+  <!-- AUTHOR-FUNCTION STRIP -->
+  <rect x="40" y="250" width="880" height="90" rx="10" fill="#f4f7fa" stroke="#dde3ea"/>
+  <text x="60" y="274" class="chip" fill="#0f766e">AUTORIA DISTRIBUÍDA · author-function</text>
+  <rect x="60" y="290" width="150" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/>
+  <text x="135" y="311" text-anchor="middle" class="pill">Decreto 7.508/2011</text>
+  <line x1="214" y1="307" x2="236" y2="307" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="240" y="290" width="111" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/><text x="295" y="311" text-anchor="middle" class="pill">Dathi</text>
+  <rect x="363" y="290" width="111" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/><text x="418" y="311" text-anchor="middle" class="pill">SVSA</text>
+  <rect x="486" y="290" width="111" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/><text x="541" y="311" text-anchor="middle" class="pill">Comitê Técnico</text>
+  <rect x="609" y="290" width="111" height="34" rx="6" fill="#ffffff" stroke="#cfe0dc"/><text x="664" y="311" text-anchor="middle" class="pill">Conitec</text>
+  <line x1="724" y1="307" x2="746" y2="307" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="750" y="290" width="146" height="34" rx="6" fill="#eefaf7" stroke="#cfe0dc"/><text x="823" y="311" text-anchor="middle" class="pill">consulta pública</text>
+
+  <!-- BAND 4.1 -->
+  <rect x="40" y="356" width="880" height="100" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="364" width="6" height="84" rx="3" fill="#0C56A6"/>
+  <text x="66" y="388"><tspan class="bn">4.1</tspan><tspan class="bt">  ·  Sexualidade, vida e população</tspan></text>
+  <text x="900" y="386" text-anchor="end" class="src">A vontade de saber</text>
+  <text x="66" y="416" class="body">A "vulnerabilidade acrescida" desloca o risco da identidade para práticas e determinantes sociais.</text>
+  <text x="66" y="438" class="body">Constitui uma população sexualmente exposta — apreendida, porém, caso a caso, no encontro clínico.</text>
+
+  <!-- BAND 4.2 -->
+  <rect x="40" y="470" width="880" height="100" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="478" width="6" height="84" rx="3" fill="#0C56A6"/>
+  <text x="66" y="502"><tspan class="bn">4.2</tspan><tspan class="bt">  ·  Segurança, circulação e elegibilidade</tspan></text>
+  <text x="900" y="500" text-anchor="end" class="src">Segurança, território, população (1978)</text>
+  <text x="66" y="530" class="body">Compõe lei (vetos), disciplina (posologia, retorno) e segurança (séries e probabilidades).</text>
+  <text x="66" y="552" class="body">A elegibilidade é onde práticas, corpos e exames viram decisão de governo. PrEP sob demanda: 2 + 1 + 1.</text>
+
+  <!-- BAND 4.3 -->
+  <rect x="40" y="584" width="880" height="150" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="592" width="6" height="134" rx="3" fill="#0C56A6"/>
+  <text x="66" y="616"><tspan class="bn">4.3</tspan><tspan class="bt">  ·  Verdade, evidência e decisão</tspan></text>
+  <text x="900" y="614" text-anchor="end" class="src">Nascimento da biopolítica (1979)</text>
+  <text x="66" y="642" class="body">A recomendação "baseada em evidência" é produto de uma cadeia de veridicção, não reflexo do real:</text>
+  <!-- evidence chain -->
+  <rect x="60" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="123" y="675" text-anchor="middle" class="pillb">PICO/PICOS</text>
+  <line x1="188" y1="671" x2="200" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="202" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="265" y="675" text-anchor="middle" class="pillb">DeCS · MeSH</text>
+  <line x1="330" y1="671" x2="342" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="344" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="407" y="675" text-anchor="middle" class="pillb">rev. sistemática</text>
+  <line x1="472" y1="671" x2="484" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="486" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="549" y="675" text-anchor="middle" class="pillb">GRADE</text>
+  <line x1="614" y1="671" x2="626" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="628" y="656" width="126" height="30" rx="6" fill="#eef2f9" stroke="#c3d2e6"/><text x="691" y="675" text-anchor="middle" class="pillb">consenso</text>
+  <line x1="756" y1="671" x2="768" y2="671" stroke="#aeb8c4" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="770" y="656" width="126" height="30" rx="6" fill="#e9f3ff" stroke="#c3d2e6"/><text x="833" y="675" text-anchor="middle" class="pillb">consulta pública</text>
+  <text x="66" y="714" class="body">Autoridade também no que não se demonstra: uso off-label e extrapolação por analogia (Truvada/Anvisa 2021; SUS 2022).</text>
+
+  <!-- BAND 4.4 -->
+  <rect x="40" y="748" width="880" height="100" rx="10" fill="#ffffff" stroke="#dde3ea"/>
+  <rect x="40" y="756" width="6" height="84" rx="3" fill="#0C56A6"/>
+  <text x="66" y="780"><tspan class="bn">4.4</tspan><tspan class="bt">  ·  Sujeito aderente e limites</tspan></text>
+  <text x="900" y="778" text-anchor="end" class="src">biopoder · Prior</text>
+  <text x="66" y="808" class="body">O cálculo populacional retorna ao indivíduo: adesão, seguimento quadrimestral, autovigilância.</text>
+  <text x="66" y="830" class="body">O social não é apagado — é retraduzido tecnicamente em variável de risco governável.</text>
+
+  <!-- LIMITE -->
+  <rect x="40" y="862" width="880" height="84" rx="10" fill="#0A4595"/>
+  <text x="66" y="888" class="chip" fill="#9db2c9">LIMITE ASSUMIDO</text>
+  <text x="66" y="916" class="body white" style="fill:#ffffff">A análise se detém no plano da página: descreve os efeitos de subjetivação inscritos no documento,</text>
+  <text x="66" y="936" class="body white" style="fill:#ffffff">não os seus usos nos serviços, nas dispensações e nos encontros clínicos.</text>
+
+  <text x="40" y="978" class="foot">Fonte: Devellis (2026), Capítulo 4 — elaboração própria.</text>
+</svg>
